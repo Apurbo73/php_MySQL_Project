@@ -1,0 +1,80 @@
+.nav-link:hover
+{
+    background-color: rgb(243, 132, 243);
+    color: white;
+   
+}
+
+
+/* Side Navbar*/
+/*Contact Info*/
+.fab
+{
+    font-size: 30px;
+    font-style: none;
+    color: gray;
+    font-style: none;
+   
+}
+
+
+.panda-bg-info
+{
+    background-color: #fceae8;
+}
+button
+{
+ color: white;
+ border-radius: 8px;
+ padding: 9px 25px;
+ border: none;
+ background-image: linear-gradient(to bottom, #f592ba 0%, #ff4b92 100%);
+}
+.button:hover 
+{
+    background-color: #13b1f0;
+    transition: .2s;
+
+}
+.button:hover
+{
+background: #1b9bff;
+transition: 0.2s;
+}
+
+
+.accordion-item
+{
+    background-color: wheat;
+}
+
+/*cloth*/
+#cloth img
+{
+   height: 300px;
+   width:300px;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+/*toys*/
+
+#toys img
+{
+ height: 300px;
+   width:300px;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+/*accordion*/
+
+.accordioncolor a
+{
+    background-color: rgb(248, 201, 213);
+   text-decoration: none;
+}
+
+/*footer*/
+footer a 
+{
+    background-color: lightblue;
+}
