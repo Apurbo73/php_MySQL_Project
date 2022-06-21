@@ -1,21 +1,31 @@
 .nav-link:hover
 {
-    background-color: rgb(243, 132, 243);
+    background-color: rgb(149, 234, 245);
     color: white;
    
 }
 
-
-/* Side Navbar*/
-/*Contact Info*/
-.fab
-{
-    font-size: 30px;
-    font-style: none;
-    color: gray;
-    font-style: none;
-   
+.nav-design{
+    font-weight: 700;
 }
+
+
+.Popover .btn
+{
+    margin-right: 35px;
+    background-color: cadetblue;
+
+}
+header
+{
+    margin-bottom: 50px;
+}
+header img
+{
+    height: 55px;
+  
+}
+/* Side Navbar*/
 
 
 .panda-bg-info
@@ -28,7 +38,6 @@ button
  border-radius: 8px;
  padding: 9px 25px;
  border: none;
- background-image: linear-gradient(to bottom, #f592ba 0%, #ff4b92 100%);
 }
 .button:hover 
 {
@@ -41,7 +50,43 @@ button
 background: #1b9bff;
 transition: 0.2s;
 }
+ .product2, .product3
+{
+    box-shadow: 3px 3px 3px 3px rgb(200, 200, 200);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-bottom-right-radius: 30px ;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    padding: 60px;
+    text-align: center;
+}
+.product1
+{
+    box-shadow: 3px 3px 3px 3px rgb(200, 200, 200);
+    text-align: center;
+    border-bottom-right-radius: 5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 30px ;
+    border-top-right-radius: 10px ;
+    padding: 60px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    height: 300px;
+}
 
+
+.products img
+{
+    height: 50%;
+    padding-top: 7.5px;
+  
+}
+
+.products{
+border-radius: 20px;
+}
 
 .accordion-item
 {
@@ -49,32 +94,60 @@ transition: 0.2s;
 }
 
 /*cloth*/
-#cloth img
-{
-   height: 300px;
-   width:300px;
-  margin-top: 20px;
-  margin-left: 55px;
-}
+
 /*toys*/
 
-#toys img
-{
- height: 300px;
-   width:300px;
-  margin-top: 20px;
-  margin-left: 55px;
-}
+
 /*accordion*/
 
 .accordioncolor a
 {
-    background-color: rgb(248, 201, 213);
+    background-color: rgb(174, 205, 233);
    text-decoration: none;
 }
 
 /*footer*/
+footer
+{
+    background-color: rgb(3, 29, 39);
+}
 footer a 
 {
-    background-color: lightblue;
+    background-color: rgb(3, 29, 39);
+}
+.fab
+{
+    font-size: 30px;
+    font-style: none;
+    color: gray;
+    font-style: none;
+    margin-right: 20px;
+   
+}
+footer .outlets 
+{
+    background-color: rgb(138, 247, 187);
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer .button
+{
+    background-color: gray;
+}
+
+
+
+/*form design*/
+
+.form-design{
+    margin-left: 350px;
+    margin-top: 50px;
+    padding: 20px;
 }
