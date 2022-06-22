@@ -1,9 +1,22 @@
 //smart phone 
+
 //Xiomi adding
 document.getElementById('Xiomi-plus').addEventListener('click', function() {
     var caseInput = document.getElementById('Xiomi-number');
     var caseNumber = caseInput.value;
     caseInput.value = parseInt(caseNumber) + 1;
+
+
+ // Updating amount of Xiomi in Shopping Cart while adding to cart
+ var AmountOfXiomi = document.getElementById('xiomi-amount');
+AmountOfXiomi.innerText = parseInt(caseNumber) + 1;
+
+
+
+ // Updating amount of Xiomi Bill in Shopping Cart 
+
+var bill = document.getElementById('xiomi-bill');
+bill.innerText = (parseInt(caseNumber) + 1) *11980;
 
 
 });
@@ -18,6 +31,33 @@ document.getElementById('Xiomi-minus').addEventListener('click', function() {
         caseInput.value = parseInt(caseNumber) - 1;
 
     }
+
+
+// Updating amount of Xiomi in Shopping Cart while Removing from cart
+ var AmountOfXiomi = document.getElementById('xiomi-amount');
+ if (caseNumber > 0) {
+    AmountOfXiomi.innerText = parseInt(caseNumber) - 1;
+
+}
+
+ 
+
+// চেক করছি যে কার্ট থেকে রিমুভ করার পর এমাউন্ট ০ হয়ে যায় কি না। 
+//যদি হয় তাহলে তো কোনো প্রডাক্ট ই নাই সো প্রোডাক্ট নেম টা নাথিং ইন ইউর কার্ট করে দিসি। বাংলা ইস কুল। 
+
+
+
+ // Updating amount of Xiomi Bill in Shopping Cart 
+
+var XiomiBill = document.getElementById('xiomi-bill');
+
+if (caseNumber > 0) {
+    XiomiBill.innerText = (parseInt(caseNumber) - 1) *11980;
+
+}
+
+
+
 });
 
 
@@ -27,6 +67,23 @@ document.getElementById('Iphone-plus').addEventListener('click', function() {
     var caseInput = document.getElementById('Iphone-number');
     var caseNumber = caseInput.value;
     caseInput.value = parseInt(caseNumber) + 1;
+
+
+
+// Updating amount of Iphone in Shopping Cart while adding to cart
+ var AmountOfIphone = document.getElementById('Iphone-amount');
+ console.log(AmountOfIphone);
+ AmountOfIphone.innerText = parseInt(caseNumber) + 1;
+ 
+  // Updating amount of Iphone Product name in Shopping Cart while adding
+ 
+ var XiomiProducts = document.getElementById('IphoneProduct');
+ XiomiProducts.innerText = 'Iphone 12 Pro';
+ 
+  // Updating amount of Iphone Bill in Shopping Cart 
+ 
+ var bill = document.getElementById('iphone-bill');
+ bill.innerText = (parseInt(caseNumber) + 1) *100;
 
 })
 //Iphone removing
