@@ -1,7 +1,7 @@
 //smart phone 
 
 //Xiomi adding
-document.getElementById('Xiomi-plus').addEventListener('click', function() {
+document.getElementById('Xiomi-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Xiomi-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -13,19 +13,20 @@ document.getElementById('Xiomi-plus').addEventListener('click', function() {
 
 
 
-	// Updating amount of Xiomi Bill in Shopping Cart afteradding
+	// Updating amount of Xiomi Bill in Shopping Cart after adding
 
 	var bill = document.getElementById('xiomi-bill');
 	bill.innerText = (parseInt(caseNumber) + 1) * 11980;
 	document.getElementById('Xiomi-body').style.color = "#FFA500";
-
+    
+	
 
 });
 
 
 //Xiomi removing
 
-document.getElementById('Xiomi-minus').addEventListener('click', function() {
+document.getElementById('Xiomi-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Xiomi-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -70,7 +71,7 @@ document.getElementById('Xiomi-minus').addEventListener('click', function() {
 
 //Iphone Adding
 
-document.getElementById('Iphone-plus').addEventListener('click', function() {
+document.getElementById('Iphone-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Iphone-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -95,7 +96,7 @@ document.getElementById('Iphone-plus').addEventListener('click', function() {
 
 //Iphone removing
 
-document.getElementById('Iphone-minus').addEventListener('click', function() {
+document.getElementById('Iphone-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Iphone-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -136,7 +137,7 @@ document.getElementById('Iphone-minus').addEventListener('click', function() {
 
 //Samsung Adding
 
-document.getElementById('Samsung-plus').addEventListener('click', function() {
+document.getElementById('Samsung-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Samsung-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -160,7 +161,7 @@ document.getElementById('Samsung-plus').addEventListener('click', function() {
 
 //Samsung removing
 
-document.getElementById('Samsung-minus').addEventListener('click', function() {
+document.getElementById('Samsung-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Samsung-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -202,7 +203,7 @@ document.getElementById('Samsung-minus').addEventListener('click', function() {
 
 //Lenovo Adding
 
-document.getElementById('Lenovo-plus').addEventListener('click', function() {
+document.getElementById('Lenovo-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Lenovo-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -223,7 +224,7 @@ document.getElementById('Lenovo-plus').addEventListener('click', function() {
 
 //Lenovo removing
 
-document.getElementById('Lenovo-minus').addEventListener('click', function() {
+document.getElementById('Lenovo-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Lenovo-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -260,7 +261,7 @@ document.getElementById('Lenovo-minus').addEventListener('click', function() {
 
 //Dell adding
 
-document.getElementById('Dell-plus').addEventListener('click', function() {
+document.getElementById('Dell-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Dell-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -284,7 +285,7 @@ document.getElementById('Dell-plus').addEventListener('click', function() {
 
 //Dell removing
 
-document.getElementById('Dell-minus').addEventListener('click', function() {
+document.getElementById('Dell-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Dell-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -319,7 +320,7 @@ document.getElementById('Dell-minus').addEventListener('click', function() {
 
 // Mac adding
 
-document.getElementById('Mac-plus').addEventListener('click', function() {
+document.getElementById('Mac-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Mac-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -341,7 +342,7 @@ document.getElementById('Mac-plus').addEventListener('click', function() {
 
 //Mac removing
 
-document.getElementById('Mac-minus').addEventListener('click', function() {
+document.getElementById('Mac-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Mac-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -378,7 +379,7 @@ document.getElementById('Mac-minus').addEventListener('click', function() {
 
 //Sply adding
 
-document.getElementById('Sply-plus').addEventListener('click', function() {
+document.getElementById('Sply-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Sply-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -399,7 +400,7 @@ document.getElementById('Sply-plus').addEventListener('click', function() {
 
 //Sply removing
 
-document.getElementById('Sply-minus').addEventListener('click', function() {
+document.getElementById('Sply-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Sply-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -434,7 +435,7 @@ document.getElementById('Sply-minus').addEventListener('click', function() {
 // Nike adding
 
 
-document.getElementById('Nike-plus').addEventListener('click', function() {
+document.getElementById('Nike-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Nike-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -456,7 +457,7 @@ document.getElementById('Nike-plus').addEventListener('click', function() {
 
 //Nike removing
 
-document.getElementById('Nike-minus').addEventListener('click', function() {
+document.getElementById('Nike-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Nike-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -492,7 +493,7 @@ document.getElementById('Nike-minus').addEventListener('click', function() {
 
 //Red-Airmax Adding
 
-document.getElementById('Red-plus').addEventListener('click', function() {
+document.getElementById('Red-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Red-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -511,7 +512,7 @@ document.getElementById('Red-plus').addEventListener('click', function() {
 })
 //Red-Airmax removing
 
-document.getElementById('Red-minus').addEventListener('click', function() {
+document.getElementById('Red-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Red-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -545,7 +546,7 @@ document.getElementById('Red-minus').addEventListener('click', function() {
 //Bags corner
 
 //Red-bag Adding
-document.getElementById('Red-bag-plus').addEventListener('click', function() {
+document.getElementById('Red-bag-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Red-bag-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -567,7 +568,7 @@ document.getElementById('Red-bag-plus').addEventListener('click', function() {
 
 //Red-bag removing
 
-document.getElementById('Red-bag-minus').addEventListener('click', function() {
+document.getElementById('Red-bag-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Red-bag-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -602,7 +603,7 @@ document.getElementById('Red-bag-minus').addEventListener('click', function() {
 
 
 // Blue-bag Adding
-document.getElementById('Blue-bag-plus').addEventListener('click', function() {
+document.getElementById('Blue-bag-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Blue-bag-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -624,7 +625,7 @@ document.getElementById('Blue-bag-plus').addEventListener('click', function() {
 
 //Blue-bag removing
 
-document.getElementById('Blue-bag-minus').addEventListener('click', function() {
+document.getElementById('Blue-bag-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Blue-bag-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -660,7 +661,7 @@ document.getElementById('Blue-bag-minus').addEventListener('click', function() {
 
 
 // Black bag Adding
-document.getElementById('Black-bag-plus').addEventListener('click', function() {
+document.getElementById('Black-bag-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Black-bag-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -682,7 +683,7 @@ document.getElementById('Black-bag-plus').addEventListener('click', function() {
 
 //Black bag removing
 
-document.getElementById('Black-bag-minus').addEventListener('click', function() {
+document.getElementById('Black-bag-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Black-bag-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -719,7 +720,7 @@ document.getElementById('Black-bag-minus').addEventListener('click', function() 
 
 //Foods corner
 // Burger Adding
-document.getElementById('Burger-plus').addEventListener('click', function() {
+document.getElementById('Burger-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Burger-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -742,7 +743,7 @@ document.getElementById('Burger-plus').addEventListener('click', function() {
 
 //Burger removing
 
-document.getElementById('Burger-minus').addEventListener('click', function() {
+document.getElementById('Burger-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Burger-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -776,7 +777,7 @@ document.getElementById('Burger-minus').addEventListener('click', function() {
 
 
 //Combo adding
-document.getElementById('Combo-plus').addEventListener('click', function() {
+document.getElementById('Combo-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Combo-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -797,7 +798,7 @@ document.getElementById('Combo-plus').addEventListener('click', function() {
 
 //combo removing
 
-document.getElementById('Combo-minus').addEventListener('click', function() {
+document.getElementById('Combo-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Combo-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -836,7 +837,7 @@ document.getElementById('Combo-minus').addEventListener('click', function() {
 
 
 //Salad Adding
-document.getElementById('Salad-plus').addEventListener('click', function() {
+document.getElementById('Salad-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Salad-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -857,36 +858,36 @@ document.getElementById('Salad-plus').addEventListener('click', function() {
 
 //Salad removing
 
-document.getElementById('Salad-minus').addEventListener('click', function() {
-		var caseInput = document.getElementById('Salad-number');
-		var caseNumber = caseInput.value;
-		if (caseNumber > 0) {
-			caseInput.value = parseInt(caseNumber) - 1;
-
-		}
-		// Updating amount of Salad in Shopping Cart while Removing from cart
-		if (caseNumber > 0) {
-			var AmountOfSalad = document.getElementById('Salad-amount');
-			AmountOfSalad.innerText = parseInt(caseNumber) - 1;
-
-		}
-
-		// Updating amount of Salad's Bill in Shopping Cart while removing
-
-		var SaladBill = document.getElementById('Salad-bill');
-
-		if (caseNumber > 0) {
-			SaladBill.innerText = (parseInt(caseNumber) - 1) * 650;
-		}
-		// changing color of cart if input is 0 after removing
-		var ChangingCartColorVariable = caseInput.value;
-
-		if (ChangingCartColorVariable == 0) {
-			document.getElementById('Fresh-salad-body').style.color = "black";
-
-		}
+document.getElementById('Salad-minus').addEventListener('click', function () {
+	var caseInput = document.getElementById('Salad-number');
+	var caseNumber = caseInput.value;
+	if (caseNumber > 0) {
+		caseInput.value = parseInt(caseNumber) - 1;
 
 	}
+	// Updating amount of Salad in Shopping Cart while Removing from cart
+	if (caseNumber > 0) {
+		var AmountOfSalad = document.getElementById('Salad-amount');
+		AmountOfSalad.innerText = parseInt(caseNumber) - 1;
+
+	}
+
+	// Updating amount of Salad's Bill in Shopping Cart while removing
+
+	var SaladBill = document.getElementById('Salad-bill');
+
+	if (caseNumber > 0) {
+		SaladBill.innerText = (parseInt(caseNumber) - 1) * 650;
+	}
+	// changing color of cart if input is 0 after removing
+	var ChangingCartColorVariable = caseInput.value;
+
+	if (ChangingCartColorVariable == 0) {
+		document.getElementById('Fresh-salad-body').style.color = "black";
+
+	}
+
+}
 
 );
 
@@ -896,7 +897,7 @@ document.getElementById('Salad-minus').addEventListener('click', function() {
 
 
 //BluePolo Adding
-document.getElementById('Blue-polo-plus').addEventListener('click', function() {
+document.getElementById('Blue-polo-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Blue-polo-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -918,36 +919,36 @@ document.getElementById('Blue-polo-plus').addEventListener('click', function() {
 
 //Blue polo removing
 
-document.getElementById('Blue-polo-minus').addEventListener('click', function() {
-		var caseInput = document.getElementById('Blue-polo-number');
-		var caseNumber = caseInput.value;
-		if (caseNumber > 0) {
-			caseInput.value = parseInt(caseNumber) - 1;
-
-		}
-		// Updating amount of Blue polo in Shopping Cart while Removing from cart
-		if (caseNumber > 0) {
-			var AmountOfBluePolo = document.getElementById('Blue-polo-amount');
-			AmountOfBluePolo.innerText = parseInt(caseNumber) - 1;
-
-		}
-
-		// Updating amount of Blue polo's Bill in Shopping Cart while removing
-
-		var BluePoloBill = document.getElementById('Blue-polo-bill');
-
-		if (caseNumber > 0) {
-			BluePoloBill.innerText = (parseInt(caseNumber) - 1) * 550;
-		}
-		// changing color of cart if input is 0 after removing
-		var ChangingCartColorVariable = caseInput.value;
-
-		if (ChangingCartColorVariable == 0) {
-			document.getElementById('polo-original-body').style.color = "black";
-
-		}
+document.getElementById('Blue-polo-minus').addEventListener('click', function () {
+	var caseInput = document.getElementById('Blue-polo-number');
+	var caseNumber = caseInput.value;
+	if (caseNumber > 0) {
+		caseInput.value = parseInt(caseNumber) - 1;
 
 	}
+	// Updating amount of Blue polo in Shopping Cart while Removing from cart
+	if (caseNumber > 0) {
+		var AmountOfBluePolo = document.getElementById('Blue-polo-amount');
+		AmountOfBluePolo.innerText = parseInt(caseNumber) - 1;
+
+	}
+
+	// Updating amount of Blue polo's Bill in Shopping Cart while removing
+
+	var BluePoloBill = document.getElementById('Blue-polo-bill');
+
+	if (caseNumber > 0) {
+		BluePoloBill.innerText = (parseInt(caseNumber) - 1) * 550;
+	}
+	// changing color of cart if input is 0 after removing
+	var ChangingCartColorVariable = caseInput.value;
+
+	if (ChangingCartColorVariable == 0) {
+		document.getElementById('polo-original-body').style.color = "black";
+
+	}
+
+}
 
 
 
@@ -956,59 +957,59 @@ document.getElementById('Blue-polo-minus').addEventListener('click', function() 
 
 
 //USPA Adding
-document.getElementById('USPA-plus').addEventListener('click', function() {
-		var caseInput = document.getElementById('USPA-number');
-		var caseNumber = caseInput.value;
-		caseInput.value = parseInt(caseNumber) + 1;
+document.getElementById('USPA-plus').addEventListener('click', function () {
+	var caseInput = document.getElementById('USPA-number');
+	var caseNumber = caseInput.value;
+	caseInput.value = parseInt(caseNumber) + 1;
 
-		// Updating amount of USPA in Shopping Cart while adding to cart
-		var AmountOfUSPA = document.getElementById('USPA-amount');
-		AmountOfUSPA.innerText = parseInt(caseNumber) + 1;
-
-
-		// Updating  USPA's Bill in Shopping Cart after adding
-
-		var USPABill = document.getElementById('USPA-bill');
-		USPABill.innerText = (parseInt(caseNumber) + 1) * 450;
-		document.getElementById('USPA-body').style.color = "blue";
+	// Updating amount of USPA in Shopping Cart while adding to cart
+	var AmountOfUSPA = document.getElementById('USPA-amount');
+	AmountOfUSPA.innerText = parseInt(caseNumber) + 1;
 
 
-	}
+	// Updating  USPA's Bill in Shopping Cart after adding
+
+	var USPABill = document.getElementById('USPA-bill');
+	USPABill.innerText = (parseInt(caseNumber) + 1) * 450;
+	document.getElementById('USPA-body').style.color = "blue";
+
+
+}
 
 );
 
 //USPA removing
 
-document.getElementById('USPA-minus').addEventListener('click', function() {
-		var caseInput = document.getElementById('USPA-number');
-		var caseNumber = caseInput.value;
-		if (caseNumber > 0) {
-			caseInput.value = parseInt(caseNumber) - 1;
+document.getElementById('USPA-minus').addEventListener('click', function () {
+	var caseInput = document.getElementById('USPA-number');
+	var caseNumber = caseInput.value;
+	if (caseNumber > 0) {
+		caseInput.value = parseInt(caseNumber) - 1;
 
-		}
-
-		// Updating amount of USPA in Shopping Cart while Removing from cart
-		if (caseNumber > 0) {
-			var AmountOfUSPA = document.getElementById('USPA-amount');
-			AmountOfUSPA.innerText = parseInt(caseNumber) - 1;
-
-		}
-
-		// Updating amount of USPA's Bill in Shopping Cart while removing
-
-		var USPABill = document.getElementById('USPA-bill');
-
-		if (caseNumber > 0) {
-			USPABill.innerText = (parseInt(caseNumber) - 1) * 450;
-		}
-		// changing color of cart if input is 0 after removing
-		var ChangingCartColorVariable = caseInput.value;
-
-		if (ChangingCartColorVariable == 0) {
-			document.getElementById('USPA-body').style.color = "black";
-
-		}
 	}
+
+	// Updating amount of USPA in Shopping Cart while Removing from cart
+	if (caseNumber > 0) {
+		var AmountOfUSPA = document.getElementById('USPA-amount');
+		AmountOfUSPA.innerText = parseInt(caseNumber) - 1;
+
+	}
+
+	// Updating amount of USPA's Bill in Shopping Cart while removing
+
+	var USPABill = document.getElementById('USPA-bill');
+
+	if (caseNumber > 0) {
+		USPABill.innerText = (parseInt(caseNumber) - 1) * 450;
+	}
+	// changing color of cart if input is 0 after removing
+	var ChangingCartColorVariable = caseInput.value;
+
+	if (ChangingCartColorVariable == 0) {
+		document.getElementById('USPA-body').style.color = "black";
+
+	}
+}
 
 
 );
@@ -1017,7 +1018,7 @@ document.getElementById('USPA-minus').addEventListener('click', function() {
 
 
 //Blue-polo-new Adding
-document.getElementById('Blue-polo1-plus').addEventListener('click', function() {
+document.getElementById('Blue-polo1-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Blue-polo1-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -1039,37 +1040,37 @@ document.getElementById('Blue-polo1-plus').addEventListener('click', function() 
 
 
 //Blue-polo New removing
-document.getElementById('Blue-polo1-minus').addEventListener('click', function() {
-		var caseInput = document.getElementById('Blue-polo1-number');
-		var caseNumber = caseInput.value;
-		if (caseNumber > 0) {
-			caseInput.value = parseInt(caseNumber) - 1;
+document.getElementById('Blue-polo1-minus').addEventListener('click', function () {
+	var caseInput = document.getElementById('Blue-polo1-number');
+	var caseNumber = caseInput.value;
+	if (caseNumber > 0) {
+		caseInput.value = parseInt(caseNumber) - 1;
 
-		}
-
-		// Updating amount of Blue-polo New in Shopping Cart while Removing from cart
-		if (caseNumber > 0) {
-			var AmountOfBluePoloNew = document.getElementById('Blue-polo-new-amount');
-			AmountOfBluePoloNew.innerText = parseInt(caseNumber) - 1;
-
-		}
-
-		// Updating amount of Blue-polo New's Bill in Shopping Cart while removing
-
-		var BluePoloNewBill = document.getElementById('Blue-polo-new-bill');
-
-		if (caseNumber > 0) {
-			BluePoloNewBill.innerText = (parseInt(caseNumber) - 1) * 450;
-		}
-		// changing color of cart if input is 0 after removing
-		var ChangingCartColorVariable = caseInput.value;
-
-		console.log(ChangingCartColorVariable);
-		if (ChangingCartColorVariable == 0) {
-			document.getElementById('Blue-polo-new-body').style.color = "black";
-
-		}
 	}
+
+	// Updating amount of Blue-polo New in Shopping Cart while Removing from cart
+	if (caseNumber > 0) {
+		var AmountOfBluePoloNew = document.getElementById('Blue-polo-new-amount');
+		AmountOfBluePoloNew.innerText = parseInt(caseNumber) - 1;
+
+	}
+
+	// Updating amount of Blue-polo New's Bill in Shopping Cart while removing
+
+	var BluePoloNewBill = document.getElementById('Blue-polo-new-bill');
+
+	if (caseNumber > 0) {
+		BluePoloNewBill.innerText = (parseInt(caseNumber) - 1) * 450;
+	}
+	// changing color of cart if input is 0 after removing
+	var ChangingCartColorVariable = caseInput.value;
+
+	console.log(ChangingCartColorVariable);
+	if (ChangingCartColorVariable == 0) {
+		document.getElementById('Blue-polo-new-body').style.color = "black";
+
+	}
+}
 
 
 );
@@ -1079,7 +1080,7 @@ document.getElementById('Blue-polo1-minus').addEventListener('click', function()
 
 // WholeSale Adding
 
-document.getElementById('Whole-sale-plus').addEventListener('click', function() {
+document.getElementById('Whole-sale-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Whole-sale-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -1101,7 +1102,7 @@ document.getElementById('Whole-sale-plus').addEventListener('click', function() 
 
 
 //Whole sale removing
-document.getElementById('Whole-sale-minus').addEventListener('click', function() {
+document.getElementById('Whole-sale-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Whole-sale-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -1139,7 +1140,7 @@ document.getElementById('Whole-sale-minus').addEventListener('click', function()
 
 // Spider Man Adding
 
-document.getElementById('Spider-plus').addEventListener('click', function() {
+document.getElementById('Spider-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Spider-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -1163,7 +1164,7 @@ document.getElementById('Spider-plus').addEventListener('click', function() {
 });
 
 //Spider man removing
-document.getElementById('Spider-minus').addEventListener('click', function() {
+document.getElementById('Spider-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Spider-number');
 	var caseNumber = caseInput.value;
 	if (caseNumber > 0) {
@@ -1200,7 +1201,7 @@ document.getElementById('Spider-minus').addEventListener('click', function() {
 
 
 //Truck Adding
-document.getElementById('Truck-plus').addEventListener('click', function() {
+document.getElementById('Truck-plus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Truck-number');
 	var caseNumber = caseInput.value;
 	caseInput.value = parseInt(caseNumber) + 1;
@@ -1229,7 +1230,7 @@ document.getElementById('Truck-plus').addEventListener('click', function() {
 });
 
 //Truck removing
-document.getElementById('Truck-minus').addEventListener('click', function() {
+document.getElementById('Truck-minus').addEventListener('click', function () {
 	var caseInput = document.getElementById('Truck-number');
 	var caseNumber = caseInput.value;
 
