@@ -23,7 +23,7 @@ else if(!logInpass.match(logPassPattern))
      else
      {
          alert("Successfully logged in");
-         window.location='index.html';
+         window.location='index.php';
 
          return false;
      }   

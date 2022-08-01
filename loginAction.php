@@ -9,7 +9,7 @@ if(isset($_POST['login'])){
     if(mysqli_num_rows($result)){
         session_start();
         $_SESSION['name'] = $l_name;
-        echo "<script>location.href = 'home.php'</script>";
+        echo "<script>location.href = 'index.php'</script>";
     }else{
         echo "<script>alert('Username and Password is not matching')</script>";
         echo "<script>location.href = 'login.php'</script>";

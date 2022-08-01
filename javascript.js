@@ -86,7 +86,7 @@ document.getElementById('Iphone-plus').addEventListener('click', function () {
 	// Updating  Iphone's Bill in Shopping Cart after adding
 
 	var IphoneBill = document.getElementById('iphone-bill');
-	IphoneBill.innerText = (parseInt(caseNumber) + 1) * 12000;
+	IphoneBill.innerText = (parseInt(caseNumber) + 1) * 120000;
 	document.getElementById('Iphone-body').style.color = "blue";
 
 });
@@ -116,7 +116,7 @@ document.getElementById('Iphone-minus').addEventListener('click', function () {
 	var IphoneBill = document.getElementById('iphone-bill');
 
 	if (caseNumber > 0) {
-		IphoneBill.innerText = (parseInt(caseNumber) - 1) * 12000;
+		IphoneBill.innerText = (parseInt(caseNumber) - 1) * 120000;
 
 	}
 

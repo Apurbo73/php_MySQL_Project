@@ -753,160 +753,7 @@
 									<h5 id="total-payment">0 <span>Taka</span></h5> </div>
 							</div>
 						</div>
-						<!-- Shopping Cart for Xiomi starts
-                        <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">01.Xiomi Mi Note 2</h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="xiomi-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="xiomi-bill">0</span> <span>Taka</span></h5>
-                        </div>
-
-                        <--Shopping Cart for Xiomi ends-->
-						<!--Shopping Cart for Iphone starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">02.Iphone 13 Pro</h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Iphone-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="iphone-bill">0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Iphone ends-->
-						<!--Shopping Cart for Samsung starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center">03.Samsung Note 2</h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Samsung-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Samsung-bill">0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Samsung ends-->
-						<!--Shopping Cart for Lenovo starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="">04.Lenovo ideapad 330
-                            </h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span  id="Lenovo-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Lenovo-bill">0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Lenovo ends-->
-						<!--Shopping Cart for Dell starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">05.Dell Inspiration 15
-                            </h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span  id="Dell-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Dell-bill" >0</span> <span>Taka</span></h5>
-                        </div>  -->
-						<!--Shopping Cart for Dell ends-->
-						<!--Shopping Cart for Mac starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">06.Apple Mackbook Pro
-                            </h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span  id="Mac-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Mac-bill" >0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Mac ends-->
-						<!--Shopping Cart for Sply starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">07.Sply original</h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Sply-amount" >0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Sply-bill" >0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Sply ends-->
-						<!--Shopping Cart for Nike starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">08.Nike-360 Version
-                            </h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span  id="Nike-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Nike-bill" >0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Xiomi ends-->
-						<!--Shopping Cart for Red-Airmax starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">09.Red Airmax Version
-                            </h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span  id="Red-Airmax-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span  id="Red-Airmax-bill">0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Red-Airmax ends-->
-						<!--Shopping Cart for Red-bag starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">10.Simple Red Bag</h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span  id="Red-bag-amount">0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Red-bag-bill" >0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Red-bag ends-->
-						<!--Shopping Cart for Blue-Bag starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">11.Simple Blue Bag</h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Blue-bag-amount" >0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Blue-bag-bill" >0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Blue-bag ends-->
-						<!--Shopping Cart for  Black Bag starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">12.Simple Black Bag</h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Black-amount" >0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Black-bill" >0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for  Black Bag ends-->
-						<!--Shopping Cart for Burger starts-->
-						<!-- <div class="d-flex">
-                            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">13.Yummy Burger</h5>
-                            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Burger-amount" >0</span></h5>
-                            <h5 style="margin-left: 10px;">Total bill: <span id="Burger-bill" >0</span> <span>Taka</span></h5>
-                        </div> -->
-						<!--Shopping Cart for Burger ends-->
-						<!--Shopping Cart for Burger starts-->
-						<!-- <div class="d-flex">
-                          <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">14.Combo Platter</h5>
-                          <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Combo-amount" >0</span></h5>
-                          <h5 style="margin-left: 10px;">Total bill: <span id="Combo-bill" >0</span> <span>Taka</span></h5>
-                      </div> -->
-						<!--Shopping Cart for Burger ends-->
-						<!--Shopping Cart for Fresh Salad starts-->
-						<!-- <div class="d-flex">
-                        <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">15.Fresh Salad
-                        </h5>
-                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Salad-amount" >0</span></h5>
-                        <h5 style="margin-left: 10px;">Total bill: <span id="Salad-bill" >0</span> <span>Taka</span></h5>
-                    </div> -->
-						<!--Shopping Cart for Fresh Salad ends-->
-						<!--Shopping Cart for Blue-polo starts-->
-						<!-- <div class="d-flex">
-                      <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">16.Blue Polo Original</h5>
-                      <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Blue-polo-amount" >0</span></h5>
-                      <h5 style="margin-left: 10px;">Total bill: <span id="Blue-polo-bill" >0</span> <span>Taka</span></h5>
-                  </div> -->
-						<!--Shopping Cart for Blue-polo ends-->
-						<!--Shopping Cart for USPA starts-->
-						<!-- <div class="d-flex">
-                    <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">17.Multi USPA </h5>
-                    <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="USPA-amount" >0</span></h5>
-                    <h5 style="margin-left: 10px;">Total bill: <span id="USPA-bill" >0</span> <span>Taka</span></h5>
-                </div> -->
-						<!--Shopping Cart for USPA ends-->
-						<!--Shopping Cart for Blue-polo-new starts-->
-						<!-- <div class="d-flex">
-                  <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">18.Blue Polo New</h5>
-                  <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Blue-polo-new-amount" >0</span></h5>
-                  <h5 style="margin-left: 10px;">Total bill: <span id="Blue-polo-new-bill" >0</span> <span>Taka</span></h5>
-              </div> -->
-						<!--Shopping Cart for Blue-polo-new ends-->
-						<!--Shopping Cart for Whole-sale starts-->
-						<!-- <div class="d-flex">
-                <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">19.Whole Sale</h5>
-                <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Whole-sale-amount" >0</span></h5>
-                <h5 style="margin-left: 10px;">Total bill: <span id="Whole-sale-bill" >0</span> <span>Taka</span></h5>
-            </div> -->
-						<!--Shopping Cart for Whole-sale ends-->
-						<!--Shopping Cart for Spider starts-->
-						<!-- <div class="d-flex">
-              <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">20.Spider Man</h5>
-              <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Spider-amount" >0</span></h5>
-              <h5 style="margin-left: 10px;">Total bill: <span id="Spider-bill" >0</span> <span>Taka</span></h5>
-          </div> -->
-						<!--Shopping Cart for Spider ends-->
-						<!--Shopping Cart for Truck starts-->
-						<!-- <div class="d-flex">
-            <h5 style="margin-left: 400px;" class="card-title text-center" id="XiomiProduct">21.Construction Truck
-            </h5>
-            <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span id="Truck-amount" >0</span></h5>
-            <h5 style="margin-left: 10px;">Total bill: <span id="Truck-bill" >0</span> <span>Taka</span></h5>
-        </div> -->
+		
 						<!--Shopping Cart for Truck ends--><a href="#" class="btn btn-primary mt-5 mb-5 w-100 p-2">Pay your Bill</a> </div>
 					<div class="card-footer text-muted"> Happy Shopping !!! </div>
 				</div>
@@ -929,6 +776,84 @@
 				</div>
 			</section>
 			<!--Offcanvas section ends-->
+
+
+
+     <!--Crud operation starts  -->
+
+
+	 <form class="container w-80 form-design" action="crud-insert.php" method="post" enctype="multipart/form-data" onsubmit="return formvalidation()">
+        <div class="mb-3">
+            <h2 class="text-center mb-5 mt-2">Review</h2>
+            <input type="text" placeholder="Enter product name" class="form-control" name="name" id="ifname" aria-describedby="emailHelp">
+            <span id="errorInFirstName" > </span></td>
+
+          </div>
+
+        <div class="mb-3">
+          <input type="file"  placeholder="Upload picture of product"  name="image"class="form-control" id="ipass">
+          <span id="errorInPass"> </span>
+        </div>
+
+       
+		<div class="mb-3">
+            <input type="mobile" placeholder="Enter your feedback" class="form-control" name="price" id="imobile" aria-describedby="emailHelp"><span id="errorInMobile"> </span>
+          </div>
+
+       
+        <button type="submit" name= "insert" class="btn btn-success w-100">Submit</button>
+      
+      </form>
+
+<!--Display reviews-->
+
+
+<div class="container">
+	<table class="table table-dark table-hover">
+		<thead>
+		  <tr>
+			<th scope="col">Id</th>
+			<th scope="col">Product name</th>
+			<th scope="col">Price(Tk)</th>
+			<th scope="col">Image</th>
+			<th scope="col">Delete</th>
+			<th scope="col">Update</th>
+
+
+		  </tr>
+		</thead>
+		<tbody>
+
+     <?php
+   include 'crud-config.php';
+
+
+   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
+   while( $row = mysqli_fetch_array($alldata))
+   {
+	echo
+	"<tr>
+	 <td> $row[id] </td>
+	 <td> $row[name] </td>
+	 <td> $row[price] </td>
+	 <td> <img src= '$row[image]' alt= 'image' width ='100px'> </td>
+	 <td> <a class=' btn btn-danger' href='delete.php? id= $row[id]'>Delete </a></td>
+	 <td> <a class=' btn btn-success' href='update.php? id= $row[id]'>Update </a></td>
+
+	</tr> ";
+
+   }
+
+     ?>
+
+		
+
+		</tbody>
+	  </table>
+</div>
+
+
+
 			<!--footer section-->
 			<!--Outlets-showroom section done with off canvas bottom-->
 			<div class="container">
