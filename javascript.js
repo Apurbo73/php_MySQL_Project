@@ -19,7 +19,7 @@ document.getElementById('Xiomi-plus').addEventListener('click', function () {
 	bill.innerText = (parseInt(caseNumber) + 1) * 11980;
 	document.getElementById('Xiomi-body').style.color = "#FFA500";
     
-	
+	;
 
 });
 

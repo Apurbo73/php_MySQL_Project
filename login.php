@@ -31,7 +31,7 @@
           <input type="password"  class="form-control" name="l_pass" placeholder="Enter your password" class="form-control" id="logpass"><span id="errorInPass"> </span>
         </div>
      
-        <button type="submit" class="btn btn-success w-100">Submit</button>
+        <button type="submit" class="btn btn-success w-100" name="login">Submit</button>
         <div class=" d-flex">
             <p>New?</p> 
             <p style="margin-left: 5px;" ><a href="register.php"> Sign-up here</a> </p>

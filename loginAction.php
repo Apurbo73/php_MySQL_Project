@@ -4,13 +4,17 @@ if(isset($_POST['login'])){
     $l_name = $_POST['l_name'];
     $l_pass = $_POST['l_pass'];
 
-    $result = mysqli_query($conn,"SELECT * FROM `register` WHERE name='$l_name' And pass='$l_pass'");
+    $result = mysqli_query($conn,"SELECT * FROM `web-final` WHERE username='$l_name' And pass='$l_pass'");
 
     if(mysqli_num_rows($result)){
         session_start();
         $_SESSION['name'] = $l_name;
+        
+      echo "<script>alert('Successfully logged in!!!!')</script>";
+
         echo "<script>location.href = 'index.php'</script>";
-    }else{
+    }
+    else{
         echo "<script>alert('Username and Password is not matching')</script>";
         echo "<script>location.href = 'login.php'</script>";
     }

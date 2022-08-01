@@ -20,12 +20,12 @@ else if(!logInpass.match(logPassPattern))
     return false;
 }
 
-     else
-     {
-         alert("Successfully logged in");
-         window.location='index.php';
+    //  else
+    //  {
+    //      alert("Successfully logged in");
+    //      window.location='index.php';
 
-         return false;
-     }   
+    //      return false;
+    //  }   
     
 };
