@@ -51,7 +51,10 @@
             <span id="errorInConfirmPass"> </span>
 
           </div>
-        <button type="submit" name= "register" class="btn btn-success w-100">Submit</button>
+      <div style="display:flex">
+      <button type="submit" name= "register" class="btn btn-success w-50 mx-2">Sign Up</button>
+        <button type="submit" name= "google-dsign-up" class="btn btn-danger mx-2 w-50">Sign Up with Google</button>
+      </div>
         <div class=" d-flex">
             <p>Already registered?</p> 
             <p style="margin-left: 10px;"><a href="login.php">Sign-in here</a> </p>

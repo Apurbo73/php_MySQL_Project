@@ -30,8 +30,14 @@
         <div class="mb-3">
           <input type="password"  class="form-control" name="l_pass" placeholder="Enter your password" class="form-control" id="logpass"><span id="errorInPass"> </span>
         </div>
+
+        <div style="display:flex">
+
      
-        <button type="submit" class="btn btn-success w-100" name="login">Submit</button>
+     <button type="submit" class="btn btn-success w-50" name="login">Sign In</button>
+        <button type="submit" name= "google-dsign-up" class="btn btn-danger mx-2 w-50">Forget Password?</button>
+
+     </div>
         <div class=" d-flex">
             <p>New?</p> 
             <p style="margin-left: 5px;" ><a href="register.php"> Sign-up here</a> </p>

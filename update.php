@@ -32,6 +32,8 @@ $dataArray = mysqli_fetch_array($record);
 	<link rel="stylesheet" href="signup.html" />
 	<link rel="stylesheet" href="Shopping Cart.html" /> </head>
 	<link rel="stylesheet" href="register.php">
+	<link rel="stylesheet" href="index.php">
+
 
 	<header>
 		<section class="container nav-design">
@@ -42,7 +44,7 @@ $dataArray = mysqli_fetch_array($record);
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-								<li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
+								<li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.php">Home</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#Gadget">Gadget</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#bags">Bags</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#shoes">Shoes</a> </li>

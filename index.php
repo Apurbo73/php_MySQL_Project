@@ -20,12 +20,16 @@
 	<header>
 		<section class="container nav-design">
 			<div>
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 					<div class="container">
 						<a class="navbar-brand" href="#"> <img src="images/logo hot.png" alt="" width="" height="" class="d-inline-block align-text-top" /> </a>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<input type="text" class=" p-2 m-1 rounded" placeholder="Search..">
+							<button class="btn btn-danger   rounded" type="submit">Submit</button>
+
+
 								<li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#Gadget">Gadget</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#bags">Bags</a> </li>
@@ -34,7 +38,11 @@
 								<li class="nav-item"> <a class="nav-link" href="#toys">Toys</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#food">Foods</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#students"> Offers</a> </li>
+
 								<li class="nav-item"> <a class="nav-link" href="#Shopping_Cart">My Cart</a> </li>
+
+								<li class="nav-item"> <a class="nav-link" href="#reviews">Reviews</a> </li>
+
 								<li class="nav-item"> <a class="nav-link" href="logout.php"> Log out</a> </li>
 							</ul>
 						</div>
@@ -530,7 +538,7 @@
 				</section>
 				<section class="container">
 					<marquee width="100%" direction="left" height="100px">
-						<p style="font-size: 20px; color: rgb(3, 54, 54);">This is a organization specifically working for students. We always try do make some crazy offers for students. Visit us and be a part of Mega Mall.</p>
+						<p style="font-size: 20px; color: rgb(3, 54, 54);">This is a organization specifically working for students. We always try do make some crazy offers for students. Visit us and be a part of <span style="color:orange;">Mega</span> <span style="color:blue;">Mall</span> .</p>
 					</marquee>
 				</section>
 			</div>
@@ -808,7 +816,7 @@
 <!--Display reviews-->
 
 
-<div class="container">
+<div class="container" id="reviews">
 	<table class="table table-dark table-hover">
 		<thead>
 		  <tr>
