@@ -24,27 +24,31 @@
 <body>
 
 
-    <form class="container w-50 form-design" action="loginAction.php" method="post"
-        onsubmit="return logformvalidation()">
-        <h2 class="text-center mb-5 mt-3">Sign in here</h2>
+
+
+
+
+    <form class="container w-50 form-design" method="post">
+        <h2 class="text-center mb-5 mt-3">Reset Password</h2>
         <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-user mt-1 m-1"></i>
-            <input type="text" class="form-control" name="l_name" placeholder="Enter your name" class="form-control"
-                id="logInemail" aria-describedby="emailHelp"> <span id="errorInLogInEmail"> </span>
+            <i class="fa-solid fa-2x fa-envelope mt-1 m-1"></i>
+            <input type="email" placeholder="Enter your email" name="r_email" class="form-control" id="iemail"
+                aria-describedby="emailHelp">
+            <span id="errorInEmail"> </span>
         </div>
 
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-lock m-1"></i>
-            <input type="password" class="form-control" name="l_pass" placeholder="Enter your password"
-                class="form-control" id="logpass"><span id="errorInPass"> </span>
-        </div>
 
         <div style="display:flex">
 
 
-            <button type="submit" class="btn btn-success w-50" name="login" style='text-decoration:none; color:white;font-weight:600'>Sign In</button>
+            <!-- <button type="submit" class="btn btn-primary w-50" name="reset_pass_mail"  
+             <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button> -->
+
+            <button type="submit" name="forget-pass" class="btn btn-primary mx-2 w-50">
+                <a style="text-decoration:none; color:white;font-weight:600" href="pass_recovery.php">Send Mail</a></button>
+
             <button type="submit" name="forget-pass" class="btn btn-danger mx-2 w-50">
-                <a style='text-decoration:none; color:white;font-weight:600' href="forget_pass_page.php" >Forgot password? Click here</a></button>
+                <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button>
 
         </div>
         <div class=" d-flex">
