@@ -11,10 +11,6 @@ $dataArray = mysqli_fetch_array($record);
 
 ?>
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,12 +57,6 @@ $dataArray = mysqli_fetch_array($record);
 			</div>
 		</section>
 	</header>
-
-
-
-
-
-
 
 <!--Crud operation update starts  -->
 

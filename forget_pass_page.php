@@ -18,8 +18,10 @@ if(isset($_POST['submit']))
     $username = $userdata['username'];
     $token = $userdata['token'];
     $subject ="Password Reset";
-    $body = "Hi, $username. Forgot your password? Don't worry!! Click here to reset your password
-    http://localhost/web/reset.php?token=$token ";
+    $body = "Hi, $username. Forgot your password? Don't worry!! Use the link to reset your password
+    http://localhost/web/reset.php?token=$token 
+    
+    Sincerely: Team Mega Mall, Majortila, Sylhet.";
 
 
     $sender_email = "From: apurbodebnath50@gmail.com";

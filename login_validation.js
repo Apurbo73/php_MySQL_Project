@@ -4,7 +4,7 @@ function logformvalidation()
     var logMail=document.getElementById("logInemail").value;
     if(logMail.length==0)
     {
-       alert("Enter your mail");
+       alert("Fill the form");
        return false;
     }
 var logInpass= document.getElementById("logpass").value;
