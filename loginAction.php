@@ -4,7 +4,7 @@ if(isset($_POST['login'])){
     $l_name = $_POST['l_name'];
     $l_pass = $_POST['l_pass'];
 
-    $result = mysqli_query($conn,"SELECT * FROM `web_final_data` WHERE username='$l_name' And pass='$l_pass'");
+    $result = mysqli_query($conn,"SELECT * FROM `fresh_table` WHERE username='$l_name' And pass='$l_pass'");
 
     if(mysqli_num_rows($result)){
         session_start();

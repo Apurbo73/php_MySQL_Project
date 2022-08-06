@@ -1,3 +1,49 @@
+
+<?php
+
+include 'config.php';
+if(isset($_POST['submit']))
+
+{
+
+  $email = mysqli_real_escape_string($conn,$_POST['email']);
+  $emailQuery = "SELECT * FROM `fresh_table` WHERE email='$email' ";
+  $query = mysqli_query($conn,$emailQuery);
+  $emailCount = mysqli_num_rows($query);
+  
+  if($emailCount)
+  {
+
+    $userdata = mysqli_fetch_array($query);
+    $username = $userdata['username'];
+    $token = $userdata['token'];
+    $subject ="Password Reset";
+    $body = "Hi, $username. Forgot your password? Don't worry!! Click here to reset your password
+    http://localhost/web/reset.php?token=$token ";
+
+
+    $sender_email = "From: apurbodebnath50@gmail.com";
+    if(mail($email,$subject,$body, $sender_email))
+    {
+      echo "<script>alert('Kindly check your mail to reset your password!!')</script>";
+      // header('location:login.php');
+      echo "<script>location.href='login.php'</script>";
+
+    }
+  
+    
+  }
+  else{
+    echo "<script>alert('No email found!!')</script>";
+
+  }
+}
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,11 +74,12 @@
 
 
 
+
     <form class="container w-50 form-design" method="post">
         <h2 class="text-center mb-5 mt-3">Reset Password</h2>
         <div class="mb-3 d-flex">
             <i class="fa-solid fa-2x fa-envelope mt-1 m-1"></i>
-            <input type="email" placeholder="Enter your email" name="r_email" class="form-control" id="iemail"
+            <input type="email" placeholder="Enter your email" name="email" class="form-control" id="iemail"
                 aria-describedby="emailHelp">
             <span id="errorInEmail"> </span>
         </div>
@@ -44,8 +91,8 @@
             <!-- <button type="submit" class="btn btn-primary w-50" name="reset_pass_mail"  
              <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button> -->
 
-            <button type="submit" name="forget-pass" class="btn btn-primary mx-2 w-50">
-                <a style="text-decoration:none; color:white;font-weight:600" href="pass_recovery.php">Send Mail</a></button>
+            <button type="submit" name="submit" class="btn btn-primary mx-2 w-50">
+                <a style="text-decoration:none; color:white;font-weight:600" >Send Mail</a></button>
 
             <button type="submit" name="forget-pass" class="btn btn-danger mx-2 w-50">
                 <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button>
