@@ -1,4 +1,4 @@
-<!-- 
+<!-- <!-- 
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,37 +31,37 @@ div {
 
 <?php
 
-include 'config.php';
-if(isset($_POST['submit']))
+// include 'config.php';
+// if(isset($_POST['submit']))
 
-{
+// {
 
-  $email = mysqli_real_escape_string($conn,$_POST['email']);
-  $emailQuery = "SELECT * FROM `fresh_table` WHERE email='$email' ";
-  $query = mysqli_query($conn,$emailQuery);
-  $emailCount = mysqli_num_rows($query);
+//   $email = mysqli_real_escape_string($conn,$_POST['email']);
+//   $emailQuery = "SELECT * FROM `fresh_table` WHERE email='$email' ";
+//   $query = mysqli_query($conn,$emailQuery);
+//   $emailCount = mysqli_num_rows($query);
   
-  if($emailCount)
-  {
+//   if($emailCount)
+//   {
 
-    $userdata = mysqli_fetch_array($query);
-    $username = $userdata['username'];
-    $token = $userdata['token'];
-    $subject ="Password Reset";
-    $body = "Hi, $username. Click here to reset your password 
-    http://localhost/web/reset.php?token=$token ";
+//     $userdata = mysqli_fetch_array($query);
+//     $username = $userdata['username'];
+//     $token = $userdata['token'];
+//     $subject ="Password Reset";
+//     $body = "Hi, $username. Click here to reset your password 
+//     http://localhost/web/reset.php?token=$token ";
 
-    $sender = "From: apurbodebnath50@gmail.com";
-    if(mail($email,$subject,$body, $sender))
-    {
-      $_SESSION['msg']= "Kindly check your mail to reset your password!!!";
-      header('location:login.php');
-    }
+//     $sender = "From: apurbodebnath50@gmail.com";
+//     if(mail($email,$subject,$body, $sender))
+//     {
+//       $_SESSION['msg']= "Kindly check your mail to reset your password!!!";
+//       header('location:login.php');
+//     }
   
-    else{
-      echo "No email found!!!";
-    }
-  }
-}
+//     else{
+//       echo "No email found!!!";
+//     }
+//   }
+// }
 
-?>
+?> -->

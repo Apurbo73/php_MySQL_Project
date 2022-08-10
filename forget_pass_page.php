@@ -1,4 +1,3 @@
-
 <?php
 
 include 'config.php';
@@ -18,10 +17,11 @@ if(isset($_POST['submit']))
     $username = $userdata['username'];
     $token = $userdata['token'];
     $subject ="Password Reset";
-    $body = "Hi, $username. Forgot your password? Don't worry!! Use the link to reset your password
+    $body = " Hi, $username. Forgot your password? Don't worry!! Use the link to reset your password.
     http://localhost/web/reset.php?token=$token 
     
-    Sincerely: Team Mega Mall, Majortila, Sylhet.";
+    Sincerely: Team Mega Mall, Majortila, Sylhet.
+   ";
 
 
     $sender_email = "From: apurbodebnath50@gmail.com";
@@ -94,7 +94,7 @@ if(isset($_POST['submit']))
              <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button> -->
 
             <button type="submit" name="submit" class="btn btn-primary mx-2 w-50">
-                <a style="text-decoration:none; color:white;font-weight:600" >Send Mail</a></button>
+                <a style="text-decoration:none; color:white;font-weight:600">Send Mail</a></button>
 
             <button type="submit" name="forget-pass" class="btn btn-danger mx-2 w-50">
                 <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button>
