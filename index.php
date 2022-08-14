@@ -35,26 +35,55 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li>
-                                    <input type="text" class=" p-1  rounded" placeholder="what are you looking for?..">
                                     <button class="btn btn-danger p-1 m-1 rounded" type="submit">Search</button>
+                                    <input type="text" class=" p-1  rounded" placeholder="what are you looking for?..">
+
                                 </li>
-
-
                                 <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
-                                <li class="nav-item"> <a class="nav-link" href="#Gadget">Gadget</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#bags">Bags</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#shoes">Shoes</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#cloth">Cloths</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#toys">Toys</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#food">Foods</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#students"> Offers</a> </li>
 
-                                <li class="nav-item"> <a class="nav-link" href="#Shopping_Cart">My Cart</a> </li>
 
-                                <li class="nav-item"> <a class="nav-link" href="#reviews">Reviews</a> </li>
+                                <div class="dropdown ">
+                                    <a class=" nav-link  dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span style="font-weight:700;color:black"> Categories
+                                        </span> </a>
 
-                                <li class="nav-item"> <a class="nav-link" href="logout.php"> Log out</a> </li>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <li class="nav-item"> <a class="nav-link" href="#Gadget">Gadget</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#bags">Bags</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#shoes">Shoes</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#cloth">Cloths</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#toys">Toys</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#food">Foods</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="#students"> Offers</a> </li>
+                                    </ul>
+                                </div>
+
+                             <li>
+                                   <button class="btn nav-link "  type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <span
+                                        style="font-weight:700;color:black">My Cart
+                                    </span></button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel">Check Your Cart and pay the bill</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        Nothing added to your cart.
+                                        KIndly Sign Up first.
+                                    </div>
+                                </div>
+
+                             </li>
+
+                                <li class="nav-item"> <a class="nav-link" href="#reviews"><span style="font-weight:700;color:black">Reviews</span></a> </li>
+
+                                <li class="nav-item"> <a class="nav-link" href="register.php"><span style="font-weight:700;color:black">Sign Up</span></a> </li>
                             </ul>
                         </div>
                     </div>
@@ -139,6 +168,8 @@
                 </div>
             </section>
         </section>
+
+
         <!--Categories-->
         <section class="container mt-5">
             <div class="row g-4">
@@ -159,6 +190,7 @@
                 </div>
             </div>
         </section>
+
         <!--Hot Gadget section-->
         <!--Devices-->
         <!--Smartphones-->
@@ -175,11 +207,12 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Xiomi-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Xiomi-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Xiomi-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -193,11 +226,12 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Iphone-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Iphone-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Iphone-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -211,17 +245,19 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Samsung-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Samsung-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Samsung-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
         </section>
+
         <!--Laptops-->
         <section class="container products mt-5" id="Gadget">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Laptops</h2>
@@ -235,11 +271,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Lenovo-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Lenovo-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Lenovo-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -253,11 +289,16 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Dell-plus" class="button btn btn-success">Add to Cart</button>
+                                <!-- <button id="Dell-plus" class="button btn btn-success">Add to Cart</button>
                                 <input id="Dell-number" class="text-center input-field-design" type="number"
                                     value="0" />
                                 <button id="Dell-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                    class="button btn btn-danger">Remove</button> -->
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -271,16 +312,18 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Mac-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Mac-number" class="text-center input-field-design" type="number" value="0" />
-                                <button id="Mac-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!--Shoes Corner-->
         <section class="container products mt-5" id="shoes">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Shoes Corner</h2>
@@ -294,11 +337,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Sply-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Sply-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Sply-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -312,11 +355,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Nike-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Nike-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Nike-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -330,16 +373,18 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Red-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Red-number" class="text-center input-field-design" type="number" value="0" />
-                                <button id="Red-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!--Bag Corner-->
         <section class="container products my-5" id="bags">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Bag Corner</h2>
@@ -353,11 +398,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Red-bag-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Red-bag-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Red-bag-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -371,11 +416,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Blue-bag-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Blue-bag-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Blue-bag-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -389,17 +434,19 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Black-bag-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Black-bag-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Black-bag-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
         <!--Food corner-->
         <section class="container products my-5" id="food">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Food Corner</h2>
@@ -413,11 +460,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Burger-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Burger-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Burger-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -431,11 +478,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Combo-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Combo-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Combo-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -449,17 +496,19 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Salad-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Salad-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Salad-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
         <!--cloth section-->
         <section class="container my-5" id="cloth">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Cloth section</h2>
@@ -473,11 +522,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Blue-polo-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Blue-polo-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Blue-polo-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -491,11 +540,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="USPA-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="USPA-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="USPA-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -509,17 +558,19 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Blue-polo1-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Blue-polo1-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Blue-polo1-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
         <!--toys-->
         <section class="container products my-5" id="toys">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Toys Corner</h2>
@@ -533,11 +584,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Whole-sale-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Whole-sale-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Whole-sale-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -551,11 +602,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Spider-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Spider-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Spider-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -569,11 +620,11 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <button id="Truck-plus" class="button btn btn-success">Add to Cart</button>
-                                <input id="Truck-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <button id="Truck-minus" style="margin-left: 0px;"
-                                    class="button btn btn-danger">Remove</button>
+                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                    class="button btn btn-success w-50 "><a href="register.php"><i
+                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
+                                        Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -596,36 +647,33 @@
                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                 <div class="d-flex">
-                                  
-                               <div class="bg-success mx-5">
-                               <img
-                                    style="width: 200px; height: 200px; justify-content: center; margin-left: 200px; margin:20px"
-                                    src="images/biriyani.jpg" alt="" /> <br>
-                                    <h6>Regular chicken biriyani</h6>
-                                    <button class="btn btn-danger mx-5 mb-2 ">order now</button>
-                               </div>
+                                <div class="d-flex">
+
+                                    <div class="bg-success mx-5">
+                                        <img style="width: 200px; height: 200px; justify-content: center; margin-left: 200px; margin:20px"
+                                            src="images/biriyani.jpg" alt="" /> <br>
+                                        <h6>Regular chicken biriyani</h6>
+                                        <button class="btn btn-danger mx-5 mb-2 ">order now</button>
+                                    </div>
 
                                     <div class="bg-primary mx-5">
-                               <img
-                                    style="width: 200px; height: 200px; justify-content: center; margin-left: 20px; margin:20px"
-                                    src="images/biriyani.jpg" alt="" /> <br>
-                                    <h6 style="margin-left:20px">Regular Kacchi biriyani</h6>
+                                        <img style="width: 200px; height: 200px; justify-content: center; margin-left: 20px; margin:20px"
+                                            src="images/biriyani.jpg" alt="" /> <br>
+                                        <h6 style="margin-left:20px">Regular Kacchi biriyani</h6>
 
-                                    <button class="btn btn-danger mx-5 mb-2 ">order now</button>
-                               </div>
+                                        <button class="btn btn-danger mx-5 mb-2 ">order now</button>
+                                    </div>
 
-                               <div class="bg-danger mx-5 ">
-                               <img
-                                    style="width: 200px; height: 200px; justify-content: center; margin-left: 20px; margin:20px"
-                                    src="images/biriyani.jpg" alt="" /> <br>
-                                    <h6>Regular chicken biriyani</h6>
+                                    <div class="bg-danger mx-5 ">
+                                        <img style="width: 200px; height: 200px; justify-content: center; margin-left: 20px; margin:20px"
+                                            src="images/biriyani.jpg" alt="" /> <br>
+                                        <h6>Regular chicken biriyani</h6>
 
-                                    <button class="btn btn-primary mx-5 mb-2 text-center ">order now</button>
-                               </div>
+                                        <button class="btn btn-primary mx-5 mb-2 text-center ">order now</button>
+                                    </div>
 
 
-                                 </div>
+                                </div>
                                 <h1 class="text-center">Biriyani</h1>
                                 <p> Hyderabadi Biryani is characteristically distinct. The aroma, taste, tender meat,
                                     the Zaffran, everything gives it a distinguished appearance. ... Yoghurt makes the
