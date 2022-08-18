@@ -75,8 +75,23 @@
                                                 data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                         </div>
                                         <div class="offcanvas-body">
-                                            Nothing added to your cart.
-                                            Kindly Sign Up first.
+                                        <div id="Xiomi-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <!--Shopping Cart for Xiomi starts-->
+                                    <div></div>
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            01.Xiomi Mi Note 2</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="xiomi-amount">0</span></h5>
+                                        <h5 style="margin-left: 100px;">Total bill: <span id="xiomi-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                    <!--Shopping Cart for Xiomi ends-->
+                                  </div>
+
+                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -944,6 +959,8 @@ if ($i==3)
                 </section>
             </div>
         </div>
+
+        
         <div id="Shopping_Cart" class="container mt-5">
             <div class="card text-center">
                 <div class="card-header">
@@ -955,18 +972,18 @@ if ($i==3)
                             <div id="Xiomi-body" class="col">
                                 <div class="p-3 border bg-light">
                                     <!--Shopping Cart for Xiomi starts-->
-                                    <div class="">
+                                    <div class=" text-center">
                                         <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
                                             01.Xiomi Mi Note 2</h5>
                                         <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
                                                 id="xiomi-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="xiomi-bill">0</span>
+                                        <h5 style="margin-left: 10px;" >Total bill: <span id="xiomi-bill">0</span>
                                             <span>Taka</span>
                                         </h5>
                                     </div>
                                     <!--Shopping Cart for Xiomi ends-->
                                 </div>
-                            </div>
+                            </div> <br>
                             <div id="Iphone-body" class="col">
                                 <div class="p-3 border bg-light">
                                     <!--Shopping Cart for Iphone starts-->

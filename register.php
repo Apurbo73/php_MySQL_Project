@@ -67,7 +67,7 @@
         </div>
         <div style="display:flex">
             <button type="submit" name="register" class="btn btn-success w-50 mx-2">Create Account</button>
-            <button type="submit" name="google-dsign-up" class="btn btn-danger mx-2 w-50"><i class="fa-brands fa-google"></i><a style="text-decoration:none;color:white;margin-left:10px" href="register.php">Google Sign Up</a></button>
+            <button type="submit" name="google-dsign-up" class="btn btn-danger mx-2 w-50"><a style="text-decoration:none;color:white;margin-left:5px" href="google sign up.php"> Continue with Google </a><i class="fa-brands fa-google"></i></button>
         </div>
         <div class=" d-flex">
             <p>Already registered?</p>
