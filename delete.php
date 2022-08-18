@@ -6,7 +6,7 @@ $id = $_GET['id'];
 $deleteQuery = "DELETE FROM `review-products` WHERE id= '$id' ";
 
 mysqli_query($conn,$deleteQuery);
-header("location:index.php");
+header("location:adminPanel.php");
 
 
 

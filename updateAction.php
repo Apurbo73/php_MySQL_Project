@@ -18,7 +18,7 @@ $updateQuery = " UPDATE `review-products` SET `name`='$name',`price`='$price',`i
 if (mysqli_query($conn, $updateQuery))
 {
     echo "<script> alert('Updated!!!') </script>" ;
-    echo "<script> location.href='index.php' </script>" ;
+    echo "<script> location.href='adminPanel.php' </script>" ;
 }
 
 else{

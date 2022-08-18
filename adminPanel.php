@@ -38,8 +38,8 @@
 
 
                                 <li>
-                                    <button class="btn btn-danger p-1 m-1 rounded" type="submit">Search</button>
-                                    <input type="text" class=" p-1  rounded" placeholder="what are you looking for?..">
+                                    <button class="btn btn-danger p-1 m-1 rounded" type="submit">Hello Admin</button>
+
 
                                 </li>
                                 <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -47,8 +47,8 @@
 
 
                                 <div class="dropdown">
-                                    <a class="btn nav-link   dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="btn nav-link   dropdown-toggle" href="#" role="button"
+                                        id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                         <span style="font-weight:700;color:black"> Categories
                                         </span> </a>
 
@@ -65,7 +65,8 @@
 
                                 <li>
                                     <button class="btn nav-link  " type="button" data-bs-toggle="offcanvas"
-                                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span style="font-weight:700;color:black">My Cart</span></button>
+                                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span
+                                            style="font-weight:700;color:black">My Cart</span></button>
 
                                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                                         aria-labelledby="offcanvasRightLabel">
@@ -83,9 +84,11 @@
 
 
 
-                                <li class="nav-item"> <a class="nav-link" href="#reviews"><span style="font-weight:700;color:black">Reviews</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#reviews"><span
+                                            style="font-weight:700;color:black">Reviews</span></a> </li>
 
-                                <li class="nav-item"> <a class="nav-link" href="logout.php"> <span style="font-weight:700;color:black">Log out</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="logout.php"> <span
+                                            style="font-weight:700;color:black">Log out</span></a> </li>
                             </ul>
                         </div>
                     </div>
@@ -696,13 +699,14 @@
             </div>
         </section>
 
-      <!--Crud operation starts  -->
+
+        <!--Crud operation starts  -->
 
 
-      <form class="container mb-5 w-80 form-design" action="crud-insert.php" method="post"
+        <form class="container mb-5 w-80 form-design" action="crud-insert.php" method="post"
             enctype="multipart/form-data" onsubmit="return formvalidation()">
             <div class="mb-3">
-                <h2 class="text-center mb-5 mt-2">Insert products</h2>
+                <h2 class="text-center mb-5 mt-2">Review</h2>
                 <input type="text" placeholder="Enter product name" class="form-control" name="name" id="ifname"
                     aria-describedby="emailHelp">
                 <span id="errorInFirstName"> </span></td>
@@ -728,11 +732,12 @@
         <!--Display reviews-->
 
 
-<div class="container bg-success">
-<div class="card  text-center d-flex flex-wrap" style="width: 18rem;">
-  <div  class="card-body 
-">
-  <?php
+        <div class="container" id="reviews">
+            <table class="table table-warning table-hover w-25">
+
+                <tbody>
+
+                    <?php
    include 'crud-config.php';
 
 
@@ -741,92 +746,28 @@
    {
 	echo
 	"
-	
-      <div> 
-	  <img src= '$row[image]' alt= 'image' width ='250px'>
-      <h2> $row[name] </h2> <br>
-      <h2> $row[price] </h2> <br> 
-        </div>
-       
-      
+	<tr>
+	 <td>
+<h2> $row[name] </h2>
+	  <img src= '$row[image]' alt= 'image' width ='100px'>
+      <h2> $row[price] </h2> <br>
 
-	
+	 <a class=' btn btn-danger' href='delete.php? id= $row[id]'>Delete </a> 
+	  <a class=' btn btn-success' href='update.php? id= $row[id]'>Update </a>
 
-      ";
+     </td>
 
-   }
-
-     ?>
-     
-     
-
-
-
-               
-        </div>
-  </div>
-</div>
-</div>
-
-
-
-
-
-
-<div class="container">
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-    <div class="card-body d-flex bg-danger ">
-        
-      <?php
-   include 'crud-config.php';
-
-
-   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
-   while( $row = mysqli_fetch_array($alldata))
-   { $i=0;
-	echo
-	"
-	
-      <div> 
-	  <img src= '$row[image]' alt= 'image' width ='250px'>
-      <h2> $row[name] </h2> <br>
-      <h2> $row[price] </h2> <br> 
-        </div>
-       
-
-      ";
-     
-if ($i==3)
-{
-    echo "<script> okay </script>" ;
-}
+	</tr> ";
 
    }
 
      ?>
-     
-     
 
 
 
-
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
+                </tbody>
+            </table>
+        </div>
 
 
         <!--Accordion section-->

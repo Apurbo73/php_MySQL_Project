@@ -80,7 +80,7 @@ function formvalidation() {
 
 
     var email = document.getElementById("iemail").value;
-    var emailPattern = /(cse|eee|cee|law|eng|arch)_\d{10}@lus\.ac\.bd/
+    var emailPattern = /[a-zA-Z0-9_\-\.]+[@][a-z]+[\.][a-z]{2,3}/
 
         if (email.length <= 0) {
                 document.getElementById("errorInEmail").innerHTML = "Fill the form";

@@ -18,7 +18,7 @@
         if(mysqli_query($conn, $insertQuery))
         {
             echo "<script> alert('Review posted!!!) </script>" ;
-            echo "<script> location.href='index.php' </script>" ;
+            echo "<script> location.href='adminPanel.php' </script>" ;
 
         }
 

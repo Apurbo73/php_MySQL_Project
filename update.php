@@ -85,7 +85,8 @@ $dataArray = mysqli_fetch_array($record);
        </div>
 
        <input type="hidden" name= "id" value="<?php echo $dataArray['id'] ?>" >
-        <button type="submit" name= "update" class="btn btn-success w-100">Update Products</button>
+        <button type="submit" name= "update" class="btn btn-success w-100"  >Update Products</button>
+		
       
       </form>
 
