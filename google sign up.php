@@ -3,7 +3,7 @@
 //index.php
 
 //Include Configuration File
-include('Google_signUpconfig.php');
+include('Google_signUpConfig.php');
 
 $login_button = '';
 
