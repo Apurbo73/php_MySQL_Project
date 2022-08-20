@@ -27,7 +27,8 @@ if(isset($_POST['submit']))
     $sender_email = "From: apurbodebnath50@gmail.com";
     if(mail($email,$subject,$body, $sender_email))
     {
-      echo "<script>alert('Kindly check your mail to reset your password!!')</script>";
+      $_SESSION['msg']= "Kindly check your mail to reset your password!!";
+          // echo "<script>alert('Kindly check your mail to reset your password!!')</script>";
       // header('location:login.php');
       echo "<script>location.href='login.php'</script>";
 
