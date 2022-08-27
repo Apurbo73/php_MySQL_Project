@@ -6,7 +6,7 @@ if(isset($_POST['login'])){
     // $r_email = $_POST['r_email'];
 
 
-    $result = mysqli_query($conn,"SELECT * FROM `amigosdb2` WHERE username='$l_name' And pass='$l_pass' "  );
+    $result = mysqli_query($conn,"SELECT * FROM `amigosdb2` WHERE username='$l_name' And pass='$l_pass' And status='active' "  );
 
     if(mysqli_num_rows($result))
     {

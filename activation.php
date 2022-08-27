@@ -7,7 +7,6 @@ include 'config.php';
     {
 
         $token = $_GET['token'];
-        echo "hi";
         $updatequery= " update `amigosdb2` set status='active' where token='$token'";
         $query= mysqli_query($conn,$updatequery);
    

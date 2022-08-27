@@ -1,5 +1,6 @@
 <?php
     include 'config.php';
+
     $r_name = $_POST['r_name'];
     $r_pass = $_POST['r_pass'];
     $r_con_pass = $_POST['r_con_pass'];
@@ -44,7 +45,7 @@
 
 
         //Email Activation code
-        $subject ="Email Activation";
+        $subject ="Email Varification";
         $body = " Hi, $r_name.Its so nice of you that you are going to be part of Amigos Outlet. Kindly activate your account clicking the link.
         http://localhost/web/activation.php?token=$token        
         Sincerely: Team Amigos, Majortila, Sylhet.

@@ -16,7 +16,7 @@ if (isset($_POST['submit']))
 //   $updatequery = "update fresh_table set pass= '$newPassword' where token ='$token";
   if($newPassword === $con_pass)
   {
-    $updatequery = "update fresh_table set pass= '$newPassword' where token ='$token' ";
+    $updatequery = "update amigosdb2 set pass= '$newPassword' where token ='$token' ";
   $iquery= mysqli_query($conn,$updatequery);
 
 if($iquery){

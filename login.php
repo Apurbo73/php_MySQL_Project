@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mega Mall E-Commerce</title>
+    <title>Amigos Outlet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Font Awsome -->
+    <!-- Font Awesome -->
 
     <script src="https://kit.fontawesome.com/2fb599ceee.js" crossorigin="anonymous"></script>
     <!--CSS style-->
@@ -27,26 +27,28 @@
     <form class="container w-50 form-design " action="loginAction.php" method="post"
         onsubmit="return logformvalidation()">
         <h2 class="text-center mb-5 mt-3">Sign in here</h2>
+        
         <div class="mb-3 d-flex">
+
             <i class="fa-solid fa-2x fa-user mt-1 m-1 "></i>
-            <input type="text" class="form-control" name="l_name" placeholder="Enter your name"
-                id="logInemail" aria-describedby="emailHelp" value= "<?php if (isset($_COOKIE['usercookie']))
+            <input type="text" class="form-control" name="l_name" placeholder="Enter your name" id="logInemail"
+                aria-describedby="emailHelp" value="<?php if (isset($_COOKIE['usercookie']))
             {
                 echo $_COOKIE['usercookie'];
             }  
-              ?>" > <span id="errorInLogInEmail">
+              ?>"> <span id="errorInLogInEmail">
             </span>
         </div>
 
         <div class="mb-3 d-flex">
             <i class="fa-solid fa-2x fa-lock m-1"></i>
-            <input  class="form-control" name="l_pass" placeholder="Enter your password" 
-            type="password"  id="logpass" value ="<?php if(isset($_COOKIE['passwordcookie']))
+            <input class="form-control" name="l_pass" placeholder="Enter your password" type="password" id="logpass"
+                value="<?php if(isset($_COOKIE['passwordcookie']))
             {
                 echo $_COOKIE['passwordcookie'];
             }  
           
-              ?>"> <span id="errorInPass" > </span>
+              ?>"> <span id="errorInPass"> </span>
         </div>
 
         <div class="mb-3 d-flex ">

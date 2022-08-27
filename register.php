@@ -24,7 +24,7 @@
 <body>
 
 
-    <form class="container w-50 form-design" action="insert.php" method="post" onsubmit="return formvalidation()">
+    <form class="container w-50 form-design" action="insert.php"  method="post" onsubmit="return formvalidation()">
         <div class="mb-3">
 
             <h2 class="text-center mb-5 mt-2">Sign Up here</h2>

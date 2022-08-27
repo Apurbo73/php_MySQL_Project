@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mega Mall E-Commerce</title>
+    <title>Amigos Outlet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Font Awsome -->
@@ -142,8 +142,8 @@
             <!--text sliding-->
 
             <marquee width="100%" direction="left" height="100px">
-                <p style="font-size: 20px;">Welcome to <span style="color: orange;">Mega</span> <span
-                        style="color: rgb(11, 11, 141);">Mall.</span>Thannks for visiting. Hope you will enjoy.</p>
+                <p style="font-size: 20px;">Welcome to <span style="color: orange;">Amigos</span> <span
+                        style="color: rgb(11, 11, 141);">Outlet.</span>Thannks for visiting. Hope you will enjoy.</p>
             </marquee>
             <!--Best selling products-->
             <section class="container">
@@ -741,7 +741,7 @@
                     <marquee width="100%" direction="left" height="100px">
                         <p style="font-size: 20px; color: rgb(3, 54, 54);">This is a organization specifically working
                             for students. We always try do make some crazy offers for students. Visit us and be a part
-                            of <span style="color:orange;">Mega</span> <span style="color:blue;">Mall</span> .</p>
+                            of <span style="color:orange;">Amigos</span> <span style="color:blue;">Outlet</span> .</p>
                     </marquee>
                 </section>
             </div>

@@ -2,7 +2,7 @@
     $serverName = "localhost";
     $userName = "root";
     $password = "";
-    $dbname = "crud-final";
+    $dbname = "amigos";
 
     $conn = mysqli_connect($serverName, $userName, $password, $dbname);
     if(!$conn){

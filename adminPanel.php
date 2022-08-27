@@ -303,7 +303,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Dell-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Dell-plus" class=" btn "><i style="margin-left:px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
                                 <input id="Dell-number" class="text-center input-field-design" type="number"
@@ -324,7 +324,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Mac-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Mac-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -340,7 +340,7 @@
         </section>
         <!--Shoes Corner-->
         <section class="container products mt-5" id="shoes">
-            <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Shoes Corner</h2>
+            <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 0px;">Shoes Corner</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-60 products border-0 shadow-lg"> <img src="images/shoe-1.png"
@@ -351,7 +351,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Sply-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Sply-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
                                 <input id="Sply-number" class="text-center input-field-design" type="number"
@@ -372,7 +372,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Nike-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Nike-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
                                 <input id="Nike-number" class="text-center input-field-design" type="number"
@@ -394,7 +394,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Red-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Red-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -410,7 +410,7 @@
         </section>
         <!--Bag Corner-->
         <section class="container products my-5" id="bags">
-            <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Bag Corner</h2>
+            <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 0px;">Bag Corner</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-60 products border-0 shadow-lg"> <img src="images/bag-1.png" class="card-img-top"
@@ -421,7 +421,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Red-bag-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Red-bag-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
                                 <input id="Red-bag-number" class="text-center input-field-design" type="number"
@@ -443,7 +443,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Blue-bag-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Blue-bag-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
                                 <input id="Blue-bag-number" class="text-center input-field-design" type="number"
@@ -465,7 +465,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Black-bag-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Black-bag-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -494,7 +494,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Burger-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Burger-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -508,7 +508,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-60 products border-0 shadow-lg"> <img style="height:280px" src="images/combo.jpg"
+                    <div class="card h-60 products border-0 shadow-lg"> <img style="height:250px" src="images/combo.jpg"
                             class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title text-center">Combo Platter</h5>
@@ -516,7 +516,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Combo-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Combo-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
                                 <input id="Combo-number" class="text-center input-field-design" type="number"
@@ -538,7 +538,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Salad-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Salad-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
                                 <input id="Salad-number" class="text-center input-field-design" type="number"
@@ -565,7 +565,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Blue-polo-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Blue-polo-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
                                 <input id="Blue-polo-number" class="text-center input-field-design" type="number"
@@ -587,7 +587,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="USPA-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="USPA-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -609,7 +609,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Blue-polo1-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Blue-polo1-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -637,7 +637,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Whole-sale-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Whole-sale-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -659,7 +659,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Spider-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Spider-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -681,7 +681,7 @@
                         </div>
                         <div class="m-3">
                             <div class="container">
-                                <a id="Truck-plus" class=" btn "><i style="margin-left:50px"
+                                <a id="Truck-plus" class=" btn "><i style="margin-left:0px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
 
@@ -741,7 +741,7 @@
    include 'crud-config.php';
 
 
-   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
+   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
    while( $row = mysqli_fetch_array($alldata))
    {
 	echo
@@ -1309,7 +1309,7 @@
    include 'crud-config.php';
 
 
-   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
+   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
    while( $row = mysqli_fetch_array($alldata))
    {
 	echo

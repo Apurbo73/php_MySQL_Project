@@ -1072,7 +1072,7 @@
    include 'crud-config.php';
 
 
-   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
+   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
    while( $row = mysqli_fetch_array($alldata))
    {
 	echo
@@ -1119,7 +1119,7 @@
    include 'crud-config.php';
 
 
-   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
+   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
    while( $row = mysqli_fetch_array($alldata))
    { $i=0;
 	echo
@@ -1371,7 +1371,7 @@ if ($i==3)
    include 'crud-config.php';
 
 
-   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
+   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
    while( $row = mysqli_fetch_array($alldata))
    {
 	echo
