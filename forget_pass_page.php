@@ -20,7 +20,7 @@ if(isset($_POST['submit']))
     $body = " Hi, $username. Forgot your password? Don't worry!! Use the link to reset your password.
     http://localhost/web/reset.php?token=$token 
     
-    Sincerely: Team Mega Mall, Majortila, Sylhet.
+    Sincerely: Team Amigos Outlet, Majortila, Sylhet.
    ";
 
 

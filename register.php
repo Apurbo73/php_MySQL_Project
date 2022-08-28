@@ -18,10 +18,14 @@
     <link rel="stylesheet" href="signin.html">
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
 </head>
-
-<body>
+<style>
+body {
+    font-family: "Poppins", sans-serif;
+}
+</style>
 
 
     <form class="container w-50 form-design" action="insert.php"  method="post" onsubmit="return formvalidation()">

@@ -15,7 +15,9 @@ include 'config.php';
     
     else
     {
-        echo "<script>alert('Kindly check your mail to activate your account!!')</script>";        header('location:login.php');
+        echo "<script>alert('Kindly check your mail to activate your account!!')</script>"; 
+               header('location:login.php');
+
     }
     
 

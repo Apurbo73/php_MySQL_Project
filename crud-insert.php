@@ -1,8 +1,8 @@
 <?php
     include 'config.php';
-    // include 'config.php';
-    // $forEmailname = $_POST['r_name'];
-    // $r_email = $_POST ['r_email'];
+   
+
+
 
 
     $name = $_POST['name'];
@@ -19,22 +19,36 @@
 
         if(mysqli_query($conn, $insertQuery))
         {
-        //Sending email notification to user during new products launching
-        $subject ="New Products";
-        $body = " Hi, $name.Great news. We are launching new exciting products.Take a look through the link below. Have a good day!!
-        http://localhost/web/home.php        
-        Sincerely: Team Amigos, Majortila, Sylhet.
-       ";
-    
-    
-        $sender_email = "From: apurbodebnath50@gmail.com";
-        if(mail("apubdofficial@gmail.com",$subject,$body, $sender_email))
-        {
-          
 
-    
+
+        //Sending email notification to user during new products launching
+
+
+            $data = "SELECT * FROM `amigosdb2` WHERE status ='active'";
+
+            $sendEmail = mysqli_query($conn,$data);
+        while($x= mysqli_fetch_assoc($sendEmail))
+        {
+            $To= ($x['email']);
+            $user =($x['username']);
+            $subject ="New Products";
+            $body = " Hi, $user .Great news. We are launching new exciting products.Take a look through the link below. Have a good day!!
+             http://localhost/web/home.php       
+
+            Sincerely: Team Amigos, Majortila, Sylhet.";
+        
+        
+            $sender_email = "From: apurbodebnath50@gmail.com";
+            if(mail($To,$subject,$body, $sender_email))
+            {
+              
+
+            }
         }
-            echo "<script> alert('Review posted!!!) </script>" ;
+            
+
+  
+            echo "<script> alert('Product Inserted!!!) </script>" ;
         echo "<script> location.href='adminPanel.php' </script>" ;
 
         }

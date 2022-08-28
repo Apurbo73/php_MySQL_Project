@@ -19,15 +19,21 @@
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="css/all.min.css">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+    </style>
 </head>
 
-<body>
 
+<body>
 
     <form class="container w-50 form-design " action="loginAction.php" method="post"
         onsubmit="return logformvalidation()">
         <h2 class="text-center mb-5 mt-3">Sign in here</h2>
-        
+
         <div class="mb-3 d-flex">
 
             <i class="fa-solid fa-2x fa-user mt-1 m-1 "></i>
@@ -51,8 +57,8 @@
               ?>"> <span id="errorInPass"> </span>
         </div>
 
-        <div class="mb-3 d-flex ">
-            <input type="checkbox" name="rememberme"> Remember me
+        <div class="mb-3 d-flex mx-2">
+            <input type="checkbox" name="rememberme"> <span style="margin-left:10px">Remember me</span>
         </div>
 
         <div style="display:flex">

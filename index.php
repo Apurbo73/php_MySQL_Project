@@ -16,9 +16,16 @@
     <link rel="stylesheet" href="signup.html" />
     <link rel="stylesheet" href="Shopping Cart.html" />
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="register.php">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
 </head>
-<link rel="stylesheet" href="register.php">
+<style>
+body {
+    font-family: "Poppins", sans-serif;
+}
+</style>
 
 <body>
     <header>
