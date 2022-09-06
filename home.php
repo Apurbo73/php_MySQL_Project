@@ -23,6 +23,7 @@
 <style>
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #d8d8d8;
 }
 </style>
 
@@ -70,8 +71,9 @@ body {
                                 </div>
 
                                 <li>
-                                    <button class="btn btn-primary " type="button" data-bs-toggle="offcanvas"
-                                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">My Cart</button>
+                                    <button id="myCartBtn" class="btn btn-primary " type="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                        aria-controls="offcanvasRight">My Cart</button>
 
                                     <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight"
                                         aria-labelledby="offcanvasRightLabel">
@@ -1158,7 +1160,7 @@ body {
 
         <!--Crud operation starts  -->
 
-
+        <!-- 
         <form class="container mb-5 w-80 form-design" action="crud-insert.php" method="post"
             enctype="multipart/form-data" onsubmit="return formvalidation()">
             <div class="mb-3">
@@ -1183,13 +1185,14 @@ body {
 
             <button type="submit" name="insert" class="btn btn-success w-100">Submit</button>
 
-        </form>
+        </form> -->
 
-        <!--Display reviews-->
+        <!--Display inserted producted-->
 
 
-        <div class="container bg-success">
-            <div class="card  text-center " style="width: 18rem;">
+        <div class="container">
+            <h2 class="text-center">Upcoming products</h2>
+            <div class="  text-center " style="width: 18rem;">
                 <div class="card-body d-flex ">
                     <?php
    include 'crud-config.php';
@@ -1232,64 +1235,11 @@ body {
 
 
 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body d-flex bg-danger ">
-
-                            <?php
-   include 'crud-config.php';
-
-
-   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
-   while( $row = mysqli_fetch_array($alldata))
-   { $i=0;
-	echo
-	"
-	
-      <div> 
-	  <img src= '$row[image]' alt= 'image' width ='250px'>
-      <h2> $row[name] </h2> <br>
-      <h2> $row[price] </h2> <br> 
-        </div>
-       
-
-      ";
-     
-if ($i==3)
-{
-    echo "<script> okay </script>" ;
-}
-
-   }
-
-     ?>
 
 
 
 
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
-                            </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!--Accordion section-->
+        <!-- Accordion section
         <section class="container my-5 accordion">
             <h1 style="text-align: center; color: rgb(116, 14, 35);">Eid offers</h1>
             <div class="accordioncolor">
@@ -1378,7 +1328,7 @@ if ($i==3)
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--Student offer-->
         <div class="container">
             <div class="row">
@@ -1407,116 +1357,14 @@ if ($i==3)
 
 
 
-        <!--Owner's speech done with off-canvas-right-->
-        <!--Mr. Owner-->
-        <section class="container d-flex justify-content-center py-2">
-            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight">Owner's Speech</button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header align-items-center">
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div> <img class="mb-3" style="width: 350px; height:350px;" src="images/apubd.JPG" alt="" />
-                        <h2 class="text-center">Apurbo Deb Nath</h2>
-                        <br />
-                        <p style="font-size: 20px; text-align: justify;"> Hey, How are you all doing? Welcome to
-                        Amigos Outlet. Its our pleasure that we are here in Sylhet. We are readyto serve the
-                            wonderful Sylheti brother and Sisters. We have made this plan targetting the stduents of
-                            Sylhet. Students of school, colleges and universityes will be very much surprised and
-                            glad visiting us.We have a vast arrangement of every gadgets regarding study purpose,
-                            simple shopping, food coart. We have a kids section also. There are lot of amazing
-                            offers dor our buyers. Eid offers are going on. We are plamming to bring a handsome
-                            discount offer for the students who gains 90% attendents of his/her studies. Yes that is
-                            becoming a crazy offer.Visit us and be a part of <span
-                                style="color: orange; font-size: 25px; font-weight: 700;">Mega</span> <span
-                                style="color: steelblue; font-size: 25px; font-weight: 700;">Mall</span> </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Offcanvas section ends-->
+ 
 
 
 
         <!--Crud operation starts  -->
 
 
-        <form class="container mb-5 w-80 form-design" action="crud-insert.php" method="post"
-            enctype="multipart/form-data" onsubmit="return formvalidation()">
-            <div class="mb-3">
-                <h2 class="text-center mb-5 mt-2">Review</h2>
-                <input type="text" placeholder="Enter product name" class="form-control" name="name" id="ifname"
-                    aria-describedby="emailHelp">
-                <span id="errorInFirstName"> </span></td>
-
-            </div>
-
-            <div class="mb-3">
-                <input type="file" placeholder="Upload picture of product" name="image" class="form-control" id="ipass">
-                <span id="errorInPass"> </span>
-            </div>
-
-
-            <div class="mb-3">
-                <input type="mobile" placeholder="Enter your feedback" class="form-control" name="price" id="imobile"
-                    aria-describedby="emailHelp"><span id="errorInMobile"> </span>
-            </div>
-
-
-            <button type="submit" name="insert" class="btn btn-success w-100">Submit</button>
-
-        </form>
-
-        <!--Display reviews-->
-
-
-        <div class="container" id="reviews">
-            <table class="table table-dark table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">Id</th>
-                        <th scope="col">Product name</th>
-                        <th scope="col">Price(Tk)</th>
-                        <th scope="col">Image</th>
-                        <th scope="col">Delete</th>
-                        <th scope="col">Update</th>
-
-
-                    </tr>
-                </thead>
-                <tbody>
-
-                    <?php
-   include 'crud-config.php';
-
-
-   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
-   while( $row = mysqli_fetch_array($alldata))
-   {
-	echo
-	"<tr>
-	 <td> $row[id] </td>
-	 <td> $row[name] </td>
-	 <td> $row[price] </td>
-	 <td> <img src= '$row[image]' alt= 'image' width ='100px'> </td>
-	 <td> <a class=' btn btn-danger' href='delete.php? id= $row[id]'>Delete </a></td>
-	 <td> <a class=' btn btn-success' href='update.php? id= $row[id]'>Update </a></td>
-
-	</tr> ";
-
-   }
-
-     ?>
-
-
-
-                </tbody>
-            </table>
-        </div>
-
+        
 
         <!-- new code for cart sourav-->
         <!-- <div class="container">
@@ -1625,6 +1473,8 @@ if ($i==3)
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <script src="javascript.js"></script>
+    <script src="app.js"></script>
+
     <!-- <script src="cart.js"></script> -->
 
 </body>

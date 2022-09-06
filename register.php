@@ -27,57 +27,144 @@ body {
 }
 </style>
 
+<div>
 
-    <form class="container w-50 form-design" action="insert.php"  method="post" onsubmit="return formvalidation()">
-        <div class="mb-3">
 
-            <h2 class="text-center mb-5 mt-2">Sign Up here</h2>
 
-            <div style="display:flex">
-                <i class="fa-solid fa-2x fa-user mt-1 m-1"></i>
-                <input type="text" placeholder="Enter your name" class="form-control" name="r_name" id="ifname"
-                    aria-describedby="emailHelp">
-                <span id="errorInFirstName"></span></td>
 
+    <style>
+    /* Assign full width inputs*/
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 40px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    /* Set a style for the buttons*/
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    /* Set a hover effect for the button*/
+    button:hover {
+        opacity: 0.8;
+    }
+
+    /* Set extra style for the cancel button*/
+    .container {
+        padding: 16px;
+    }
+
+    .fontuser {
+        position: relative;
+    }
+
+    .fontuser i {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+        color: gray;
+    }
+
+    .fontpassword {
+        position: relative;
+    }
+
+    .fontpassword i {
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        color: gray;
+    }
+    </style>
+    </head>
+
+    <body>
+        <form style="margin-top:50px"  class="container w-100 text-center " action="insert.php" method="post"
+            onsubmit="return formvalidation()">
+            <div class="d-flex">
+
+                <div class="w-50 bg-info text-white">
+                    <h2 style="margin-top:50px;font-weight:700;font-size:40px" class="text-center">Welcome!!</h2>
+                    <h4>To experience the best online shop near, register here</h4>
+                    <img style="width:210px;height:200px" src="images/cart.png" alt="">
+                    <h3 style="margin-top:50px">Regards: Team Amigos Outlet</h3>
+                </div>
+
+
+                <div class="container w-50">
+                    <h2 style="font-weight:700" class="text-center mb-5 mt-2 text-info ">Sign Up here</h2>
+
+                    <div class="fontuser">
+                        <input type="text" placeholder="Enter your name" class="form-control" name="r_name" id="ifname"
+                            aria-describedby="emailHelp">
+                        <span id="errorInFirstName"></span></td> <i class="fa fa-user fa-lg"></i>
+                    </div>
+                    <div class="fontuser">
+                        <input type="text" placeholder="Enter your mobile" class="form-control" name="r_mobile"
+                            id="imobile" aria-describedby="emailHelp">
+                        <span id="errorInMobile"></span></td> <i class="fa-solid fa-lg fa-mobile-retro"></i>
+
+                    </div>
+
+                    <div class="fontuser">
+                        <input type="email" placeholder="Enter your email" name="r_email" class="form-control"
+                            id="iemail" aria-describedby="emailHelp">
+                        <span id="errorInEmail"> </span> <i class="fa-solid fa-lg fa-envelope "></i>
+                    </div>
+
+
+
+
+
+                    <div class="fontuser">
+                        <input type="password" placeholder="Enter your password" name="r_pass" class="form-control"
+                            id="ipass">
+                        <span id="errorInPass"> </span> <i class="fa-solid fa-lg fa-lock"></i>
+                    </div>
+
+                    <div class="fontuser">
+                        <input type="password" placeholder="Confirm password" class="form-control" name="r_con_pass"
+                            id="iCpass">
+                        <span id="errorInConfirmPass"> </span>
+                        <i class="fa-solid fa-lg fa-lock m-1"></i>
+
+                    </div>
+
+
+
+                    <div style="display:flex">
+                        <button type="submit" name="register" class="btn btn-info text-white w-50 mx-2">Create
+                            Account</button>
+                        <button type="submit" name="google-dsign-up" class="btn btn-danger mx-2 w-50"><a
+                                style="text-decoration:none;color:white;margin-left:5px" href="google sign up.php">
+                                Continue
+                                with Google </a><i class="fa-brands fa-google"></i></button>
+                    </div>
+                    <div class=" d-flex">
+                        <p>Already registered?</p>
+                        <p style="margin-left: 10px;"><a href="login.php">Sign-in here</a> </p>
+                    </div>
+                </div>
             </div>
-        </div>
+
+        </form>
 
 
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x m-2 fa-mobile-retro  mt-1"></i>
-            <input type="mobile" placeholder="Enter your mobile number" class="form-control" name="r_mobile"
-                id="imobile" aria-describedby="emailHelp"><span id="errorInMobile"> </span>
-        </div>
-
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-envelope mt-1 m-1"></i>
-            <input type="email" placeholder="Enter your email" name="r_email" class="form-control" id="iemail"
-                aria-describedby="emailHelp">
-            <span id="errorInEmail"> </span>
-        </div>
 
 
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-lock m-1"></i>
-            <input type="password" placeholder="Enter your password" name="r_pass" class="form-control" id="ipass">
-            <span id="errorInPass"> </span>
-        </div>
 
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-lock m-1"></i>
-            <input type="password" placeholder="Confirm password" class="form-control" name="r_con_pass" id="iCpass">
-            <span id="errorInConfirmPass"> </span>
-
-        </div>
-        <div style="display:flex">
-            <button type="submit" name="register" class="btn btn-success w-50 mx-2">Create Account</button>
-            <button type="submit" name="google-dsign-up" class="btn btn-danger mx-2 w-50"><a style="text-decoration:none;color:white;margin-left:5px" href="google sign up.php"> Continue with Google </a><i class="fa-brands fa-google"></i></button>
-        </div>
-        <div class=" d-flex">
-            <p>Already registered?</p>
-            <p style="margin-left: 10px;"><a href="login.php">Sign-in here</a> </p>
-        </div>
-    </form>
+</div>
 
 
 
@@ -98,12 +185,11 @@ body {
 
 
 
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <script src="signUp_validation.js"></script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script src="signUp_validation.js"></script>
 
 </body>
 

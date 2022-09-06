@@ -729,40 +729,7 @@
 
         </form>
 
-        <!--Display reviews-->
-
-
-        <div class="container" id="reviews">
-            <table class="table table-warning table-hover w-25">
-
-                <tbody>
-
-                    <?php
-   include 'crud-config.php';
-
-
-   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
-   while( $row = mysqli_fetch_array($alldata))
-   {
-	echo
-	"
-	<tr>
-	 <td>
-<h2> $row[name] </h2>
-	  <img src= '$row[image]' alt= 'image' width ='100px'>
-      <h2> $row[price] </h2> <br>
-
-	 <a class=' btn btn-danger' href='delete.php? id= $row[id]'>Delete </a> 
-	  <a class=' btn btn-success' href='update.php? id= $row[id]'>Update </a>
-
-     </td>
-
-	</tr> ";
-
-   }
-
-     ?>
-
+     
 
 
                 </tbody>

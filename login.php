@@ -24,30 +24,88 @@
     body {
         font-family: "Poppins", sans-serif;
     }
+
+
+
+    /* Assign full width inputs*/
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 40px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    /* Set a style for the buttons*/
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    /* Set a hover effect for the button*/
+    button:hover {
+        opacity: 0.8;
+    }
+
+    /* Set extra style for the cancel button*/
+    .container {
+        padding: 16px;
+    }
+
+    .fontuser {
+        position: relative;
+    }
+
+    .fontuser i {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+        color: gray;
+
+    }
+
+    .fontpassword {
+        position: relative;
+    }
+
+    .fontpassword i {
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        color: gray;
+    }
+    </style>
     </style>
 </head>
 
 
 <body>
 
-    <form class="container w-50 form-design " action="loginAction.php" method="post"
+    <form class="container w-50 " action="loginAction.php" method="post"
         onsubmit="return logformvalidation()">
-        <h2 class="text-center mb-5 mt-3">Sign in here</h2>
+        <h2 style="font-weight:700" class="text-center mb-5 mt-3 text-info">Sign in here</h2>
 
-        <div class="mb-3 d-flex">
-
-            <i class="fa-solid fa-2x fa-user mt-1 m-1 "></i>
+        <div class="mb-3 d-flex fontuser">
+        <i class="fa-solid fa-lg fa-user "></i>
             <input type="text" class="form-control" name="l_name" placeholder="Enter your name" id="logInemail"
                 aria-describedby="emailHelp" value="<?php if (isset($_COOKIE['usercookie']))
             {
                 echo $_COOKIE['usercookie'];
             }  
               ?>"> <span id="errorInLogInEmail">
-            </span>
+            </span> 
+
         </div>
 
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-lock m-1"></i>
+        <div class="mb-3 d-flex fontuser">
+            <i class="fa-solid fa-lg fa-lock m-1"></i>
             <input class="form-control" name="l_pass" placeholder="Enter your password" type="password" id="logpass"
                 value="<?php if(isset($_COOKIE['passwordcookie']))
             {
