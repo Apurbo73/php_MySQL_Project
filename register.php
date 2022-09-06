@@ -90,15 +90,15 @@ body {
     </head>
 
     <body>
-        <form style="margin-top:50px"  class="container w-100 text-center " action="insert.php" method="post"
+        <form style="margin-top:50px" class="container w-100 text-center " action="insert.php" method="post"
             onsubmit="return formvalidation()">
             <div class="d-flex">
 
-                <div class="w-50 bg-info text-white">
-                    <h2 style="margin-top:50px;font-weight:700;font-size:40px" class="text-center">Welcome!!</h2>
+                <div style="background-color:rgb(2, 75, 104)" class="w-50  text-white  rounded">
+                    <h2 style="margin-top:50px;font-weight:700;font-size:40px;" class="text-center">Welcome!!</h2>
                     <h4>To experience the best online shop near, register here</h4>
                     <img style="width:210px;height:200px" src="images/cart.png" alt="">
-                    <h3 style="margin-top:50px">Regards: Team Amigos Outlet</h3>
+                    <h3 style="margin-top:50px;font-weight:600">Team Amigos Outlet</h3>
                 </div>
 
 
@@ -143,17 +143,19 @@ body {
 
 
 
-                    <div style="display:flex">
-                        <button type="submit" name="register" class="btn btn-info text-white w-50 mx-2">Create
+                    <div style="display:flex;">
+                        <button style="background-color:rgb(255, 161, 70)" type="submit" name="register"
+                            class="btn  text-white w-50 mx-2">Create
                             Account</button>
-                        <button type="submit" name="google-dsign-up" class="btn btn-danger mx-2 w-50"><a
-                                style="text-decoration:none;color:white;margin-left:5px" href="google sign up.php">
+                        <button style="background-color:rgb(0, 169, 157)" type="submit" name="google-dsign-up"
+                            class="btn  mx-2 w-50"><a style="text-decoration:none;color:white;margin-left:5px"
+                                href="google sign up.php">
                                 Continue
-                                with Google </a><i class="fa-brands fa-google"></i></button>
+                                with Google </a><i style="color:white" class="fa-brands fa-google"></i></button>
                     </div>
                     <div class=" d-flex">
                         <p>Already registered?</p>
-                        <p style="margin-left: 10px;"><a href="login.php">Sign-in here</a> </p>
+                        <p style="margin-left: 10px;"><a style="text-decoration:none" href="login.php">Sign-in here</a> </p>
                     </div>
                 </div>
             </div>

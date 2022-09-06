@@ -82,13 +82,13 @@
         color: gray;
     }
     </style>
-    </style>
+    
 </head>
 
 
 <body>
 
-    <form class="container w-50 " action="loginAction.php" method="post"
+    <form  class="container w-50 " action="loginAction.php" method="post"
         onsubmit="return logformvalidation()">
         <h2 style="font-weight:700" class="text-center mb-5 mt-3 text-info">Sign in here</h2>
 
@@ -122,16 +122,16 @@
         <div style="display:flex">
 
 
-            <button type="submit" class="btn btn-success w-50" name="login"
-                style='text-decoration:none; color:white;font-weight:600'>Sign In</button>
-            <button type="submit" name="forget-pass" class="btn btn-danger mx-2 w-50">
-                <a style='text-decoration:none; color:white;font-weight:600' href="forget_pass_page.php">Forgot
+            <button type="submit" class="btn  w-50" name="login"
+                style="text-decoration:none; color:white;font-weight:600;background-color:rgb(255, 161, 70) ">Sign In</button>
+            <button style="background-color:rgb(0, 169, 157)" type="submit" name="forget-pass" class="btn  mx-2 w-50">
+                <a style="text-decoration:none; color:white;font-weight:600;" href="forget_pass_page.php">Forgot
                     password? Click here</a></button>
 
         </div>
         <div class=" d-flex">
             <p>Not have an account?</p>
-            <p style="margin-left: 5px;"><a href="register.php"> Sign-up here</a> </p>
+            <p style="margin-left: 5px;"><a style="text-decoration:none" href="register.php"> Sign-up here</a> </p>
         </div>
     </form>
 

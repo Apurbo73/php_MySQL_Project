@@ -80,6 +80,69 @@ if($iquery){
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="css/all.min.css">
 
+    <style>
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+
+
+
+    /* Assign full width inputs*/
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 40px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    /* Set a style for the buttons*/
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    /* Set a hover effect for the button*/
+    button:hover {
+        opacity: 0.8;
+    }
+
+    /* Set extra style for the cancel button*/
+    .container {
+        padding: 16px;
+    }
+
+    .fontuser {
+        position: relative;
+    }
+
+    .fontuser i {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+        color: gray;
+
+    }
+
+    .fontpassword {
+        position: relative;
+    }
+
+    .fontpassword i {
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        color: gray;
+    }
+    </style>
+
 </head>
 
 <body>
@@ -88,28 +151,30 @@ if($iquery){
     <form class="container w-50 form-design"  method="post">
         <div class="mb-3">
 
-            <h2 class="text-center mb-5 mt-2">Reset Your Password</h2>
+            <h2 class="text-center mb-5 mt-2 text-info">Reset Your Password</h2>
 
         </div>
 
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-lock m-1"></i>
+        <div class="mb-3 d-flex fontuser">
+        <i class="fa-solid fa-lg fa-lock "></i>
+
             <input type="password" placeholder="Enter new password" name="pass" class="form-control" id="ipass">
             <span id="errorInPass"> </span>
         </div>
+        
 
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-lock m-1"></i>
+        <div class="mb-3 d-flex fontuser">
+            <i class="fa-solid fa-lg fa-lock"></i>
             <input type="password" placeholder="Confirm new password" class="form-control" name="con_pass" id="iCpass">
             <span id="errorInConfirmPass"> </span>
 
         </div>
         <div>
 
-            <button type="submit" name="submit" class="btn btn-primary w-100 mb-1"><a
+            <button style="background-color:rgb(255, 161, 70);" type="submit" name="submit" class="btn w-100 mb-1"><a
                     style="text-decoration:none; color:white;font-weight:600">Update Password</a> </button>
 
-            <button type="submit" name="forget-pass" class="btn btn-danger w-100">
+            <button style="background-color:rgb(0, 169, 157)" type="submit" name="forget-pass" class="btn  w-100">
                 <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button>
         </div>
 

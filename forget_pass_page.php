@@ -67,7 +67,68 @@ if(isset($_POST['submit']))
     <link rel="stylesheet" href="signin.html">
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="css/all.min.css">
+    <style>
+    body {
+        font-family: "Poppins", sans-serif;
+    }
 
+
+
+    /* Assign full width inputs*/
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 40px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    /* Set a style for the buttons*/
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    /* Set a hover effect for the button*/
+    button:hover {
+        opacity: 0.8;
+    }
+
+    /* Set extra style for the cancel button*/
+    .container {
+        padding: 16px;
+    }
+
+    .fontuser {
+        position: relative;
+    }
+
+    .fontuser i {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+        color: gray;
+
+    }
+
+    .fontpassword {
+        position: relative;
+    }
+
+    .fontpassword i {
+        position: absolute;
+        left: 15px;
+        top: 30px;
+        color: gray;
+    }
+    </style>
 </head>
 
 <body>
@@ -79,13 +140,15 @@ if(isset($_POST['submit']))
 
 
     <form class="container w-50 form-design" method="post">
-        <h2 class="text-center mb-5 mt-3">Reset Password</h2>
-        <div class="mb-3 d-flex">
-            <i class="fa-solid fa-2x fa-envelope mt-1 m-1"></i>
+        <h2 class="text-center text-info mb-5 mt-3">Reset Password</h2>
+        <div class="mb-3 d-flex fontuser">
+            <i class="fa-solid fa-lg fa-envelope"></i>
             <input type="email" placeholder="Enter your email" name="email" class="form-control" id="iemail"
                 aria-describedby="emailHelp">
             <span id="errorInEmail"> </span>
         </div>
+
+  
 
 
         <div style="display:flex">
@@ -94,10 +157,10 @@ if(isset($_POST['submit']))
             <!-- <button type="submit" class="btn btn-primary w-50" name="reset_pass_mail"  
              <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button> -->
 
-            <button type="submit" name="submit" class="btn btn-primary mx-2 w-50">
+            <button style="background-color:rgb(255, 161, 70);" type="submit" name="submit" class="btn mx-2 w-50">
                 <a style="text-decoration:none; color:white;font-weight:600">Send Mail</a></button>
 
-            <button type="submit" name="forget-pass" class="btn btn-danger mx-2 w-50">
+            <button style="background-color:rgb(0, 169, 157)" type="submit" name="forget-pass" class="btn mx-2 w-50">
                 <a style="text-decoration:none; color:white;font-weight:600" href="login.php">Cancel</a></button>
 
         </div>

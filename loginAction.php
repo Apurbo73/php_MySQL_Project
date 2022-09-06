@@ -12,9 +12,7 @@ if(isset($_POST['login'])){
     {
         session_start();
         $_SESSION['name'] = $l_name;
-
-      
-
+     
         if( $_POST['l_name'] =='Team Amigo' && $_POST['l_pass']== 'amigoA@123' )
         {
             echo "<script>location.href = 'adminPanel.php'</script>";
@@ -35,11 +33,14 @@ if(isset($_POST['login'])){
 
         echo "<script>location.href = 'home.php'</script>";
     }
- else  if(!$result)
- {
-     echo "<script>alert('ok!!!!')</script>";
 
- }
+
+    
+//  else  if(!$result)
+//  {
+//      echo "<script>alert('ok!!!!')</script>";
+
+//  }
 
     else{
         echo "<script>alert('Kindly activate your account through the mail we have sent!!')</script>";
