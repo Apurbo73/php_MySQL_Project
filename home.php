@@ -23,7 +23,7 @@
 <style>
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #d8d8d8;
+    /* background-color: #d8d8d8; */
 }
 </style>
 
@@ -660,6 +660,29 @@ body {
                 Smartphones</h2>
             <div class="row row-cols-1 card-size row-cols-md-3 g-4">
                 <div class="col">
+                    <div class="card h-60 products  shadow-lg"> 
+                        <img src="images/phone-1.png" class="card-img-top" alt="..." />
+                        <div class="card-body my_card_body">
+                            <div class="my_card_top mb-4">
+                                <h4 class="card-title text-center">Xiaomi Mi Note 2</h4>
+                                <p class="card-text text-center"> Xiaomi Mi Note 2.. 11,980 Tk </p>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <a id="Xiomi-plus" class=" btn "><i 
+                                            class="fa-solid fa-plus fa-1x"></i></a>
+
+                                    <input id="Xiomi-number" class="text-center myInputdesign" 
+                                        value="0" />
+                                    <a id="Xiomi-minus" class=" btn  "><i
+                                            class="fa-solid fa-minus fa-1x"></i></a>
+                                </div>
+                                <button class="cart_btn">Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <div class="col">
                     <div class="card h-60 products border-0 shadow-lg"> <img src="images/phone-1.png"
                             class="card-img-top" alt="..." />
                         <div class="card-body">
@@ -672,16 +695,13 @@ body {
                                 <a id="Xiomi-plus" class=" btn "><i style="margin-left:50px"
                                         class="fa-solid fa-square-plus fa-3x"></i></a>
 
-
                                 <input id="Xiomi-number" class="text-center input-field-design" type="number"
                                     value="0" />
                                 <a id="Xiomi-minus" class=" btn  " style="margin-left: 0px;"><i
                                         class="fa-solid fa-square-minus fa-3x"></i></a>
-
-
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col">
                     <div class="card h-60 products border-0 shadow-lg"> <img src="images/phone-2.png"
@@ -1357,14 +1377,14 @@ body {
 
 
 
- 
+
 
 
 
         <!--Crud operation starts  -->
 
 
-        
+
 
         <!-- new code for cart sourav-->
         <!-- <div class="container">

@@ -1,75 +1,74 @@
-.nav-link:hover
-{
+.nav-link:hover {
     background-color: rgb(149, 234, 245);
     color: white;
-   
+
 }
 
-.nav-design{
+.nav-design {
     font-weight: 700;
 }
 
 
-.Popover .btn
-{
+.Popover .btn {
     margin-right: 35px;
     background-color: cadetblue;
 
 }
-header
-{
+
+header {
     margin-bottom: 50px;
 }
-header img
-{
+
+header img {
     height: 55px;
-  
+
 }
+
 /* Side Navbar*/
 
 
-.panda-bg-info
-{
+.panda-bg-info {
     background-color: #fceae8;
 }
-button
-{
- color: white;
- border-radius: 8px;
- padding: 9px 25px;
- border: none;
+
+button {
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
 }
-.button:hover 
-{
+
+.button:hover {
     background-color: #13b1f0;
     transition: .2s;
 
 }
-.button:hover
-{
-background: #1b9bff;
-transition: 0.2s;
+
+.button:hover {
+    background: #1b9bff;
+    transition: 0.2s;
 }
- .product2, .product3
-{
+
+.product2,
+.product3 {
     box-shadow: 3px 3px 3px 3px rgb(200, 200, 200);
     margin-top: 20px;
     margin-bottom: 50px;
-    border-bottom-right-radius: 30px ;
-    border-top-left-radius: 20px ;
-    border-bottom-left-radius: 5px ;
-    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding: 60px;
     text-align: center;
 }
-.product1
-{
+
+.product1 {
     box-shadow: 3px 3px 3px 3px rgb(200, 200, 200);
     text-align: center;
-    border-bottom-right-radius: 5px ;
-    border-top-left-radius: 5px ;
-    border-bottom-left-radius: 30px ;
-    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 10px;
     padding: 60px;
     margin-top: 150px;
     margin-bottom: 20px;
@@ -77,20 +76,18 @@ transition: 0.2s;
 }
 
 
-.products img
-{
+/* .products img {
     height: 40%;
     padding-top: 7.5px;
     border-radius: 20px;
-  
+
+} */
+
+.products {
+    border-radius: 0px 30px;    
 }
 
-.products{
-border-radius: 20px;
-}
-
-.accordion-item
-{
+.accordion-item {
     background-color: wheat;
 }
 
@@ -101,36 +98,34 @@ border-radius: 20px;
 
 /*accordion*/
 
-.accordioncolor a
-{
+.accordioncolor a {
     background-color: rgb(174, 205, 233);
-   text-decoration: none;
+    text-decoration: none;
 }
 
 /*footer*/
-footer
-{
+footer {
     background-color: rgb(3, 29, 39);
 }
-footer a 
-{
+
+footer a {
     background-color: rgb(3, 29, 39);
 }
-.fab
-{
+
+.fab {
     font-size: 30px;
     font-style: none;
     color: gray;
     font-style: none;
     margin-right: 20px;
-   
+
 }
-footer .outlets 
-{
+
+footer .outlets {
     background-color: rgb(138, 247, 187);
 }
-footer a
-{
+
+footer a {
     text-decoration: none;
     color: white;
     background-color: none;
@@ -138,8 +133,8 @@ footer a
     margin-top: 10px;
     margin-bottom: 10px;
 }
-footer .button
-{
+
+footer .button {
     background-color: gray;
 }
 
@@ -147,7 +142,7 @@ footer .button
 
 /*form design*/
 
-.form-design{
+.form-design {
     margin-top: 50px;
     margin-bottom: 300px;
 
@@ -158,7 +153,7 @@ footer .button
 /*Cart design*/
 
 
-.cart-design{
+.cart-design {
     margin-left: 500px;
     width: 1000px;
 }
@@ -166,18 +161,18 @@ footer .button
 /*Input-field-design*/
 
 
-.input-field-design{
- width:50px;
- padding-top: 2px;
- padding-bottom: 8px;
- padding-left: 8px;
+.input-field-design {
+    width: 50px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    padding-left: 8px;
 
- margin: 20px;
+    margin: 20px;
 
 }
 
 
-.extra-product img{
+.extra-product img {
     width: 535px;
 }
 
@@ -200,25 +195,71 @@ footer .button
 
 /* icon design */
 
-  
+
 .fontuser {
     position: relative;
 }
-  
-.fontuser i{
+
+.fontuser i {
     position: absolute;
     left: 15px;
     top: 40px;
     color: gray;
 }
-  
+
 .fontpassword {
     position: relative;
 }
-  
-.fontpassword i{
+
+.fontpassword i {
     position: absolute;
     left: 15px;
     top: 40px;
     color: gray;
+}
+
+
+
+
+
+.myInputdesign {
+    border-radius: 20px;
+    width: 35%;
+}
+
+.cart_btn {
+    /* height: 35px; */
+    /* padding: 10px 10px; */
+    background-color: rgb(17, 17, 17);
+}
+
+.card img {
+    width: 180px;
+    height: 190px;
+    object-fit: contain;
+    margin: 20px auto;
+}
+
+
+
+.my_card_body {
+    background-color: aquamarine;
+    border-radius: 0px 30px;
+    background-image: linear-gradient(to right, rgb(105, 245, 198), rgb(18, 128, 91));
+    
+}
+/* .col{
+    width: 30%;
+} */
+.card{
+    height: 400px;
+    transition: height .7s;
+
+
+}
+.card:hover{
+    /* opacity: 0.6; */
+    height: 450px;
+    background-color: rgb(142, 142, 202);
+    border: 2px solid rgb(28, 158, 115);
 }
