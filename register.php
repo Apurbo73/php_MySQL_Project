@@ -94,7 +94,7 @@ body {
             onsubmit="return formvalidation()">
             <div class="d-flex">
 
-                <div style="background-color:rgb(2, 75, 104)" class="w-50  text-white  rounded">
+       <div style="background-color:rgb(2, 75, 104)" class="w-50  text-white d-none d-sm-block d-md-block rounded">
                     <h2 style="margin-top:50px;font-weight:700;font-size:40px;" class="text-center">Welcome!!</h2>
                     <h4>To experience the best online shop near, register here</h4>
                     <img style="width:210px;height:200px" src="images/cart.png" alt="">
@@ -155,7 +155,8 @@ body {
                     </div>
                     <div class=" d-flex">
                         <p>Already registered?</p>
-                        <p style="margin-left: 10px;"><a style="text-decoration:none" href="login.php">Sign-in here</a> </p>
+                        <p style="margin-left: 10px;"><a style="text-decoration:none" href="login.php">Sign-in here</a>
+                        </p>
                     </div>
                 </div>
             </div>
