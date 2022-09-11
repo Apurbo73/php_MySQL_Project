@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amigos Outlet</title>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Font Awsome -->
@@ -18,6 +21,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="register.php">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
 
 </head>
 <style>
@@ -41,18 +45,12 @@ body {
                                 class="navbar-toggler-icon"></span> </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-
-
                                 <li>
                                     <button class="btn cart_btn p-1 m-1 rounded" type="submit">Search</button>
-                                    <input type="text" class=" p-1  rounded" placeholder="what are you looking for?..">
-
+                                    <input type="text" class="p-1  rounded" placeholder="Search">
                                 </li>
-                                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item "> <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
-
-
                                 <div class="dropdown">
                                     <a class="btn nav-link   dropdown-toggle" href="#" role="button"
                                         id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -556,51 +554,47 @@ body {
     </header>
     <main>
         <section>
-            <!--Carousel items-->
-            <div class=" carousel-section">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
-                                <div class="col-lg-7">
-                                    <h1>Apple Mackbook Pro</h1>
-                                    <h4>250000 Tk</h4>
-                                </div>
-                                <div class="col-lg-5"> <img src="images/product-1.png" class="d-block w-100"
-                                        alt="..." /> </div>
-                            </div>
+            <!-- Swiper -->
+            <div class="swiper_container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="cover/cover-1.png" />
                         </div>
-                        <div class="carousel-item">
-                            <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
-                                <div class="col-lg-7">
-                                    <h1>Apple Pro</h1>
-                                    <h4>250000 Tk</h4>
-                                </div>
-                                <div class="col-lg-5"> <img src="images/slider-1.png" class="d-block w-100" alt="..." />
-                                </div>
-                            </div>
+                        <div class="swiper-slide">
+                            <img src="image/tips/paymnet-2.jpg" />
                         </div>
-                        <div class="carousel-item">
-                            <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
-                                <div class="col-lg-7">
-                                    <h1>JBL Portable Speaker</h1>
-                                    <h4>5000Tk</h4>
-                                </div>
-                                <div class="col-lg-5"> <img src="images/slider-3.png" class="d-block w-100" alt="..." />
-                                </div>
-                            </div>
+                        <div class="swiper-slide">
+                            <img src="cover/cover-2.jpg" />
                         </div>
+                        <div class="swiper-slide">
+                            <img src="image/home-office-569153_1920.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="cover/cover-3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="image/young-woman-4996096_1920.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="image/iphone-545772_1920.jpg" />
+                        </div>
+
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
-                            class="visually-hidden">Previous</span> </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span
-                            class="visually-hidden">Next</span> </button>
+                    <div class="swiper-pagination"></div>
                 </div>
+                <div class="text-center ">
+                    <h1 class="mb-5 d-inline-block fs-4">Discover <span class="text-danger">Amigos</span> brand new
+                        product</h1>
+                </div>
+
             </div>
+
+
+
+
+
         </section>
-        <!--Carousel items End-->
 
 
         <!--text sliding-->
@@ -618,9 +612,8 @@ body {
                             <div class="privacy_img_div_container">
                                 <img class="image" src="image/tips/pic-1.jpg" alt="">
                                 <div class="middle">
-                                    <div class="text text_balck"> Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Itaque,
-                                        autem inventore?
+                                    <div class="text text_balck"> Business-to-Business (B2B) Business-to-Consumer (B2C)
+                                        Consumer-to-Consumer (C2C).
                                     </div>
                                 </div>
                             </div>
@@ -638,9 +631,8 @@ body {
                             <div class="privacy_img_div_container">
                                 <img class="image" src="image/tips/paymnet-3.jpg" alt="">
                                 <div class="middle">
-                                    <div class="text text_balck"> Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Itaque,
-                                        autem inventore?
+                                    <div class="text text_balck"> By and large, credit cards are easily the most secure
+                                        and safe payment method to use when you shop online.
                                     </div>
                                 </div>
                             </div>
@@ -658,9 +650,8 @@ body {
                             <div class="privacy_img_div_container">
                                 <img class="image" src="image/tips/privacy-2.jpg" alt="">
                                 <div class="middle">
-                                    <div class="text text_balck"> Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Itaque,
-                                        autem inventore?
+                                    <div class="text text_balck"> It's a safe sound online market place where every
+                                        details of any user will be kept encrypted.
                                     </div>
                                 </div>
                             </div>
@@ -678,9 +669,8 @@ body {
                             <div class="privacy_img_div_container">
                                 <img class="image" src="image/tips/feedback-3.jpg" alt="">
                                 <div class="middle">
-                                    <div class="text text_balck"> Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit. Itaque,
-                                        autem inventore?
+                                    <div class="text text_balck"> We warmly welcome every bit of valuable feedbacks of
+                                        our customers and take concerned initiatives.
                                     </div>
                                 </div>
                             </div>
@@ -696,10 +686,11 @@ body {
 
                 </div>
             </div>
-            <p class="m-2 fs-6 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-                error! Excepturi, cupiditate. Eaque quaerat recusandae, ducimus facere cum necessitatibus perspiciatis
-                ratione iusto adipisci ipsam doloremque fugit veritatis aliquam officia harum omnis officiis unde
-                pariatur dicta vel eum rerum! Illum, possimus rerum! Illum, possimus.</p>
+            <p style="text-align: justify" class="m-2 fs-6 text ">The government recognizes that e commerce is thriving
+                in Bangladesh and, as a result, created this policy to guide and govern the sector. The policy outlines
+                development priorities in the IT, electricity and broadband sectors with a view to supporting
+                Bangladesh's development and also enabling the country to keep pace with the modern world and we
+                responsively follow the guidelines.</p>
         </section>
         <!--Tips & Privacy End-->
 
@@ -716,20 +707,15 @@ body {
                             </div>
                         </div>
                     </a>
-
-
-                    <a href="#bags">
-                        <div class="col">
+                    <div class="col">
+                        <a href="#bags">
                             <div
                                 class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
                                 <h1 class="fs-5">Bag</h1>
                                 <img src="image/icons8-backpack-96.png" alt="">
                             </div>
-                        </div>
-                    </a>
-
-
-
+                        </a>
+                    </div>
                     <div class="col">
                         <a href="#Gadget">
                             <div
@@ -740,15 +726,13 @@ body {
                         </a>
                     </div>
                     <div class="col">
-                        <div>
-                            <a href="#Gadget">
-                                <div
-                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                    <h1 class="fs-5">Laptop</h1>
-                                    <img src="image/icons8-laptop-96.png" alt="">
-                                </div>
-                            </a>
-                        </div>
+                        <a href="#laptop">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Laptop</h1>
+                                <img src="image/icons8-laptop-96.png" alt="">
+                            </div>
+                        </a>
                     </div>
                     <div class="col">
                         <a href="#food">
@@ -954,7 +938,7 @@ body {
 
         <!--Laptops-->
         <section class="container products mt-5" id="Gadget">
-            <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Laptops</h2>
+            <h2 id="laptop" class="fs-2 m-5 text-center">Laptops</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-60 products  shadow-lg">
@@ -1315,40 +1299,13 @@ body {
             </div>
         </section>
 
-        <!--Crud operation starts  -->
-
-        <!-- 
-        <form class="container mb-5 w-80 form-design" action="crud-insert.php" method="post"
-            enctype="multipart/form-data" onsubmit="return formvalidation()">
-            <div class="mb-3">
-                <h2 class="text-center mb-5 mt-2">Insert products</h2>
-                <input type="text" placeholder="Enter product name" class="form-control" name="name" id="ifname"
-                    aria-describedby="emailHelp">
-                <span id="errorInFirstName"> </span></td>
-
-            </div>
-
-            <div class="mb-3">
-                <input type="file" placeholder="Upload picture of product" name="image" class="form-control" id="ipass">
-                <span id="errorInPass"> </span>
-            </div>
-
-
-            <div class="mb-3">
-                <input type="mobile" placeholder="Enter your feedback" class="form-control" name="price" id="imobile"
-                    aria-describedby="emailHelp"><span id="errorInMobile"> </span>
-            </div>
-
-
-            <button type="submit" name="insert" class="btn btn-success w-100">Submit</button>
-
-        </form> -->
+   
 
         <!--Display inserted producted-->
 
 
-        <div class="container">
-            <h2 id="upcoming" class="text-center">Upcoming products</h2>
+        <div id="upcoming" class="container">
+            <h2 class="text-center">Upcoming products</h2>
             <div class="  text-center " style="width: 18rem;">
                 <div class="card-body d-flex ">
                     <?php
@@ -1393,172 +1350,56 @@ body {
 
 
 
+<!--payment gateway companies-->
+<div class="container">
+<div class="">
+                <div class="container mt-5 mb-5 d-none d-md-block  d-md-none d-lg-block  ">
+                    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-2">
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
 
-
-
-        <!-- Accordion section
-        <section class="container my-5 accordion">
-            <h1 style="text-align: center; color: rgb(116, 14, 35);">Eid offers</h1>
-            <div class="accordioncolor">
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <a class="accordion-button collapsed mb-1" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                Biriyani
-                            </a>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <div class="d-flex">
-
-                                    <div class="bg-success mx-5">
-                                        <img style="width: 200px; height: 200px; justify-content: center; margin-left: 200px; margin:20px"
-                                            src="images/biriyani.jpg" alt="" /> <br>
-                                        <h6>Regular chicken biriyani</h6>
-                                        <button class="btn btn-danger mx-5 mb-2 ">order now</button>
-                                    </div>
-
-                                    <div class="bg-primary mx-5">
-                                        <img style="width: 200px; height: 200px; justify-content: center; margin-left: 20px; margin:20px"
-                                            src="images/biriyani.jpg" alt="" /> <br>
-                                        <h6 style="margin-left:20px">Regular Kacchi biriyani</h6>
-
-                                        <button class="btn btn-danger mx-5 mb-2 ">order now</button>
-                                    </div>
-
-                                    <div class="bg-danger mx-5 ">
-                                        <img style="width: 200px; height: 200px; justify-content: center; margin-left: 20px; margin:20px"
-                                            src="images/biriyani.jpg" alt="" /> <br>
-                                        <h6>Regular chicken biriyani</h6>
-
-                                        <button class="btn btn-primary mx-5 mb-2 text-center ">order now</button>
-                                    </div>
-
-
-                                </div>
-                                <h1 class="text-center">Biriyani</h1>
-                                <p> Hyderabadi Biryani is characteristically distinct. The aroma, taste, tender meat,
-                                    the Zaffran, everything gives it a distinguished appearance. ... Yoghurt makes the
-                                    meat tender, lemon tangy, fried onions add a crispy sweet taste, and Hyderabadi
-                                    spices make it hot. </p>
+                                <img class="w-75" src="images/bkash1.jpg" alt="">
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <a class="accordion-button collapsed mb-1" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    Panjabi
-                                </a>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> <img style="margin-left: 500px;" src="images/panjabi.webp"
-                                        alt="" />
-                                    <h1 class="text-center">Cotton Panjabi</h1>
-                                    <p class="text-center">Best quality panjbai collection. Made of 100% pure cotton.
-                                        Reasonable price depending on quality.</p>
-                                </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/nogod.png" alt="">
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
-                                <a class="accordion-button collapsed mb-1" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Children Toys
-                                </a>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> <img style="margin-left: 200px;" src="images/toy1.jpg"
-                                        alt="" />
-                                    <h1 class="text-center">Kid toys</h1>
-                                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                                        rerum autem consequuntur enim soluta quas nemo labore rem dolorum totam?</p>
-                                </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/upay.jpg" alt="">
                             </div>
                         </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/dbbl.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/rocket.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/midland.jpg" alt="">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!--Student offer-->
-        <div class="container">
-            <div class="row">
-                <section class="container" id="students">
-                    <section style="height: 300px;"
-                        class="conatiner d-flex justify-content-center panda-bg-info d-flex align-items-center rounded-3">
-                        <div>
-                            <h1>Mega Special Student's Offer</h1>
-                            <p>Students who have 90% attendance will be gifted with 60% discount</p>
-                            <input class="form-control" type="text"
-                                placeholder="Submit all required information with proof" />
-                            <br />
-                            <button class="button btn btn-success">Submit</button>
-                        </div>
-                    </section>
-                </section>
-                <section class="container">
-                    <marquee width="100%" direction="left" height="100px">
-                        <p style="font-size: 20px; color: rgb(3, 54, 54);">This is a organization specifically working
-                            for students. We always try do make some crazy offers for students. Visit us and be a part
-                            of <span style="color:orange;">Amigos</span> <span style="color:blue;">Outlet</span> .</p>
-                    </marquee>
-                </section>
-            </div>
-        </div>
 
 
 
 
+</div>
+
+     
 
 
 
-        <!--Crud operation starts  -->
-
-
-
-
-        <!-- new code for cart sourav-->
-        <!-- <div class="container">
-                <div class="card" id="item1">
-                    <img src="images/phone-2.png">
-                    <div class="title">Shirt</div>
-                    <div>
-                        <label>Size: </label>
-                        <select>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <button onclick="addToCart(item1)">Add to Cart</button>
-                </div>
-                <div class="card" id="item2">
-                    <img src="img/shirt-3.png" alt="">
-                    <div class="title">Shirt-2</div>
-                    <div>
-                        <label>Quantity: </label>
-                        <select>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <button onclick="addToCart(item2)">Add to Cart</button>
-                </div>
-            </div>
-            <div class="cart" id="cart">
-                <div class="title">CART</div>
-                <hr>
-                <div id="title"></div>
-            </div> -->
 
 
 
@@ -1633,6 +1474,27 @@ body {
     <script src="app.js"></script>
 
     <!-- <script src="cart.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+            delay: 700,
+            disableOnInteraction: false,
+        },
+    });
+    </script>
 
 </body>
 

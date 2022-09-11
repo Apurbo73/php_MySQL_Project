@@ -10,7 +10,11 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Font Awsome -->
     <script src="https://kit.fontawesome.com/2fb599ceee.js" crossorigin="anonymous"></script>
+    <!-- swiper cdn -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!--CSS style-->
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="signin.html" />
     <link rel="stylesheet" href="signup.html" />
@@ -42,7 +46,7 @@ body {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li>
-                                    <button class="btn btn-danger p-1 m-1 rounded" type="submit">Search</button>
+                                    <button class="btn  p-1 m-1 rounded cart_btn" type="submit">Search</button>
                                     <input type="text" class=" p-1  rounded" placeholder="what are you looking for?..">
 
                                 </li>
@@ -101,186 +105,230 @@ body {
         </section>
     </header>
     <main>
-      
-    <section>
-            <!--Carousel items-->
-            <div class=" carousel-section">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
-                                <div class="col-lg-7">
-                                    <h1>Apple Mackbook Pro</h1>
-                                    <h4>250000 Tk</h4>
-                                </div>
-                                <div class="col-lg-5"> <img src="images/product-1.png" class="d-block w-100"
-                                        alt="..." /> </div>
+
+        <div>
+
+
+            <section>
+                <!-- Swiper -->
+                <div class="swiper_container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="image/tips/privacy-2.jpg" />
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
-                                <div class="col-lg-7">
-                                    <h1>Apple Pro</h1>
-                                    <h4>250000 Tk</h4>
-                                </div>
-                                <div class="col-lg-5"> <img src="images/slider-1.png" class="d-block w-100" alt="..." />
-                                </div>
+                            <div class="swiper-slide">
+                                <img src="image/tips/paymnet-2.jpg" />
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
-                                <div class="col-lg-7">
-                                    <h1>JBL Portable Speaker</h1>
-                                    <h4>5000Tk</h4>
-                                </div>
-                                <div class="col-lg-5"> <img src="images/slider-3.png" class="d-block w-100" alt="..." />
-                                </div>
+                            <div class="swiper-slide">
+                                <img src="image/tips/feedback-4.jpg" />
                             </div>
+                            <div class="swiper-slide">
+                                <img src="image/home-office-569153_1920.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/girl-476977_1920.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/young-woman-4996096_1920.jpg" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/iphone-545772_1920.jpg" />
+                            </div>
+
                         </div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
-                            class="visually-hidden">Previous</span> </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span
-                            class="visually-hidden">Next</span> </button>
-                </div>
-            </div>
-        </section>
-        <!--Carousel items End-->
-
-
-
-
-        <section class="container">
-
-            <!--text sliding-->
-
-            <marquee width="100%" direction="left" height="100px">
-                <p style="font-size: 20px;">Welcome to <span style="color: orange;">Amigos</span> <span
-                        style="color: rgb(11, 11, 141);">Outlet.</span>Thannks for visiting. Hope you will enjoy.</p>
-            </marquee>
-            <!--Best selling products-->
-            <section class="container">
-                <h1 style="text-align: center; margin-bottom: 20px;">Best Selling</h1>
-                <div class="container">
-                    <div class="row g-4">
-                        <div class="col-6 col-md-3 justify-content-center">
-                            <div class="product1"> <img src="images/bag.png" alt="" />
-                                <h5>Bag</h5>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-3 justify-content-center align-items-center">
-                            <div class="product2"> <img src="images/perfume.png" alt="" />
-                                <h5>perfume</h5>
-                            </div>
-                            <div class="product3"> <img src="images/shoe.png" alt="" />
-                                <h5>shoe</h5>
-                            </div>
-                        </div>
-                        <div class="col-6 extra-product"> <img src="images/pale-order.png" alt="" /> </div>
+                    <div class="text-center ">
+                        <h1 class="mb-5 d-inline-block fs-4">Discover <span class="text-danger">Amigos</span> brand new
+                            product</h1>
                     </div>
+
                 </div>
+
+
+
+
+
             </section>
-        </section>
 
 
 
 
 
-    
+            <section class="container">
+
+                <!--text sliding-->
+
+                <marquee width="100%" direction="left" height="100px">
+                    <p style="font-size: 20px;">Welcome to <span style="color: orange;">Amigos</span> <span
+                            style="color: rgb(11, 11, 141);">Outlet.</span>Thannks for visiting. Hope you will enjoy.
+                    </p>
+                </marquee>
+                <!--Best selling products-->
+
+            </section>
 
 
-        <!--Categories-->
-        <section class="container mt-5">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
-                        <h1 class="text-white">Watch</h1> <img src="images/watch.png" alt="" />
+
+
+
+
+
+  <!--Categories -->
+  <section class=" mt-5">
+            <div class="container">
+                <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                    <a href="#shoes">
+                        <div class="col">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Shoe</h1>
+                                <img src="image/icons8-pair-of-sneakers-96.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col">
+                        <a href="#bags">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Bag</h1>
+                                <img src="image/icons8-backpack-96.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
-                        <h1 class="text-white">Bag</h1> <img src="images/shoes.png" alt="" />
+                    <div class="col">
+                        <a href="#Gadget">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Mobile</h1>
+                                <img src="image/mb.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
-                        <h1 class="text-white">Shoes</h1> <img src="images/shoes.png" alt="" />
+                    <div class="col">
+                        <a href="#laptop">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Laptop</h1>
+                                <img src="image/icons8-laptop-96.png" alt="">
+                            </div>
+                        </a>
                     </div>
+                    <div class="col">
+                        <a href="#food">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Food</h1>
+                                <img src="image/icons8-kawaii-french-fries-96.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#cloth">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Cloth</h1>
+                                <img src="image/icons8-clothes-line-96.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#toys">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Toy</h1>
+                                <img src="image/icons8-playing-children-96.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="#upcoming">
+                            <div
+                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                <h1 class="fs-5">Upcoming</h1>
+                                <img src="image/icons8-add-product-96.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </section>
+        <!--Categories End-->
 
-        <!--Hot Gadget section-->
-        <!--Devices-->
-        <!--Smartphones-->
-        <section class="container mt-5" id="Gadget">
-            <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px; margin-bottom: 50px;">
-                Smartphones</h2>
-            <div class="row row-cols-1 card-size row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-60 products border-0 shadow-lg"> <img src="images/phone-1.png"
-                            class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Xiaomi Mi Note 2</h4>
-                            <p class="card-text text-center"> Xiaomi Mi Note 2.. 11,980 Tk </p>
+            <!--Hot Gadget section-->
+            <!--Devices-->
+            <!--Smartphones-->
+            <section class="container mt-5" id="Gadget">
+                <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px; margin-bottom: 50px;">
+                    Smartphones</h2>
+                <div class="row row-cols-1 card-size row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-60 products border-0 shadow-lg"> <img src="images/phone-1.png"
+                                class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Xiaomi Mi Note 2</h4>
+                                <p class="card-text text-center"> Xiaomi Mi Note 2.. 11,980 Tk </p>
+                            </div>
+                            <div class="m-3">
+                                <div class="container">
+
+                                    <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                        class="button btn btn-success w-50 "><a href="register.php"><i
+                                                class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                            style="text-decoration:none;color:white;font-weight:700"
+                                            href="register.php">Buy
+                                            Now</a></button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="m-3">
-                            <div class="container">
+                    </div>
+                    <div class="col">
+                        <div class="card h-60 products border-0 shadow-lg"> <img src="images/phone-2.png"
+                                class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Iphone 13 Pro</h4>
+                                <p class="card-text text-center"> The ultimate iPhone. 120000 Tk </p>
+                            </div>
+                            <div class="m-3">
+                                <div class="container">
 
-                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
-                                    class="button btn btn-success w-50 "><a href="register.php"><i
-                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
-                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
-                                        Now</a></button>
+                                    <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                        class="button btn btn-success w-50 "><a href="register.php"><i
+                                                class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                            style="text-decoration:none;color:white;font-weight:700"
+                                            href="register.php">Buy
+                                            Now</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-60 products border-0 shadow-lg"> <img src="images/phone-3.png"
+                                class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Samsung Note 2</h4>
+                                <p class="card-text text-center">45000 Tk</p>
+                            </div>
+                            <div class="m-3">
+                                <div class="container">
+                                    <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
+                                        class="button btn btn-success w-50 "><a href="register.php"><i
+                                                class="fa-solid fa-cart-shopping text-white"></i> </a> <a
+                                            style="text-decoration:none;color:white;font-weight:700"
+                                            href="register.php">Buy
+                                            Now</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-60 products border-0 shadow-lg"> <img src="images/phone-2.png"
-                            class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Iphone 13 Pro</h4>
-                            <p class="card-text text-center"> The ultimate iPhone. 120000 Tk </p>
-                        </div>
-                        <div class="m-3">
-                            <div class="container">
-
-                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
-                                    class="button btn btn-success w-50 "><a href="register.php"><i
-                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
-                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
-                                        Now</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-60 products border-0 shadow-lg"> <img src="images/phone-3.png"
-                            class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Samsung Note 2</h4>
-                            <p class="card-text text-center">45000 Tk</p>
-                        </div>
-                        <div class="m-3">
-                            <div class="container">
-                                <button id="Iphone-minus" style="margin-left: 0px;margin-left:75px"
-                                    class="button btn btn-success w-50 "><a href="register.php"><i
-                                            class="fa-solid fa-cart-shopping text-white"></i> </a> <a
-                                        style="text-decoration:none;color:white;font-weight:700" href="register.php">Buy
-                                        Now</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
+        </div>
         </section>
 
         <!--Laptops-->
-        <section class="container products mt-5" id="Gadget">
+        <section id="laptop" class="container products mt-5" id="Gadget">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Laptops</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -593,7 +641,7 @@ body {
 
 
         <!--toys-->
-        <section class="container products my-5" id="toys">
+        <section id="toys" class="container products my-5" id="toys">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Toys Corner</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -656,82 +704,42 @@ body {
 
 
 
-        
-
-       
-
-        
-        
-           
 
 
 
-            <!--Crud operation starts  -->
 
 
-            <form class="container mb-5 w-80 form-design" action="crud-insert.php" method="post"
-                enctype="multipart/form-data" onsubmit="return formvalidation()">
-                <div class="mb-3">
-                    <h2 class="text-center mb-5 mt-2">Review</h2>
-                    <input type="text" placeholder="Enter product name" class="form-control" name="name" id="ifname"
-                        aria-describedby="emailHelp">
-                    <span id="errorInFirstName"> </span></td>
-
-                </div>
-
-                <div class="mb-3">
-                    <input type="file" placeholder="Upload picture of product" name="image" class="form-control"
-                        id="ipass">
-                    <span id="errorInPass"> </span>
-                </div>
 
 
-                <div class="mb-3">
-                    <input type="mobile" placeholder="Enter your feedback" class="form-control" name="price"
-                        id="imobile" aria-describedby="emailHelp"><span id="errorInMobile"> </span>
-                </div>
+
+        <!--Display inserted producted-->
 
 
-                <button type="submit" name="insert" class="btn btn-success w-100">Submit</button>
-
-            </form>
-
-            <!--Display reviews-->
-
-
-            <div class="container" id="reviews">
-                <table class="table table-dark table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">Id</th>
-                            <th scope="col">Product name</th>
-                            <th scope="col">Price(Tk)</th>
-                            <th scope="col">Image</th>
-                            <th scope="col">Delete</th>
-                            <th scope="col">Update</th>
-
-
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <?php
+        <div id="upcoming"  class="container">
+            <h2 class="text-center">Upcoming products</h2>
+            <div class="  text-center " style="width: 18rem;">
+                <div class="card-body d-flex ">
+                    <?php
    include 'crud-config.php';
 
 
-   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
+   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
    while( $row = mysqli_fetch_array($alldata))
    {
 	echo
-	"<tr>
-	 <td> $row[id] </td>
-	 <td> $row[name] </td>
-	 <td> $row[price] </td>
-	 <td> <img src= '$row[image]' alt= 'image' width ='100px'> </td>
-	 <td> <a class=' btn btn-danger' href='delete.php? id= $row[id]'>Delete </a></td>
-	 <td> <a class=' btn btn-success' href='update.php? id= $row[id]'>Update </a></td>
+	"
+	
+      <div> 
+	  <img src= '$row[image]' alt= 'image' width ='250px'>
+      <h2> $row[name] </h2> <br>
+      <h2> $row[price] </h2> <br> 
+        </div>
+       
+      
 
-	</tr> ";
+	
+
+      ";
 
    }
 
@@ -739,69 +747,102 @@ body {
 
 
 
-                    </tbody>
-                </table>
-            </div>
 
 
 
-            <!--footer section-->
-            <!--Outlets-showroom section done with off canvas bottom-->
-            <div class="container">
-                <div class="row">
-                    <footer class="mt-5 text-center">
-                        <!--Outlets-showroom section done with off canvas bottom-->
-                        <section class="container d-flex justify-content-center pb-3">
-                            <button class="btn btn-primary my-5" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Our Outlets</button>
-                            <div class="offcanvas offcanvas-bottom outlets" tabindex="-1" id="offcanvasBottom"
-                                aria-labelledby="offcanvasBottomLabel">
-                                <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-                                        <h1><span style="color: rgb(10, 35, 88); font-size: 50px;">Mega</span> <span
-                                                style="color: rgb(109, 8, 58); font-size: 50px;">Mall</span></h1>
-                                    </h5>
-                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body small mb-2">
-                                    <h2>01. Mega Mall Majortila</h2>
-                                    <p>Siddique Plaza, 2nd floor, Majortila, Sylhet-3100.</p>
-                                    <p>contact: 017xxxxxxxx</p>
-                                    <br />
-                                    <h2>02. Mega Mall Shibgonj</h2>
-                                    <p>Shibgonj,Kitchen Market, Sylhet-3100.</p>
-                                    <p>contact: 017xxxxxxxx</p>
-                                    <br />
-                                    <h2>03. Mega Mall Mirabazar</h2>
-                                    <p>Mirabazar, Jotorpur , Sylhet-3100.</p>
-                                    <p>contact: 017xxxxxxxx</p>
-                                    <br />
-                                </div>
-                                <marquee width="100%" direction="right" height="500px"> Thanks for your interest. For
-                                    order contact through the numbers. Happy shopping. <a
-                                        style="background-color: rgb(138, 247, 187);" href=""><i style="color: black;"
-                                            class="fas fa-shopping-cart"></i></a> </marquee>
-                            </div>
-                        </section>
-                        <!--Contact Information-->
-                        <section class="container"> <a style="margin-right: 5px;"
-                                href="https://www.instagram.com/apubdofficial/"><i class="fab fa-instagram"></i></a> <a
-                                style="margin-right: 5px;" href=""><i class="fab fa-facebook-square"></i></a> <a
-                                style="margin-right: 5px;" href=""><i class="fab fa-twitter-square"></i></a> <a
-                                style="margin-right: 5px;" href=""><i class="fab fa-github-square"></i></a> <a
-                                style="margin-right: 5px;" href="" href=""><i class="fab fa-youtube"></i></a> </section>
-                        <div class="d-flex justify-content-center"> <a href="">Conditions</a> <a href="">Privacy
-                                Notice</a> <a href="">Interest-Based Ads</a> <a href="">©2022 Mega-Mall.com Apurbo Deb
-                                Nath</a> </div>
-                    </footer>
                 </div>
             </div>
+        </div>
+        </div>
+
+
+
+
+        <!--footer section-->
+        <!--Outlets-showroom section done with off canvas bottom-->
+        <div class="container">
+            <div class="row">
+                <footer class="mt-5 text-center">
+                    <!--Outlets-showroom section done with off canvas bottom-->
+                    <section class="container d-flex justify-content-center pb-3">
+                        <button class="btn btn-primary my-5" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Our Outlets</button>
+                        <div class="offcanvas offcanvas-bottom outlets" tabindex="-1" id="offcanvasBottom"
+                            aria-labelledby="offcanvasBottomLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+                                    <h1><span style="color: rgb(10, 35, 88); font-size: 50px;">Mega</span> <span
+                                            style="color: rgb(109, 8, 58); font-size: 50px;">Mall</span></h1>
+                                </h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body small mb-2">
+                                <h2>01. Mega Mall Majortila</h2>
+                                <p>Siddique Plaza, 2nd floor, Majortila, Sylhet-3100.</p>
+                                <p>contact: 017xxxxxxxx</p>
+                                <br />
+                                <h2>02. Mega Mall Shibgonj</h2>
+                                <p>Shibgonj,Kitchen Market, Sylhet-3100.</p>
+                                <p>contact: 017xxxxxxxx</p>
+                                <br />
+                                <h2>03. Mega Mall Mirabazar</h2>
+                                <p>Mirabazar, Jotorpur , Sylhet-3100.</p>
+                                <p>contact: 017xxxxxxxx</p>
+                                <br />
+                            </div>
+                            <marquee width="100%" direction="right" height="500px"> Thanks for your interest. For
+                                order contact through the numbers. Happy shopping. <a
+                                    style="background-color: rgb(138, 247, 187);" href=""><i style="color: black;"
+                                        class="fas fa-shopping-cart"></i></a> </marquee>
+                        </div>
+                    </section>
+                    <!--Contact Information-->
+                    <section class="container"> <a style="margin-right: 5px;"
+                            href="https://www.instagram.com/apubdofficial/"><i class="fab fa-instagram"></i></a> <a
+                            style="margin-right: 5px;" href=""><i class="fab fa-facebook-square"></i></a> <a
+                            style="margin-right: 5px;" href=""><i class="fab fa-twitter-square"></i></a> <a
+                            style="margin-right: 5px;" href=""><i class="fab fa-github-square"></i></a> <a
+                            style="margin-right: 5px;" href="" href=""><i class="fab fa-youtube"></i></a> </section>
+                    <div class="d-flex justify-content-center"> <a href="">Conditions</a> <a href="">Privacy
+                            Notice</a> <a href="">Interest-Based Ads</a> <a href="">©2022 Mega-Mall.com Apurbo Deb
+                            Nath</a> </div>
+                </footer>
+            </div>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
     </script>
+
+
     <script src="javascript.js"></script>
+    <script src="app.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+            delay: 700,
+            disableOnInteraction: false,
+        },
+    });
+    </script>
 </body>
 
 </html>
