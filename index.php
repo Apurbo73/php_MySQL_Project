@@ -114,34 +114,35 @@ body {
                 <div class="swiper_container">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
+
                             <div class="swiper-slide">
-                                <img src="image/tips/privacy-2.jpg" />
+                                <img src="cover/cover-1.png" />
                             </div>
+
                             <div class="swiper-slide">
                                 <img src="image/tips/paymnet-2.jpg" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="image/tips/feedback-4.jpg" />
+                                <img src="images/bag-2.png" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="image/home-office-569153_1920.jpg" />
+                                <img src="cover/cover-3.jpg" />
                             </div>
                             <div class="swiper-slide">
-                                <img src="image/girl-476977_1920.jpg" />
+                                <img src="images/Project Cover.png " />
                             </div>
+
                             <div class="swiper-slide">
-                                <img src="image/young-woman-4996096_1920.jpg" />
+                                <img style="width:320px" src="images/burger.jpg" />
                             </div>
-                            <div class="swiper-slide">
-                                <img src="image/iphone-545772_1920.jpg" />
-                            </div>
+
 
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="text-center ">
-                        <h1 class="mb-5 d-inline-block fs-4">Discover <span class="text-danger">Amigos</span> brand new
-                            product</h1>
+                        <h1 class="mb-5 d-inline-block fs-4">Discover <span class="text-danger">Amigos</span> exciting
+                            products</h1>
                     </div>
 
                 </div>
@@ -170,92 +171,186 @@ body {
             </section>
 
 
-
-
-
-
-
-  <!--Categories -->
-  <section class=" mt-5">
-            <div class="container">
-                <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                    <a href="#shoes">
+            <!--Tips & Privacy-->
+            <section class="m-3 bmb-5">
+                <div class="overflow-hidden">
+                    <div class="row gx-3 row-cols-1 row-cols-md-2 g-4 mt-5 my-5 row-cols-lg-4 ">
                         <div class="col">
-                            <div
-                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                <h1 class="fs-5">Shoe</h1>
-                                <img src="image/icons8-pair-of-sneakers-96.png" alt="">
+                            <div class="border tips_privacy">
+                                <div class="privacy_img_div_container">
+                                    <img class="image" src="image/tips/pic-1.jpg" alt="">
+                                    <div class="middle">
+                                        <div class="text text_balck"> Business-to-Business (B2B) Business-to-Consumer
+                                            (B2C)
+                                            Consumer-to-Consumer (C2C).
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tips_trade_content">
+                                    <div class="d-flex justify-content-between m-3">
+                                        <h3 class="text_balck d-flex align-items-center fs-4">Network</h3>
+                                        <img src="image/tips/cloud.png" class="privacy_policy_icon">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </a>
-                    <div class="col">
-                        <a href="#bags">
-                            <div
-                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                <h1 class="fs-5">Bag</h1>
-                                <img src="image/icons8-backpack-96.png" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#Gadget">
-                            <div
-                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                <h1 class="fs-5">Mobile</h1>
-                                <img src="image/mb.png" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#laptop">
-                            <div
-                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                <h1 class="fs-5">Laptop</h1>
-                                <img src="image/icons8-laptop-96.png" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#food">
-                            <div
-                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                <h1 class="fs-5">Food</h1>
-                                <img src="image/icons8-kawaii-french-fries-96.png" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#cloth">
-                            <div
-                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                <h1 class="fs-5">Cloth</h1>
-                                <img src="image/icons8-clothes-line-96.png" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#toys">
-                            <div
-                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                <h1 class="fs-5">Toy</h1>
-                                <img src="image/icons8-playing-children-96.png" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#upcoming">
-                            <div
-                                class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
-                                <h1 class="fs-5">Upcoming</h1>
-                                <img src="image/icons8-add-product-96.png" alt="">
-                            </div>
-                        </a>
-                    </div>
 
+                        <div class="col">
+                            <div class="border tips_privacy">
+                                <div class="privacy_img_div_container">
+                                    <img class="image" src="image/tips/paymnet-3.jpg" alt="">
+                                    <div class="middle">
+                                        <div class="text text_balck"> By and large, credit cards are easily the most
+                                            secure
+                                            and safe payment method to use when you shop online.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tips_trade_content">
+                                    <div class="d-flex justify-content-between m-3">
+                                        <h3 class="text_balck d-flex align-items-center fs-4">Payment</h3>
+                                        <img src="image/tips/paymnet_icon.png" class="privacy_policy_icon">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="border tips_privacy">
+                                <div class="privacy_img_div_container">
+                                    <img class="image" src="image/tips/privacy-2.jpg" alt="">
+                                    <div class="middle">
+                                        <div class="text text_balck"> It's a safe sound online market place where every
+                                            details of any user will be kept encrypted.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tips_trade_content ">
+                                    <div class="d-flex justify-content-between m-3">
+                                        <h3 class="text_balck d-flex align-items-center fs-4">Privacy</h3>
+                                        <img src="image/tips/privacy-icons.png" class="privacy_policy_icon">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="border tips_privacy">
+                                <div class="privacy_img_div_container">
+                                    <img class="image" src="image/tips/feedback-3.jpg" alt="">
+                                    <div class="middle">
+                                        <div class="text text_balck"> We warmly welcome every bit of valuable feedbacks
+                                            of
+                                            our customers and take concerned initiatives.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tips_trade_content">
+                                    <div class="d-flex justify-content-between m-3">
+                                        <h3 class="text_balck d-flex align-items-center fs-4">Feedback</h3>
+                                        <img src="image/tips/feddback_icon.png" class="privacy_policy_icon">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!--Categories End-->
+                <p style="text-align: justify" class="m-2 fs-6 text ">The government recognizes that e commerce is
+                    thriving
+                    in Bangladesh and, as a result, created this policy to guide and govern the sector. The policy
+                    outlines
+                    development priorities in the IT, electricity and broadband sectors with a view to supporting
+                    Bangladesh's development and also enabling the country to keep pace with the modern world and we
+                    responsively follow the guidelines.</p>
+            </section>
+            <!--Tips & Privacy End-->
+
+
+
+
+            <!--Categories -->
+            <section class=" mt-5">
+                <div class="container">
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                        <a href="#shoes">
+                            <div class="col">
+                                <div
+                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                    <h1 class="fs-5">Shoe</h1>
+                                    <img src="image/icons8-pair-of-sneakers-96.png" alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="col">
+                            <a href="#bags">
+                                <div
+                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                    <h1 class="fs-5">Bag</h1>
+                                    <img src="image/icons8-backpack-96.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#Gadget">
+                                <div
+                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                    <h1 class="fs-5">Mobile</h1>
+                                    <img src="image/mb.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#laptop">
+                                <div
+                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                    <h1 class="fs-5">Laptop</h1>
+                                    <img src="image/icons8-laptop-96.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#food">
+                                <div
+                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                    <h1 class="fs-5">Food</h1>
+                                    <img src="image/icons8-kawaii-french-fries-96.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#cloth">
+                                <div
+                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                    <h1 class="fs-5">Cloth</h1>
+                                    <img src="image/icons8-clothes-line-96.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#toys">
+                                <div
+                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                    <h1 class="fs-5">Toy</h1>
+                                    <img src="image/icons8-playing-children-96.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#upcoming">
+                                <div
+                                    class="d-flex justify-content-between align-items-center p-3 border bg-light rounded-pill categories_div">
+                                    <h1 class="fs-5">Upcoming</h1>
+                                    <img src="image/icons8-add-product-96.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--Categories End-->
 
             <!--Hot Gadget section-->
             <!--Devices-->
@@ -707,16 +802,12 @@ body {
 
 
 
-
-
-
-
-
         <!--Display inserted producted-->
 
 
-        <div id="upcoming"  class="container">
-            <h2 class="text-center">Upcoming products</h2>
+        <div id="upcoming" class="container">
+            <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px; margin-bottom: 50px;">
+                Upcoming products</h2>
             <div class="  text-center " style="width: 18rem;">
                 <div class="card-body d-flex ">
                     <?php
@@ -760,7 +851,7 @@ body {
 
         <!--footer section-->
         <!--Outlets-showroom section done with off canvas bottom-->
-        <div class="container">
+        <div class="">
             <div class="row">
                 <footer class="mt-5 text-center">
                     <!--Outlets-showroom section done with off canvas bottom-->
@@ -771,25 +862,20 @@ body {
                             aria-labelledby="offcanvasBottomLabel">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-                                    <h1><span style="color: rgb(10, 35, 88); font-size: 50px;">Mega</span> <span
-                                            style="color: rgb(109, 8, 58); font-size: 50px;">Mall</span></h1>
+                                    <h1><span style="color: rgb(10, 35, 88); font-size: 50px;">Amigos</span> <span
+                                            style="color: rgb(109, 8, 58); font-size: 50px;">Outlet</span></h1>
                                 </h5>
                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body small mb-2">
-                                <h2>01. Mega Mall Majortila</h2>
+                                <h2>01. Amigos Outlet Majortila</h2>
                                 <p>Siddique Plaza, 2nd floor, Majortila, Sylhet-3100.</p>
                                 <p>contact: 017xxxxxxxx</p>
                                 <br />
-                                <h2>02. Mega Mall Shibgonj</h2>
-                                <p>Shibgonj,Kitchen Market, Sylhet-3100.</p>
-                                <p>contact: 017xxxxxxxx</p>
+
                                 <br />
-                                <h2>03. Mega Mall Mirabazar</h2>
-                                <p>Mirabazar, Jotorpur , Sylhet-3100.</p>
-                                <p>contact: 017xxxxxxxx</p>
-                                <br />
+
                             </div>
                             <marquee width="100%" direction="right" height="500px"> Thanks for your interest. For
                                 order contact through the numbers. Happy shopping. <a

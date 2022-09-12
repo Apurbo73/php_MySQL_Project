@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -76,6 +77,343 @@
                                                 data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                         </div>
                                         <div class="offcanvas-body">
+                                        <div id="Shopping_Cart" class="container mt-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h1>My Cart</h1>
+                </div>
+                <div class="card-body"> <img style="height: 300px;" src="images/buy.png" alt="" />
+                    <div class="container">
+                        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                            <div id="Xiomi-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <!--Shopping Cart for Xiomi starts-->
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            01.Xiomi Mi Note 2</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="xiomi-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="xiomi-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                    <!--Shopping Cart for Xiomi ends-->
+                                </div>
+                            </div>
+                            <div id="Iphone-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <!--Shopping Cart for Iphone starts-->
+                                    <div class="">
+                                        <h5 style="margin-left:0px;" class="card-title text-center" id="XiomiProduct">
+                                            02.Iphone 13 Pro</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Iphone-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="iphone-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                    <!--Shopping Cart for Iphone ends-->
+                                </div>
+                            </div>
+                            <div id="Samsung-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <!--Shopping Cart for Samsung starts-->
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center">03.Samsung Note 2
+                                        </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Samsung-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Samsung-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                    <!--Shopping Cart for Samsung ends-->
+                                </div>
+                            </div>
+                            <div id="Lenovo-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <!--Shopping Cart for Lenovo starts-->
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="">04.Lenovo
+                                            ideapad 330
+                                        </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Lenovo-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Lenovo-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                    <!--Shopping Cart for Lenovo ends-->
+                                </div>
+                            </div>
+                            <div id="Dell-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <!--Shopping Cart for Dell starts-->
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            05.Dell Inspiration 15
+                                        </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Dell-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Dell-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                    <!--Shopping Cart for Dell ends-->
+                                </div>
+                            </div>
+                            <div id="Mac-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <!--Shopping Cart for Mac starts-->
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            06.Apple Mackbook Pro
+                                        </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Mac-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Mac-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                    <!--Shopping Cart for Mac ends-->
+                                </div>
+                            </div>
+                            <div id="Sply-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            07.Sply original</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Sply-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Sply-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Nike-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            08.Nike-360 Version
+                                        </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Nike-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Nike-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Airmax-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            09.Red Airmax Version
+                                        </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Red-Airmax-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Red-Airmax-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Simple-red-bag-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            10.Simple Red Bag</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Red-bag-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Red-bag-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Blue-bag-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            11.Simple Blue Bag</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Blue-bag-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Blue-bag-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="black-bag-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            12.Simple Black Bag</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Black-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Black-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Burger-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            13.Yummy Burger</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Burger-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Burger-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Combo-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            14.Combo Platter</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Combo-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Combo-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Fresh-salad-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            15.Fresh Salad
+                                        </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Salad-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Salad-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="polo-original-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            16.Blue Polo Original</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Blue-polo-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Blue-polo-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="USPA-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            17.Multi USPA </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="USPA-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="USPA-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Blue-polo-new-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            18.Blue Polo New</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Blue-polo-new-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span
+                                                id="Blue-polo-new-bill">0</span> <span>Taka</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            18.Blue Polo New</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Blue-polo-new-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span
+                                                id="Blue-polo-new-bill">0</span> <span>Taka</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Whole-sale-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            19.Whole Sale</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Whole-sale-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Whole-sale-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Spider-body" class="col">
+                                <div class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            20.Spider Man</h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Spider-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Spider-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div id="Truck-body" class="p-3 border bg-light">
+                                    <div class="">
+                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
+                                            21.Construction Truck
+                                        </h5>
+                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
+                                                id="Truck-amount">0</span></h5>
+                                        <h5 style="margin-left: 10px;">Total bill: <span id="Truck-bill">0</span>
+                                            <span>Taka</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col p">
+                                <div class="p-3 Total-Payment-bpx-design border bg-light">
+                                    <h5>Check Your Cart</h5>
+                                    <h5>Thanks for your patient</h5>
+                                </div>
+                            </div>
+                            <div class="col p">
+                                <div class="p-3 Total-Payment-bpx-design border bg-light">
+                                    <h5>WE accept</h5>
+                                    <h5>Bkash, Nogod, Upay, Rocket, Card etc.</h5>
+                                </div>
+                            </div>
+                            <div class="col p">
+                                <div class="p-3 Total-Payment-bpx-design border bg-light">
+                                    <h5>Total Payment</h5>
+                                    <h5 id="total-payment">0 <span>Taka</span></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Shopping Cart for Truck ends--><a href="#" class="btn btn-primary mt-5 mb-5 w-100 p-2">Pay
+                            your Bill</a>
+                    </div>
+                    <div class="card-footer text-muted"> Happy Shopping !!! </div>
+                </div>
+            </div>
                                             Nothing added to your cart.
                                             Kindly Sign Up first.
                                         </div>
@@ -703,39 +1041,7 @@
         <!--Crud operation starts  -->
 
 
-        <form class="container mb-5 w-80 form-design" action="crud-insert.php" method="post"
-            enctype="multipart/form-data" onsubmit="return formvalidation()">
-            <div class="mb-3">
-                <h2 class="text-center mb-5 mt-2">Review</h2>
-                <input type="text" placeholder="Enter product name" class="form-control" name="name" id="ifname"
-                    aria-describedby="emailHelp">
-                <span id="errorInFirstName"> </span></td>
-
-            </div>
-
-            <div class="mb-3">
-                <input type="file" placeholder="Upload picture of product" name="image" class="form-control" id="ipass">
-                <span id="errorInPass"> </span>
-            </div>
-
-
-            <div class="mb-3">
-                <input type="mobile" placeholder="Enter your feedback" class="form-control" name="price" id="imobile"
-                    aria-describedby="emailHelp"><span id="errorInMobile"> </span>
-            </div>
-
-
-            <button type="submit" name="insert" class="btn btn-success w-100">Submit</button>
-
-        </form>
-
      
-
-
-                </tbody>
-            </table>
-        </div>
-
 
         <!--Accordion section-->
         <section class="container my-5 accordion">
@@ -852,343 +1158,7 @@
                 </section>
             </div>
         </div>
-        <div id="Shopping_Cart" class="container mt-5">
-            <div class="card text-center">
-                <div class="card-header">
-                    <h1>My Cart</h1>
-                </div>
-                <div class="card-body"> <img style="height: 300px;" src="images/buy.png" alt="" />
-                    <div class="container">
-                        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                            <div id="Xiomi-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <!--Shopping Cart for Xiomi starts-->
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            01.Xiomi Mi Note 2</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="xiomi-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="xiomi-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                    <!--Shopping Cart for Xiomi ends-->
-                                </div>
-                            </div>
-                            <div id="Iphone-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <!--Shopping Cart for Iphone starts-->
-                                    <div class="">
-                                        <h5 style="margin-left:0px;" class="card-title text-center" id="XiomiProduct">
-                                            02.Iphone 13 Pro</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Iphone-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="iphone-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                    <!--Shopping Cart for Iphone ends-->
-                                </div>
-                            </div>
-                            <div id="Samsung-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <!--Shopping Cart for Samsung starts-->
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center">03.Samsung Note 2
-                                        </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Samsung-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Samsung-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                    <!--Shopping Cart for Samsung ends-->
-                                </div>
-                            </div>
-                            <div id="Lenovo-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <!--Shopping Cart for Lenovo starts-->
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="">04.Lenovo
-                                            ideapad 330
-                                        </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Lenovo-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Lenovo-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                    <!--Shopping Cart for Lenovo ends-->
-                                </div>
-                            </div>
-                            <div id="Dell-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <!--Shopping Cart for Dell starts-->
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            05.Dell Inspiration 15
-                                        </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Dell-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Dell-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                    <!--Shopping Cart for Dell ends-->
-                                </div>
-                            </div>
-                            <div id="Mac-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <!--Shopping Cart for Mac starts-->
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            06.Apple Mackbook Pro
-                                        </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Mac-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Mac-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                    <!--Shopping Cart for Mac ends-->
-                                </div>
-                            </div>
-                            <div id="Sply-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            07.Sply original</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Sply-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Sply-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Nike-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            08.Nike-360 Version
-                                        </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Nike-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Nike-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Airmax-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            09.Red Airmax Version
-                                        </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Red-Airmax-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Red-Airmax-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Simple-red-bag-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            10.Simple Red Bag</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Red-bag-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Red-bag-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Blue-bag-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            11.Simple Blue Bag</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Blue-bag-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Blue-bag-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="black-bag-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            12.Simple Black Bag</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Black-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Black-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Burger-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            13.Yummy Burger</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Burger-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Burger-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Combo-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            14.Combo Platter</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Combo-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Combo-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Fresh-salad-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            15.Fresh Salad
-                                        </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Salad-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Salad-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="polo-original-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            16.Blue Polo Original</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Blue-polo-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Blue-polo-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="USPA-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            17.Multi USPA </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="USPA-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="USPA-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Blue-polo-new-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            18.Blue Polo New</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Blue-polo-new-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span
-                                                id="Blue-polo-new-bill">0</span> <span>Taka</span></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            18.Blue Polo New</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Blue-polo-new-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span
-                                                id="Blue-polo-new-bill">0</span> <span>Taka</span></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Whole-sale-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            19.Whole Sale</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Whole-sale-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Whole-sale-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Spider-body" class="col">
-                                <div class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            20.Spider Man</h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Spider-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Spider-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div id="Truck-body" class="p-3 border bg-light">
-                                    <div class="">
-                                        <h5 style="margin-left: 0px;" class="card-title text-center" id="XiomiProduct">
-                                            21.Construction Truck
-                                        </h5>
-                                        <h5 style="margin-left: 10px;" class="card-text text-center">Amount: <span
-                                                id="Truck-amount">0</span></h5>
-                                        <h5 style="margin-left: 10px;">Total bill: <span id="Truck-bill">0</span>
-                                            <span>Taka</span>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col p">
-                                <div class="p-3 Total-Payment-bpx-design border bg-light">
-                                    <h5>Check Your Cart</h5>
-                                    <h5>Thanks for your patient</h5>
-                                </div>
-                            </div>
-                            <div class="col p">
-                                <div class="p-3 Total-Payment-bpx-design border bg-light">
-                                    <h5>WE accept</h5>
-                                    <h5>Bkash, Nogod, Upay, Rocket, Card etc.</h5>
-                                </div>
-                            </div>
-                            <div class="col p">
-                                <div class="p-3 Total-Payment-bpx-design border bg-light">
-                                    <h5>Total Payment</h5>
-                                    <h5 id="total-payment">0 <span>Taka</span></h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Shopping Cart for Truck ends--><a href="#" class="btn btn-primary mt-5 mb-5 w-100 p-2">Pay
-                            your Bill</a>
-                    </div>
-                    <div class="card-footer text-muted"> Happy Shopping !!! </div>
-                </div>
-            </div>
+        
             <!--Owner's speech done with off-canvas-right-->
             <!--Mr. Owner-->
             <section class="container d-flex justify-content-center py-2">
@@ -1229,7 +1199,7 @@
             <form class="container mb-5 w-80 form-design" action="crud-insert.php" method="post"
                 enctype="multipart/form-data" onsubmit="return formvalidation()">
                 <div class="mb-3">
-                    <h2 class="text-center mb-5 mt-2">Review</h2>
+                    <h2 class="text-center mb-5 mt-2">Insert Products</h2>
                     <input type="text" placeholder="Enter product name" class="form-control" name="name" id="ifname"
                         aria-describedby="emailHelp">
                     <span id="errorInFirstName"> </span></td>

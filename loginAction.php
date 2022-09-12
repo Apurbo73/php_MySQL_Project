@@ -36,11 +36,7 @@ if(isset($_POST['login'])){
 
 
     
-//  else  if(!$result)
-//  {
-//      echo "<script>alert('ok!!!!')</script>";
 
-//  }
 
     else{
         echo "<script>alert('Kindly activate your account through the mail we have sent!!')</script>";

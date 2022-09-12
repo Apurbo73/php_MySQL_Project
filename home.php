@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,11 +34,11 @@ body {
 
 <body>
     <header>
-        <section class="container nav-design">
+        <section class=" nav-design">
             <div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                     <div class="container">
-                        <a class="navbar-brand" href="#"> <img src="images/logo hot.png" alt="" width="" height=""
+                        <a class="navbar-brand logo1" href="#"> <img src="images/logo3.png" alt="" width="" height=""
                                 class="d-inline-block align-text-top" /> </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -72,8 +73,8 @@ body {
                                     <button id="myCartBtn" class="cart_btn " type="button" data-bs-toggle="offcanvas"
                                         data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">My Cart</button>
 
-                                    <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight"
-                                        aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas offcanvas-end w-75 text-dark" tabindex="-1"
+                                        id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                         <div class="offcanvas-header">
 
                                             <button type="button" class="btn-close text-reset"
@@ -604,9 +605,9 @@ body {
         </marquee>
 
         <!--Tips & Privacy-->
-        <section class="m-3">
+        <section class="m-3 mb-5">
             <div class="overflow-hidden">
-                <div class="row gx-3">
+                <div class="row gx-3 row-cols-1 row-cols-md-2 g-4 mt-5 my-5 row-cols-lg-4 ">
                     <div class="col">
                         <div class="border tips_privacy">
                             <div class="privacy_img_div_container">
@@ -1157,67 +1158,58 @@ body {
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Cloth section</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-60 border-0 shadow-lg"> <img src="images/polo.jpg" class="card-img-top"
-                            alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Blue Polo</h5>
-                            <h6 class="card-text text-center">550 Tk.</h6>
-                        </div>
-                        <div class="m-3">
-                            <div class="container">
-                                <a id="Blue-polo-plus" class=" btn "><i style="margin-left:0px"
-                                        class="fa-solid fa-square-plus fa-3x"></i></a>
-
-                                <input id="Blue-polo-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <a id="Blue-polo-minus" class=" btn  " style="margin-left: 0px;"><i
-                                        class="fa-solid fa-square-minus fa-3x"></i></a>
-
-
+                    <div class="card h-60 products  shadow-lg">
+                        <img src="images/polo.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body my_card_body">
+                            <div class="my_card_top mb-4">
+                                <h4 class="card-title text-center">Blue Polo</h4>
+                                <p class="card-text text-center"> 550 Tk</p>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <a id="Blue-polo-minus" class=" btn  "><i class="fa-solid fa-minus fa-1x"></i></a>
+                                    <input id="Blue-polo-number" class="text-center myInputdesign" value="0" />
+                                    <a id="Blue-polo-plus" class=" btn "><i class="fa-solid fa-plus fa-1x"></i></a>
+                                </div>
+                                <button class="cart_btn">Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-60 products border-0 shadow-lg"> <img src="image/t-shirt-2.png"
-                            class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Multi USPA</h5>
-                            <h6 class="card-text text-center">450 Tk.</h6>
-                        </div>
-                        <div class="m-3">
-                            <div class="container">
-                                <a id="USPA-plus" class=" btn "><i style="margin-left:0px"
-                                        class="fa-solid fa-square-plus fa-3x"></i></a>
-
-
-                                <input id="USPA-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <a id="USPA-minus" class=" btn  " style="margin-left: 0px;"><i
-                                        class="fa-solid fa-square-minus fa-3x"></i></a>
-
+                    <div class="card h-60 products  shadow-lg">
+                        <img src="image/t-shirt-2.png" class="card-img-top" alt="..." />
+                        <div class="card-body my_card_body">
+                            <div class="my_card_top mb-4">
+                                <h4 class="card-title text-center">Multi USPA</h4>
+                                <p class="card-text text-center"> 450 Tk</p>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <a id="USPA-minus" class=" btn  "><i class="fa-solid fa-minus fa-1x"></i></a>
+                                    <input id="USPA-number" class="text-center myInputdesign" value="0" />
+                                    <a id="USPA-plus" class=" btn "><i class="fa-solid fa-plus fa-1x"></i></a>
+                                </div>
+                                <button class="cart_btn">Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-60 products border-0 shadow-lg"> <img src="images/polo.jpg" class="card-img-top"
-                            alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Blue Polo</h5>
-                            <h6 class="card-text text-center">550 Tk.</h6>
-                        </div>
-                        <div class="m-3">
-                            <div class="container">
-                                <a id="Blue-polo1-plus" class=" btn "><i style="margin-left:0px"
-                                        class="fa-solid fa-square-plus fa-3x"></i></a>
-
-
-                                <input id="Blue-polo1-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <a id="Blue-polo1-minus" class=" btn  " style="margin-left: 0px;"><i
-                                        class="fa-solid fa-square-minus fa-3x"></i></a>
-
+                    <div class="card h-60 products  shadow-lg">
+                        <img src="image/t-shirt-2.png" class="card-img-top" alt="..." />
+                        <div class="card-body my_card_body">
+                            <div class="my_card_top mb-4">
+                                <h4 class="card-title text-center">Blue Polo</h4>
+                                <p class="card-text text-center"> 550 Tk</p>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <a id="Blue-polo1-minus" class=" btn  "><i class="fa-solid fa-minus fa-1x"></i></a>
+                                    <input id="Blue-polo1-number" class="text-center myInputdesign" value="0" />
+                                    <a id="Blue-polo1-plus" class=" btn "><i class="fa-solid fa-plus fa-1x"></i></a>
+                                </div>
+                                <button class="cart_btn">Cart</button>
                             </div>
                         </div>
                     </div>
@@ -1229,83 +1221,75 @@ body {
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px;">Toys Corner</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-60 products border-0 shadow-lg"> <img src="images/toy.jpg" class="card-img-top"
-                            alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Toy Whole Sale</h5>
-                            <h6 class="card-text text-center">1050 Tk.</h6>
-                        </div>
-                        <div class="m-3">
-                            <div class="container">
-                                <a id="Whole-sale-plus" class=" btn "><i style="margin-left:0px"
-                                        class="fa-solid fa-square-plus fa-3x"></i></a>
-
-
-                                <input id="Whole-sale-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <a id="Whole-sale-minus" class=" btn  " style="margin-left: 0px;"><i
-                                        class="fa-solid fa-square-minus fa-3x"></i></a>
-
+                    <div class="card h-60 products  shadow-lg">
+                        <img src="images/toy.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body my_card_body">
+                            <div class="my_card_top mb-4">
+                                <h4 class="card-title text-center">Toy Whole Sale</h4>
+                                <p class="card-text text-center"> 1050 Tk</p>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <a id="Whole-sale-minus" class=" btn  "><i class="fa-solid fa-minus fa-1x"></i></a>
+                                    <input id="Whole-sale-number" class="text-center myInputdesign" value="0" />
+                                    <a id="Whole-sale-plus" class=" btn "><i class="fa-solid fa-plus fa-1x"></i></a>
+                                </div>
+                                <button class="cart_btn">Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-60 products border-0 shadow-lg"> <img src="images/toy1.jpg" class="card-img-top"
-                            alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Spider Man</h5>
-                            <h6 class="card-text text-center">550 Tk.</h6>
-                        </div>
-                        <div class="m-3">
-                            <div class="container">
-                                <a id="Spider-plus" class=" btn "><i style="margin-left:0px"
-                                        class="fa-solid fa-square-plus fa-3x"></i></a>
-
-
-                                <input id="Spider-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-                                <a id="Spider-minus" class=" btn  " style="margin-left: 0px;"><i
-                                        class="fa-solid fa-square-minus fa-3x"></i></a>
-
+                    <div class="card h-60 products  shadow-lg">
+                        <img src="images/toy.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body my_card_body">
+                            <div class="my_card_top mb-4">
+                                <h4 class="card-title text-center">Spider Man</h4>
+                                <p class="card-text text-center"> 550 Tk</p>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <a id="Spider-minus" class=" btn  "><i class="fa-solid fa-minus fa-1x"></i></a>
+                                    <input id="Spider-number" class="text-center myInputdesign" value="0" />
+                                    <a id="Spider-plus" class=" btn "><i class="fa-solid fa-plus fa-1x"></i></a>
+                                </div>
+                                <button class="cart_btn">Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-60 products border-0 shadow-lgg"> <img src="images/toy3.jpg" class="card-img-top"
-                            alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Construction Truck</h5>
-                            <h6 class="card-text text-center">1550 Tk.</h6>
-                        </div>
-                        <div class="m-3">
-                            <div class="container">
-                                <a id="Truck-plus" class=" btn "><i style="margin-left:0px"
-                                        class="fa-solid fa-square-plus fa-3x"></i></a>
-
-
-                                <input id="Truck-number" class="text-center input-field-design" type="number"
-                                    value="0" />
-
-                                <a id="Truck-minus" class=" btn  " style="margin-left: 0px;"><i
-                                        class="fa-solid fa-square-minus fa-3x"></i></a>
-
-
+                    <div class="card h-60 products  shadow-lg">
+                        <img src="images/toy.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body my_card_body">
+                            <div class="my_card_top mb-4">
+                                <h4 class="card-title text-center">Construction Truck</h4>
+                                <p class="card-text text-center"> 1550 Tk</p>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <a id="Truck-minus" class=" btn  "><i class="fa-solid fa-minus fa-1x"></i></a>
+                                    <input id="Truck-number" class="text-center myInputdesign" value="0" />
+                                    <a id="Truck-plus" class=" btn "><i class="fa-solid fa-plus fa-1x"></i></a>
+                                </div>
+                                <button class="cart_btn">Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                
             </div>
         </section>
 
-   
+
 
         <!--Display inserted producted-->
 
 
         <div id="upcoming" class="container">
-            <h2 class="text-center">Upcoming products</h2>
+            <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px; margin-bottom: 50px;">
+                Upcoming products</h2>
             <div class="  text-center " style="width: 18rem;">
                 <div class="card-body d-flex ">
                     <?php
@@ -1350,15 +1334,15 @@ body {
 
 
 
-<!--payment gateway companies-->
-<div class="container">
-<div class="">
-                <div class="container mt-5 mb-5 d-none d-md-block  d-md-none d-lg-block  ">
+        <!--payment gateway companies-->
+        <div class="container">
+            <div class="">
+                <div class="container mt-5 mb-5 d-none d-md-block   d-lg-block  ">
                     <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-2">
                         <div class="col">
                             <div class="p-3 border bg-light ">
 
-                                <img class="w-75" src="images/bkash1.jpg" alt="">
+                                <img style="height:80px" class="w-75" src="images/bkash1.jpg" alt="">
                             </div>
                         </div>
                         <div class="col">
@@ -1394,9 +1378,9 @@ body {
 
 
 
-</div>
+        </div>
 
-     
+
 
 
 

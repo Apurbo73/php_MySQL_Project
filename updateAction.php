@@ -11,7 +11,7 @@ $image_des = "image/".$imageName;
 
 move_uploaded_file($imageLocation, $image_des);
 
-$updateQuery = " UPDATE `review-products` SET `name`='$name',`price`='$price',`image`='$image_des' WHERE id =$id";
+$updateQuery = " UPDATE `insert-products` SET `name`='$name',`price`='$price',`image`='$image_des' WHERE id =$id";
 
 
 

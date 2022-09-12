@@ -1,24 +1,20 @@
 // Log In validation
-function logformvalidation()
-{
-    var logMail=document.getElementById("logInemail").value;
-    if(logMail.length==0)
-    {
-       alert("Fill the form");
-       return false;
+function logformvalidation() {
+    var logMail = document.getElementById("logInemail").value;
+    if (logMail.length == 0) {
+        alert("Fill the form");
+        return false;
     }
-var logInpass= document.getElementById("logpass").value;
-var logPassPattern = /((?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%&*<>?+_-])).{8,20}/
-if(logInpass.length==0)
-{
-    alert("Enter your password");
-    return false;
-}
-else if(!logInpass.match(logPassPattern))
-{
-    alert(" Incorrect Password");
-    return false;
-}
+    var logInpass = document.getElementById("logpass").value;
+    var logPassPattern = /((?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%&*<>?+_-])).{8,20}/
+    if (logInpass.length == 0) {
+        alert("Enter your password");
+        return false;
+    }
+    else if (!logInpass.match(logPassPattern)) {
+        alert(" Incorrect Password");
+        return false;
+    }
 
     //  else
     //  {
@@ -27,5 +23,5 @@ else if(!logInpass.match(logPassPattern))
 
     //      return false;
     //  }   
-    
+
 };

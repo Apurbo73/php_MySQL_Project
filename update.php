@@ -1,9 +1,9 @@
 <?php
-include 'crud-config.php';
+include 'config.php';
 //value coming through URL so using GET
 
 $id = $_GET['id'];
-$dataFetchQuery =" SELECT * FROM `review-products` WHERE id= '$id' " ;
+$dataFetchQuery =" SELECT * FROM `insert-products` WHERE id= '$id' " ;
 $record = mysqli_query($conn,$dataFetchQuery );
 
 $dataArray = mysqli_fetch_array($record);
@@ -113,7 +113,7 @@ $dataArray = mysqli_fetch_array($record);
    include 'crud-config.php';
 
 
-   $alldata = mysqli_query($conn, " SELECT * FROM `review-products` ");
+   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
    while( $row = mysqli_fetch_array($alldata))
    {
 	echo

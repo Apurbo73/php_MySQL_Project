@@ -24,12 +24,6 @@ if($iquery){
     // header('location:login.php');
     echo "<script>location.href='login.php'</script>";
 }
-// else
-// {
-//     echo "<script>alert('Password is not updated !!')</script>";
-
-
-// }
 
 
   }
@@ -42,13 +36,6 @@ if($iquery){
 
 }
 }
-
-
-
-
-
-
-
 
 
 
@@ -148,7 +135,7 @@ if($iquery){
 <body>
 
 
-    <form class="container w-50 form-design"  method="post">
+    <form class="container w-50 form-design" method="post">
         <div class="mb-3">
 
             <h2 class="text-center mb-5 mt-2 text-info">Reset Your Password</h2>
@@ -156,12 +143,12 @@ if($iquery){
         </div>
 
         <div class="mb-3 d-flex fontuser">
-        <i class="fa-solid fa-lg fa-lock "></i>
+            <i class="fa-solid fa-lg fa-lock "></i>
 
             <input type="password" placeholder="Enter new password" name="pass" class="form-control" id="ipass">
             <span id="errorInPass"> </span>
         </div>
-        
+
 
         <div class="mb-3 d-flex fontuser">
             <i class="fa-solid fa-lg fa-lock"></i>

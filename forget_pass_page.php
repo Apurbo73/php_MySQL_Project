@@ -76,6 +76,7 @@ if(isset($_POST['submit']))
 
     /* Assign full width inputs*/
     input[type=text],
+    input[type=email],
     input[type=password] {
         width: 100%;
         padding: 12px 40px;
@@ -141,14 +142,20 @@ if(isset($_POST['submit']))
 
     <form class="container w-50 form-design" method="post">
         <h2 class="text-center text-info mb-5 mt-3">Reset Password</h2>
-        <div class="mb-3 d-flex fontuser">
+        <!-- <div class="mb-3 d-flex fontuser">
             <i class="fa-solid fa-lg fa-envelope"></i>
             <input type="email" placeholder="Enter your email" name="email" class="form-control" id="iemail"
                 aria-describedby="emailHelp">
             <span id="errorInEmail"> </span>
+        </div> -->
+        <div class="fontuser">
+            <input type="email" placeholder="Enter your email" class="form-control" name="email" id="iemail"
+                aria-describedby="emailHelp">
+            <span id="errorInEmail"></span></td> <i class="fa-solid fa-lg fa-envelope "></i>
+
         </div>
 
-  
+
 
 
         <div style="display:flex">
@@ -172,45 +179,7 @@ if(isset($_POST['submit']))
 
 
 
-
-
-
-
-    <!-- <div style="margin-bottom: 150px;" class="container ">
-  <div class="row col-md-12 col-sm-12 col-1">
-    <div>
-
-
-
-
-        <form  class="w-50 form-design"  action="#" method="post" onsubmit="return logformvalidation()"  >
-            <h1 style="margin-left:220px; margin-bottom: 50px;">Sign In</h1>
-            <div class="mb-3">
-              <input type="email" placeholder="Enter your email"  class="form-control" id="logInemail"  aria-describedby="emailHelp"> <span id="errorInLogInEmail"> </span>
-            </div>
-
-            <div class="mb-3">
-              <input type="password"  placeholder="Enter your password"  class="form-control" id="logpass"><span id="errorInPass"> </span>
-            </div>
-           
-            <button style="margin-left: 0px; margin-top: 20px;" type="submit" class="btn btn-success w-100">Submit</button>
-          <div class=" d-flex">
-            <p>Not registered?</p> 
-            <p style="margin-left: 5px;" ><a href="signup.html"> Sign-up here</a> </p>
-          </div>
-          </form>
     </div>
-  </div> -->
-
-
-    </div>
-
-
-
-
-
-
-
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
