@@ -1304,8 +1304,8 @@ body {
 	
       <div> 
 	  <img src= '$row[image]' alt= 'image' width ='250px'>
-      <h2> $row[name] </h2> <br>
-      <h2> $row[price] </h2> <br> 
+      <h4> $row[name] </h4> <br>
+      <p> $row[price] </p> <br> 
         </div>
        
       
@@ -1437,8 +1437,7 @@ body {
                             style="margin-right: 5px;" href=""><i class="fab fa-github-square"></i></a> <a
                             style="margin-right: 5px;" href="" href=""><i class="fab fa-youtube"></i></a> </section>
                     <div class="d-flex justify-content-center"> <a href="">Conditions</a> <a href="">Privacy
-                            Notice</a> <a href="">Interest-Based Ads</a> <a href="">©2022 Mega-Mall.com Apurbo Deb
-                            Nath</a> </div>
+                            Notice</a> <a href="">Interest-Based Ads</a> <a href="">©2022 Amigos Outlet</a> </div>
                 </footer>
             </div>
         </div>

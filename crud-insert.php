@@ -32,7 +32,7 @@
             $To= ($x['email']);
             $user =($x['username']);
             $subject ="New Products";
-            $body = " Hi, $user .Great news. We are launching new exciting products.Take a look through the link below. Have a good day!!
+            $body = " Hi, $user .Great news. We are launching new exciting product $name.Take a look through the link below. Have a good day!!
              http://localhost/web/home.php       
 
             Sincerely: Team Amigos, Majortila, Sylhet.";

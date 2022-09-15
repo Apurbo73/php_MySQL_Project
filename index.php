@@ -805,36 +805,42 @@ body {
         <!--Display inserted producted-->
 
 
-        <div id="upcoming" class="container">
+        <div id="upcoming" class="container upcoming-products">
             <h2 style="text-align: center; color: rgb(116, 14, 35); margin-bottom: 50px; margin-bottom: 50px;">
                 Upcoming products</h2>
             <div class="  text-center " style="width: 18rem;">
                 <div class="card-body d-flex ">
+
+
+
+
+
+
                     <?php
-   include 'crud-config.php';
+                                include 'crud-config.php';
 
 
-   $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
-   while( $row = mysqli_fetch_array($alldata))
-   {
-	echo
-	"
-	
-      <div> 
-	  <img src= '$row[image]' alt= 'image' width ='250px'>
-      <h2> $row[name] </h2> <br>
-      <h2> $row[price] </h2> <br> 
-        </div>
-       
-      
+                                $alldata = mysqli_query($conn, " SELECT * FROM `insert-products` ");
+                                while( $row = mysqli_fetch_array($alldata))
+                                {
+                                    echo
+                                    "
+                                    
+                                    <div> 
+                                    <img src= '$row[image]' alt= 'image' width ='250px'>
+                                    <h4> $row[name] </h4> <br>
+                                    <p> $row[price] </p> <br> 
+                                        </div>
+                                    
+                                    
 
-	
+                                    
 
-      ";
+                                    ";
 
-   }
+                                }
 
-     ?>
+                                    ?>
 
 
 
@@ -847,6 +853,54 @@ body {
         </div>
 
 
+
+
+
+        <!--payment gateway companies-->
+        <div class="container">
+            <div class="">
+                <div class="container mt-5 mb-5 d-none d-md-block   d-lg-block  ">
+                    <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-2">
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+
+                                <img style="height:80px" class="w-75" src="images/bkash1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/nogod.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/upay.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/dbbl.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/rocket.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light ">
+                                <img style="height:80px" class="w-75" src="images/midland.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
 
 
         <!--footer section-->
@@ -891,8 +945,7 @@ body {
                             style="margin-right: 5px;" href=""><i class="fab fa-github-square"></i></a> <a
                             style="margin-right: 5px;" href="" href=""><i class="fab fa-youtube"></i></a> </section>
                     <div class="d-flex justify-content-center"> <a href="">Conditions</a> <a href="">Privacy
-                            Notice</a> <a href="">Interest-Based Ads</a> <a href="">©2022 Mega-Mall.com Apurbo Deb
-                            Nath</a> </div>
+                            Notice</a> <a href="">Interest-Based Ads</a> <a href="">©2022 Amigos Outlet </a> </div>
                 </footer>
             </div>
         </div>
