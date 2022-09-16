@@ -774,7 +774,7 @@ body {
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-60 products border-0 shadow-lgg"> <img src="images/toy3.jpg" class="card-img-top"
+                    <div class="card h-60 products border-0 shadow-lg"> <img src="images/toy3.jpg" class="card-img-top"
                             alt="..." />
                         <div class="card-body">
                             <h5 class="card-title text-center">Construction Truck</h5>

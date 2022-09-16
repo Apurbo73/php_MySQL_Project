@@ -1239,7 +1239,7 @@ body {
                 </div>
                 <div class="col">
                     <div class="card h-60 products  shadow-lg">
-                        <img src="images/toy.jpg" class="card-img-top" alt="..." />
+                        <img src="images/toy1.jpg" class="card-img-top" alt="..." />
                         <div class="card-body my_card_body">
                             <div class="my_card_top mb-4">
                                 <h4 class="card-title text-center">Spider Man</h4>
@@ -1258,7 +1258,7 @@ body {
                 </div>
                 <div class="col">
                     <div class="card h-60 products  shadow-lg">
-                        <img src="images/toy.jpg" class="card-img-top" alt="..." />
+                        <img src="images/toy3.jpg" class="card-img-top" alt="..." />
                         <div class="card-body my_card_body">
                             <div class="my_card_top mb-4">
                                 <h4 class="card-title text-center">Construction Truck</h4>
