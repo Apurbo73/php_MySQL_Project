@@ -37,7 +37,7 @@ body {
             <div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                     <div class="container">
-                        <a class="navbar-brand" href="#"> <img src="images/logo hot.png" alt="" width="" height=""
+                        <a class="navbar-brand" href="#"> <img src="images/logo3.png" alt="" width="" height=""
                                 class="d-inline-block align-text-top" /> </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -92,8 +92,8 @@ body {
 
                                 </li>
 
-                                <li class="nav-item"> <a class="nav-link" href="#reviews"><span
-                                            style="font-weight:700;color:black">Reviews</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="about-Us.php"><span
+                                            style="font-weight:700;color:black">About us</span></a> </li>
 
                                 <li class="nav-item"> <a class="nav-link" href="register.php"><span
                                             style="font-weight:700;color:black">Sign Up</span></a> </li>
@@ -122,9 +122,7 @@ body {
                             <div class="swiper-slide">
                                 <img src="image/tips/paymnet-2.jpg" />
                             </div>
-                            <div class="swiper-slide">
-                                <img src="images/bag-2.png" />
-                            </div>
+
                             <div class="swiper-slide">
                                 <img src="cover/cover-3.jpg" />
                             </div>

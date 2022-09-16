@@ -24,8 +24,14 @@
     body {
         font-family: "Poppins", sans-serif;
     }
+    /* .loginImg {
+        width: 35%;
+    } */
 
-
+    .loginImg img{
+        width: 95%;
+        height: 100%;
+    }
 
     /* Assign full width inputs*/
     input[type=text],
@@ -88,90 +94,61 @@
 
 <body>
 
-    <form  class="container w-50 " action="loginAction.php" method="post"
-        onsubmit="return logformvalidation()">
-        <h2 style="font-weight:700" class="text-center mb-5 mt-3 text-info">Sign in here</h2>
-
-        <div class="mb-3 d-flex fontuser">
-        <i class="fa-solid fa-lg fa-user "></i>
-            <input type="text" class="form-control" name="l_name" placeholder="Enter your name" id="logInemail"
-                aria-describedby="emailHelp" value="<?php if (isset($_COOKIE['usercookie']))
-            {
-                echo $_COOKIE['usercookie'];
-            }  
-              ?>"> <span id="errorInLogInEmail">
-            </span> 
-
+    <div class="container w-100 d-flex text-center">
+        <div class="w-50 loginImg pt-5 d-none d-md-block">
+        <img src="images/welcome.png" alt="">
         </div>
+        <div class="w-75 ">
+            <form  class="container " action="loginAction.php" method="post"
+            onsubmit="return logformvalidation()">
+            <h2 style="font-weight:700" class="text-center mb-5 mt-3 text-info">Sign in here</h2>
 
-        <div class="mb-3 d-flex fontuser">
-            <i class="fa-solid fa-lg fa-lock m-1"></i>
-            <input class="form-control" name="l_pass" placeholder="Enter your password" type="password" id="logpass"
-                value="<?php if(isset($_COOKIE['passwordcookie']))
-            {
-                echo $_COOKIE['passwordcookie'];
-            }  
-          
-              ?>"> <span id="errorInPass"> </span>
-        </div>
+            <div class="mb-3 d-flex fontuser">
+            <i class="fa-solid fa-lg fa-user "></i>
+                <input type="text" class="form-control" name="l_name" placeholder="Enter your name" id="logInemail"
+                    aria-describedby="emailHelp" value="<?php if (isset($_COOKIE['usercookie']))
+                {
+                    echo $_COOKIE['usercookie'];
+                }  
+                ?>"> <span id="errorInLogInEmail">
+                </span> 
 
-        <div class="mb-3 d-flex mx-2">
-            <input type="checkbox" name="rememberme"> <span style="margin-left:10px">Remember me</span>
-        </div>
-
-        <div style="display:flex">
-
-
-            <button type="submit" class="btn  w-50" name="login"
-                style="text-decoration:none; color:white;font-weight:600;background-color:rgb(255, 161, 70) ">Sign In</button>
-            <button style="background-color:rgb(0, 169, 157)" type="submit" name="forget-pass" class="btn  mx-2 w-50">
-                <a style="text-decoration:none; color:white;font-weight:600;" href="forget_pass_page.php">Forgot
-                    password? Click here</a></button>
-
-        </div>
-        <div class=" d-flex">
-            <p>Not have an account?</p>
-            <p style="margin-left: 5px;"><a style="text-decoration:none" href="register.php"> Sign-up here</a> </p>
-        </div>
-    </form>
-
-
-
-
-
-
-
-    <!-- <div style="margin-bottom: 150px;" class="container ">
-  <div class="row col-md-12 col-sm-12 col-1">
-    <div>
-
-
-
-
-        <form  class="w-50 form-design"  action="#" method="post" onsubmit="return logformvalidation()"  >
-            <h1 style="margin-left:220px; margin-bottom: 50px;">Sign In</h1>
-            <div class="mb-3">
-              <input type="email" placeholder="Enter your email"  class="form-control" id="logInemail"  aria-describedby="emailHelp"> <span id="errorInLogInEmail"> </span>
             </div>
 
-            <div class="mb-3">
-              <input type="password"  placeholder="Enter your password"  class="form-control" id="logpass"><span id="errorInPass"> </span>
+            <div class="mb-3 d-flex fontuser">
+                <i class="fa-solid fa-lg fa-lock m-1"></i>
+                <input class="form-control" name="l_pass" placeholder="Enter your password" type="password" id="logpass"
+                    value="<?php if(isset($_COOKIE['passwordcookie']))
+                {
+                    echo $_COOKIE['passwordcookie'];
+                }  
+            
+                ?>"> <span id="errorInPass"> </span>
             </div>
-           
-            <button style="margin-left: 0px; margin-top: 20px;" type="submit" class="btn btn-success w-100">Submit</button>
-          <div class=" d-flex">
-            <p>Not registered?</p> 
-            <p style="margin-left: 5px;" ><a href="signup.html"> Sign-up here</a> </p>
-          </div>
-          </form>
+
+            <div class="mb-3 d-flex mx-2">
+                <input type="checkbox" name="rememberme"> <span style="margin-left:10px">Remember me</span>
+            </div>
+
+            <div style="display:flex">
+
+
+                <button type="submit" class="btn  w-50" name="login"
+                    style="text-decoration:none; color:white;font-weight:600;background-color:rgb(255, 161, 70) ">Sign In</button>
+                <button style="background-color:rgb(0, 169, 157)" type="submit" name="forget-pass" class="btn  mx-2 w-50">
+                    <a style="text-decoration:none; color:white;font-weight:600;" href="forget_pass_page.php">Forgot
+                        password? Click here</a></button>
+
+            </div>
+            <div class=" d-flex">
+                <p>Not have an account?</p>
+                <p style="margin-left: 5px;"><a style="text-decoration:none" href="register.php"> Sign-up here</a> </p>
+            </div>
+        </form>
+
+        </div>
     </div>
-  </div> -->
-
-
-    </div>
-
-
-
+</div>
 
 
 

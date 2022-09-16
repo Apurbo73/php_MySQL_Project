@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -541,8 +540,8 @@ body {
 
 
 
-                                <li class="nav-item"> <a class="nav-link" href="#reviews"><span
-                                            style="font-weight:700;color:black">Reviews</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="about-Us.php"><span
+                                            style="font-weight:700;color:black">About us</span></a> </li>
 
                                 <li class="nav-item"> <a class="nav-link" href="logout.php"> <span
                                             style="font-weight:700;color:black">Log out</span></a> </li>
@@ -559,27 +558,26 @@ body {
             <div class="swiper_container">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
+
                         <div class="swiper-slide">
                             <img src="cover/cover-1.png" />
                         </div>
+
                         <div class="swiper-slide">
                             <img src="image/tips/paymnet-2.jpg" />
                         </div>
-                        <div class="swiper-slide">
-                            <img src="cover/cover-2.jpg" />
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="image/home-office-569153_1920.jpg" />
-                        </div>
+
                         <div class="swiper-slide">
                             <img src="cover/cover-3.jpg" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="image/young-woman-4996096_1920.jpg" />
+                            <img src="images/Project Cover.png " />
                         </div>
+
                         <div class="swiper-slide">
-                            <img src="image/iphone-545772_1920.jpg" />
+                            <img style="width:320px" src="images/burger.jpg" />
                         </div>
+
 
                     </div>
                     <div class="swiper-pagination"></div>
@@ -1278,7 +1276,7 @@ body {
                     </div>
                 </div>
 
-                
+
             </div>
         </section>
 

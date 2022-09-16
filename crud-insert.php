@@ -1,10 +1,6 @@
 <?php
     include 'config.php';
    
-
-
-
-
     $name = $_POST['name'];
     $image = $_FILES['image'];
 

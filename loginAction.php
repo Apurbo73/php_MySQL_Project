@@ -3,7 +3,6 @@ if(isset($_POST['login'])){
     include 'config.php';
     $l_name = $_POST['l_name'];
     $l_pass = $_POST['l_pass'];
-    // $r_email = $_POST['r_email'];
 
 
     $result = mysqli_query($conn,"SELECT * FROM `amigosdb2` WHERE username='$l_name' And pass='$l_pass' And status='active' "  );

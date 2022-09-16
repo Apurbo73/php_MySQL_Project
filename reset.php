@@ -13,7 +13,6 @@ if (isset($_POST['submit']))
   $con_pass= mysqli_real_escape_string($conn,$_POST['con_pass']);
  
 
-//   $updatequery = "update fresh_table set pass= '$newPassword' where token ='$token";
   if($newPassword === $con_pass)
   {
     $updatequery = "update amigosdb2 set pass= '$newPassword' where token ='$token' ";

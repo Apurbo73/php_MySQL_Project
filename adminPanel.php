@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mega Mall E-Commerce</title>
+    <title>Amigos Outlet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Font Awsome -->
@@ -485,8 +485,8 @@
             <!--text sliding-->
 
             <marquee width="100%" direction="left" height="100px">
-                <p style="font-size: 20px;">Welcome to <span style="color: orange;">Mega</span> <span
-                        style="color: rgb(11, 11, 141);">Mall.</span>Thanks for visiting. Hope you will enjoy.</p>
+                <p style="font-size: 20px;">Welcome to <span style="color: orange;">Amigos</span> <span
+                        style="color: rgb(11, 11, 141);">Outlet.</span>Thanks for visiting. Hope you will enjoy.</p>
             </marquee>
             <!--Best selling products-->
             <section class="container">
@@ -1153,43 +1153,13 @@
                     <marquee width="100%" direction="left" height="100px">
                         <p style="font-size: 20px; color: rgb(3, 54, 54);">This is a organization specifically working
                             for students. We always try do make some crazy offers for students. Visit us and be a part
-                            of <span style="color:orange;">Mega</span> <span style="color:blue;">Mall</span> .</p>
+                            of <span style="color:orange;">Amigos</span> <span style="color:blue;">Outlet</span> .</p>
                     </marquee>
                 </section>
             </div>
         </div>
         
-            <!--Owner's speech done with off-canvas-right-->
-            <!--Mr. Owner-->
-            <section class="container d-flex justify-content-center py-2">
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Owner's Speech</button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                    aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header align-items-center">
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <div> <img class="mb-3" style="width: 350px; height:350px;" src="images/apubd.JPG" alt="" />
-                            <h2 class="text-center">Apurbo Deb Nath</h2>
-                            <br />
-                            <p style="font-size: 20px; text-align: justify;"> Hey, How are you all doing? Welcome to
-                                Mega Mall. Its our pleasure that we are here in Sylhet. We are readyto serve the
-                                wonderful Sylheti brother and Sisters. We have made this plan targetting the stduents of
-                                Sylhet. Students of school, colleges and universityes will be very much surprised and
-                                glad visiting us.We have a vast arrangement of every gadgets regarding study purpose,
-                                simple shopping, food coart. We have a kids section also. There are lot of amazing
-                                offers dor our buyers. Eid offers are going on. We are plamming to bring a handsome
-                                discount offer for the students who gains 90% attendents of his/her studies. Yes that is
-                                becoming a crazy offer.Visit us and be a part of <span
-                                    style="color: orange; font-size: 25px; font-weight: 700;">Mega</span> <span
-                                    style="color: steelblue; font-size: 25px; font-weight: 700;">Mall</span> </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--Offcanvas section ends-->
+           
 
 
 
@@ -1285,22 +1255,22 @@
                                 aria-labelledby="offcanvasBottomLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-                                        <h1><span style="color: rgb(10, 35, 88); font-size: 50px;">Mega</span> <span
-                                                style="color: rgb(109, 8, 58); font-size: 50px;">Mall</span></h1>
+                                        <h1><span style="color: rgb(10, 35, 88); font-size: 50px;">Amigos</span> <span
+                                                style="color: rgb(109, 8, 58); font-size: 50px;">Outlet</span></h1>
                                     </h5>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body small mb-2">
-                                    <h2>01. Mega Mall Majortila</h2>
+                                    <h2>01. Amigos Outlet Majortila</h2>
                                     <p>Siddique Plaza, 2nd floor, Majortila, Sylhet-3100.</p>
                                     <p>contact: 017xxxxxxxx</p>
                                     <br />
-                                    <h2>02. Mega Mall Shibgonj</h2>
+                                    <h2>02. Amigos Outlet Shibgonj</h2>
                                     <p>Shibgonj,Kitchen Market, Sylhet-3100.</p>
                                     <p>contact: 017xxxxxxxx</p>
                                     <br />
-                                    <h2>03. Mega Mall Mirabazar</h2>
+                                    <h2>03. Amigos Outlet Mirabazar</h2>
                                     <p>Mirabazar, Jotorpur , Sylhet-3100.</p>
                                     <p>contact: 017xxxxxxxx</p>
                                     <br />
@@ -1319,8 +1289,7 @@
                                 style="margin-right: 5px;" href=""><i class="fab fa-github-square"></i></a> <a
                                 style="margin-right: 5px;" href="" href=""><i class="fab fa-youtube"></i></a> </section>
                         <div class="d-flex justify-content-center"> <a href="">Conditions</a> <a href="">Privacy
-                                Notice</a> <a href="">Interest-Based Ads</a> <a href="">©2022 Mega-Mall.com Apurbo Deb
-                                Nath</a> </div>
+                                Notice</a> <a href="">Interest-Based Ads</a> <a href="">©2022 Amigos Outlet</a> </div>
                     </footer>
                 </div>
             </div>
