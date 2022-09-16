@@ -137,7 +137,7 @@
                     style="text-decoration:none; color:white;font-weight:600;background-color:rgb(255, 161, 70) ">Sign In</button>
                 <button style="background-color:rgb(0, 169, 157)" type="submit" name="forget-pass" class="btn  mx-2 w-50">
                     <a style="text-decoration:none; color:white;font-weight:600;" href="forget_pass_page.php">Forgot
-                        password? Click here</a></button>
+                        password?</a></button>
 
             </div>
             <div class=" d-flex">
